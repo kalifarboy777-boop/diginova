@@ -124,12 +124,11 @@ export function BuyBox({ productId, title, price, commercialPrice, compareAt, fa
       </div>
 
       <StickyActionBar>
-        <div className="flex flex-col">
-          <span className="text-caption text-text-tertiary">{license === "PERSONAL" ? "Licence personnelle" : "Licence commerciale"}</span>
-          <span className="text-price text-text-primary">{fcfa(current)}</span>
-        </div>
-        <Button className="flex-1" loading={busy === "buy"} onClick={() => add("buy")}>
-          <Zap /> Acheter
+        <Button size="lg" variant="secondary" className="w-[52px] px-0" aria-label="Ajouter au panier" loading={busy === "cart"} onClick={() => add("cart")}>
+          {busy !== "cart" && <ShoppingBag />}
+        </Button>
+        <Button size="lg" className="flex-1" loading={busy === "buy"} onClick={() => add("buy")}>
+          <Zap /> Acheter · {fcfa(current)}
         </Button>
       </StickyActionBar>
     </div>

@@ -23,13 +23,15 @@ class ContentController extends Controller
 {
     public function help(Request $request): JsonResponse
     {
-        $q = $request->validate(['q' => 'nullable|string|max:120'])['q'] ?? null;
+        $f = $request->validate(['q' => 'nullable|string|max:120', 'topic' => 'nullable|string|max:40']);
+        $q = $f['q'] ?? null;
         $counts = HelpArticle::selectRaw('category, count(*) as c')->groupBy('category')->pluck('c', 'category');
 
         return response()->json([
             'topics' => collect(config('help.topics'))->map(fn ($t, $key) => $t + ['slug' => $key, 'count' => (int) ($counts[$key] ?? 0)])->values(),
             'popular' => HelpArticle::where('is_faq', true)->orderBy('position')->get(['title', 'slug', 'category']),
             'results' => $q ? HelpArticle::where('title', 'like', "%$q%")->orWhere('body', 'like', "%$q%")->limit(10)->get(['title', 'slug', 'category']) : null,
+            'articles' => ! empty($f['topic']) ? HelpArticle::where('category', $f['topic'])->orderBy('position')->get(['title', 'slug', 'category']) : null,
             'contact' => config('help.contact'),
         ]);
     }
@@ -52,6 +54,7 @@ class ContentController extends Controller
             'attachment' => 'nullable|file|mimes:jpg,jpeg,png,pdf|max:5120',
         ]);
         unset($data['attachment']);
+        $data['attachment_key'] = $request->file('attachment')?->store('contact', 'local');
         ContactMessage::create($data);
 
         return response()->json(['message' => 'Message envoyé. Nous vous répondons sous 24 h ouvrées.'], 201);

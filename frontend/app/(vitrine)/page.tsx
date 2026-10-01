@@ -1,6 +1,7 @@
 import { ArrowRight, Book, Check, Download, Gift, Search, ShieldCheck, Smartphone, Zap } from "lucide-react";
 import Link from "next/link";
 import { CategoryIcon } from "@/components/home/category-icon";
+import { MobileHome } from "@/components/home/mobile-hero";
 import { NewsletterForm } from "@/components/home/newsletter";
 import { ProductTabs } from "@/components/home/product-tabs";
 import { ProductCover } from "@/components/product/product-cover";
@@ -94,8 +95,9 @@ export default async function HomePage() {
 
   return (
     <>
+      <MobileHome categories={home.categories} trending={home.tabs.tendances ?? []} />
       {/* Hero */}
-      <section className="relative overflow-hidden bg-bg-surface">
+      <section className="relative hidden overflow-hidden bg-bg-surface md:block">
         <div className="pointer-events-none absolute top-[-120px] right-[-80px] size-[640px] rounded-full bg-brand-primary/14 blur-[120px]" aria-hidden />
         <div className="container-site relative grid items-center gap-14 pt-10 pb-14 lg:grid-cols-[620px_1fr] lg:pt-16 lg:pb-20">
           <div className="flex flex-col items-start gap-7">

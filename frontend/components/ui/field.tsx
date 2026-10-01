@@ -48,7 +48,7 @@ export function Field({
 
 const shell =
   "flex h-12 w-full items-center gap-2.5 rounded-btn border border-border-strong bg-bg-surface px-3.5 text-body text-text-primary transition-colors " +
-  "focus-within:border-brand-primary focus-within:ring-1 focus-within:ring-brand-primary " +
+  "focus-within:border-brand-primary focus-within:shadow-[0_0_0_1px_var(--brand-primary),0_0_0_5px_rgb(99_91_255/0.18)] " +
   "has-[input:disabled]:border-border-default has-[input:disabled]:bg-bg-subtle has-[input:disabled]:text-text-tertiary " +
   "data-[invalid=true]:border-danger data-[invalid=true]:ring-1 data-[invalid=true]:ring-danger [&>svg]:size-[18px] [&>svg]:shrink-0 [&>svg]:text-text-tertiary";
 
@@ -84,7 +84,7 @@ export const Textarea = React.forwardRef<HTMLTextAreaElement, React.TextareaHTML
       aria-invalid={invalid || undefined}
       className={cn(
         "min-h-28 w-full rounded-btn border border-border-strong bg-bg-surface px-3.5 py-3 text-body text-text-primary outline-none transition-colors placeholder:text-text-tertiary",
-        "focus:border-brand-primary focus:ring-1 focus:ring-brand-primary disabled:bg-bg-subtle aria-[invalid=true]:border-danger aria-[invalid=true]:ring-1 aria-[invalid=true]:ring-danger",
+        "focus:border-brand-primary focus:shadow-[0_0_0_1px_var(--brand-primary),0_0_0_5px_rgb(99_91_255/0.18)] disabled:bg-bg-subtle aria-[invalid=true]:border-danger aria-[invalid=true]:ring-1 aria-[invalid=true]:ring-danger",
         className,
       )}
       {...props}

@@ -24,6 +24,8 @@ const STUDIO = [
 export function MobileTabBar({ variant = "shop" }: { variant?: "shop" | "studio" }) {
   const pathname = usePathname();
   const items = variant === "studio" ? STUDIO : SHOP;
+  // Les pages avec barre d'action collée (fiche produit, checkout) n'affichent pas les onglets.
+  if (variant === "shop" && /^\/(produit|checkout|packs\/)/.test(pathname)) return null;
   return (
     <nav aria-label="Navigation mobile" className="fixed inset-x-0 bottom-0 z-40 border-t border-border-default bg-bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
       <ul className="grid grid-cols-5">

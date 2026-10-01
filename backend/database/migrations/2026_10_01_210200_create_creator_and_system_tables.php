@@ -178,6 +178,7 @@ return new class extends Migration
             $table->string('subject');
             $table->string('order_number')->nullable();
             $table->text('message');
+            $table->string('attachment_key')->nullable();
             $table->timestamps();
         });
     }
