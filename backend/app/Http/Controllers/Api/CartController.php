@@ -45,8 +45,9 @@ class CartController extends Controller
             $this->carts->addBundle($cart, Bundle::where('active', true)->findOrFail($data['bundle_id']));
         } else {
             $ids = array_unique(array_merge([$data['product_id']], $data['product_ids'] ?? []));
-            foreach (Product::whereIn('id', $ids)->get() as $product) {
-                $this->carts->addProduct($cart, $product, License::from($product->id === (int) $data['product_id'] ? ($data['license'] ?? 'PERSONAL') : 'PERSONAL'));
+            $group = count($ids) >= 3 ? \Illuminate\Support\Str::uuid()->toString() : null;
+            foreach (Product::published()->whereIn('id', $ids)->get() as $product) {
+                $this->carts->addProduct($cart, $product, License::from($product->id === (int) $data['product_id'] ? ($data['license'] ?? 'PERSONAL') : 'PERSONAL'), $group, $group ? count($ids) : null);
             }
         }
 
@@ -113,7 +114,7 @@ class CartController extends Controller
             $s = $this->carts->summary($cart);
             $payload = [
                 'items' => $s['lines']->map(fn ($l) => [
-                    'id' => $l['id'], 'type' => $l['type'], 'license' => $l['license'], 'price' => $l['price'], 'compare_at_price' => $l['compare_at_price'],
+                    'id' => $l['id'], 'type' => $l['type'], 'license' => $l['license'], 'price' => $l['price'], 'compare_at_price' => $l['compare_at_price'], 'group' => $l['group'] ?? null,
                     'product' => isset($l['product']) ? (new ProductCardResource($l['product']))->toArray($request) + [
                         'commercial_price' => $l['product']->commercialPrice(),
                         'seller' => ['name' => $l['product']->seller->display_name, 'slug' => $l['product']->seller->slug],

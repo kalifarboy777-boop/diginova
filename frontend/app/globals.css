@@ -247,3 +247,24 @@
     outline-offset: 2px;
   }
 }
+
+/* Curseur de prix à deux poignées (écran 02) */
+.range-thumb::-webkit-slider-thumb {
+  pointer-events: auto;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 2px solid var(--brand-primary);
+  cursor: pointer;
+}
+.range-thumb::-moz-range-thumb {
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 2px solid var(--brand-primary);
+  cursor: pointer;
+}

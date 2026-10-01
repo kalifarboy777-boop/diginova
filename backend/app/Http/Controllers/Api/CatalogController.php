@@ -53,7 +53,8 @@ class CatalogController extends Controller
                 'petits-prix' => $cards(Product::published()->where('price', '<=', 5000)->orderByDesc('sales_count')),
             ],
             'bundle' => $bundle ? new BundleResource($bundle) : null,
-            'testimonials' => ReviewResource::collection(Review::with('user', 'product')->where('rating', 5)->whereNotNull('comment')->latest()->limit(3)->get()),
+            'testimonials' => ReviewResource::collection(Review::with('user', 'product')->where('rating', 5)->whereNotNull('comment')->get()
+                ->sortByDesc(fn ($r) => $r->product->sales_count)->unique('product_id')->take(3)->values()),
             'creator' => [
                 'share' => 100 - (int) Setting::get('commission_standard'),
                 'payout_delay_hours' => 48,
@@ -136,6 +137,7 @@ class CatalogController extends Controller
 
         $together = Product::published()->where('id', '!=', $product->id)
             ->where(fn ($w) => $w->where('category_id', $product->category_id)->orWhereIn('id', $product->bundles()->with('products')->get()->flatMap->products->pluck('id')))
+            ->orderByRaw('CASE WHEN category_id = ? THEN 0 ELSE 1 END', [$product->category_id])
             ->orderByDesc('sales_count')->limit(2)->with('category')->get();
         $togetherAll = collect([$product])->merge($together);
         $togetherTotal = $togetherAll->sum('price');

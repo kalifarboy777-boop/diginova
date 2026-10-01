@@ -34,13 +34,17 @@ final class CartService
         return $create ? Cart::create(['token' => Str::random(48)]) : null;
     }
 
-    public function addProduct(Cart $cart, Product $product, License $license): void
+    public function addProduct(Cart $cart, Product $product, License $license, ?string $group = null, ?int $groupSize = null): void
     {
         if ($product->status !== ProductStatus::PUBLISHED) {
             throw ValidationException::withMessages(['product' => 'Produit indisponible.']);
         }
         $item = $cart->items()->firstOrNew(['product_id' => $product->id, 'bundle_id' => null]);
         $item->license = $license;
+        if ($group) {
+            $item->group_key = $group;
+            $item->group_size = $groupSize;
+        }
         $item->save();
     }
 
@@ -79,6 +83,9 @@ final class CartService
     public function lines(Cart $cart): Collection
     {
         $cart->loadMissing(['items.product.category', 'items.product.seller', 'items.bundle.products']);
+        $groups = $cart->items->whereNotNull('group_key')->countBy('group_key');
+        $groupDiscount = (int) \App\Models\Setting::get('bundle_discount_percent');
+        $complete = fn (CartItem $i) => $i->group_key && $i->license === License::PERSONAL && ($groups[$i->group_key] ?? 0) >= max(2, (int) $i->group_size);
 
         return $cart->items->map(fn (CartItem $item) => $item->bundle
             ? [
@@ -97,8 +104,11 @@ final class CartService
                 'product_id' => $item->product_id,
                 'bundle_id' => null,
                 'license' => $item->license->value,
-                'price' => $item->product->priceFor($item->license->value),
-                'compare_at_price' => $item->license === License::PERSONAL ? $item->product->compare_at_price : null,
+                'price' => $complete($item)
+                    ? (int) round($item->product->price * (100 - $groupDiscount) / 100)
+                    : $item->product->priceFor($item->license->value),
+                'compare_at_price' => $complete($item) ? $item->product->price : ($item->license === License::PERSONAL ? $item->product->compare_at_price : null),
+                'group' => $complete($item) ? 'Souvent achetés ensemble · -'.$groupDiscount.' %' : null,
                 'product' => $item->product,
             ])->values();
     }

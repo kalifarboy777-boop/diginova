@@ -49,6 +49,9 @@ return new class extends Migration
             $table->foreignId('product_id')->nullable()->constrained()->cascadeOnDelete();
             $table->foreignId('bundle_id')->nullable()->constrained()->cascadeOnDelete();
             $table->string('license', 20)->default('PERSONAL');
+            // « Souvent achetés ensemble » : remise tant que le groupe ajouté reste complet.
+            $table->string('group_key', 40)->nullable();
+            $table->unsignedTinyInteger('group_size')->nullable();
             $table->timestamps();
         });
 

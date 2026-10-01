@@ -14,7 +14,7 @@ class ProductResource extends JsonResource
     {
         $seller = $this->seller;
 
-        return (new ProductCardResource($this->resource))->toArray($request) + [
+        return array_merge((new ProductCardResource($this->resource))->toArray($request), [
             'short_description' => $this->short_description,
             'description' => $this->description,
             'commercial_price' => $this->commercialPrice(),
@@ -35,7 +35,8 @@ class ProductResource extends JsonResource
             'video_url' => $this->video_url,
             'video_duration' => $this->video_duration,
             'images' => $this->images->map(fn ($i) => asset('storage/'.$i->key)),
-            'rating_distribution' => $this->rating_distribution ?? [5 => 0, 4 => 0, 3 => 0, 2 => 0, 1 => 0],
+            // Liste ordonnée de 5★ à 1★ (pourcentages).
+            'rating_distribution' => self::distribution($this->rating_distribution),
             'published' => $this->status === ProductStatus::PUBLISHED,
             'seller' => [
                 'name' => $seller->display_name,
@@ -49,6 +50,19 @@ class ProductResource extends JsonResource
                 'rating' => round((float) $seller->products()->published()->where('rating_count', '>', 0)->avg('rating_avg'), 1),
                 'sales' => (int) $seller->products()->sum('sales_count'),
             ],
-        ];
+        ]);
+    }
+
+    /** @return array<int, int> */
+    public static function distribution(?array $d): array
+    {
+        if (! $d) {
+            return [0, 0, 0, 0, 0];
+        }
+        if (array_key_exists(5, $d)) {
+            return array_map(fn ($s) => (int) ($d[$s] ?? 0), [5, 4, 3, 2, 1]);
+        }
+
+        return array_map('intval', array_values(array_pad($d, 5, 0)));
     }
 }

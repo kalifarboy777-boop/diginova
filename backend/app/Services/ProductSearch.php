@@ -38,7 +38,7 @@ final class ProductSearch
         if (! empty($f['format'])) {
             $q->where(function ($w) use ($f) {
                 foreach ((array) $f['format'] as $fmt) {
-                    $w->orWhere('formats', 'like', '%"'.Str::upper($fmt).'"%');
+                    $w->orWhereRaw('lower(formats) like ?', ['%"'.Str::lower($fmt).'"%']);
                 }
             });
         }
@@ -105,7 +105,7 @@ final class ProductSearch
         $subs = (clone $base())->whereNotNull('subcategory_id')->selectRaw('subcategory_id, count(*) as c')->groupBy('subcategory_id')->pluck('c', 'subcategory_id');
         $formats = [];
         foreach (['XLSX', 'DOCX', 'PDF', 'CANVA'] as $fmt) {
-            $formats[$fmt] = (clone $base())->where('formats', 'like', '%"'.($fmt === 'CANVA' ? 'Canva' : $fmt).'"%')->count();
+            $formats[$fmt] = (clone $base())->whereRaw('lower(formats) like ?', ['%"'.Str::lower($fmt).'"%'])->count();
         }
         $categories = (clone $base())->selectRaw('category_id, count(*) as c')->groupBy('category_id')->pluck('c', 'category_id');
 

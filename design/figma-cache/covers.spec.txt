@@ -1,0 +1,142 @@
+=== chart
+FRAM Visuel/chart x0.0 y0.0 302.0x227.0 bg#EEEDFF r12.0
+  FRAM Frame x98.1 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#FFFFFF r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#635BFF r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x74.4 y142.7 20.7x59.2 bg#635BFF/35 r3.2
+    RECT Rectangle x101.6 y109.8 20.7x92.1 bg#635BFF/48 r3.2
+    RECT Rectangle x128.8 y129.6 20.7x72.4 bg#635BFF/61 r3.2
+    RECT Rectangle x156.0 y76.9 20.7x125.0 bg#635BFF/74 r3.2
+    RECT Rectangle x183.1 y96.7 20.7x105.3 bg#635BFF/87 r3.2
+  FRAM Badge/Best-seller x12.0 y12.0 84.0x24.0 bg#F59E0B r999.0
+    TEXT Best-seller x22.0 y16.0 64.0x16.0 bg#FFFFFF r
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+=== grid
+FRAM Visuel/grid x0.0 y0.0 302.0x227.0 bg#FCE7F3 r12.0
+  FRAM Frame x98.1 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#FFFFFF r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#DB2777 r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y70.4 64.7x62.6 bg#DB2777/90 r6.5
+    RECT Rectangle x143.5 y70.4 64.7x62.6 bg#DB2777/45 r6.5
+    RECT Rectangle x72.3 y139.4 64.7x62.6 bg#DB2777/60 r6.5
+    RECT Rectangle x143.5 y139.4 64.7x62.6 bg#DB2777/25 r6.5
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+=== chat
+FRAM Visuel/chat x0.0 y0.0 302.0x227.0 bg#E0F2FE r12.0
+  FRAM Frame x98.2 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#FFFFFF r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#0284C7 r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y70.4 101.9x26.4 bg#F3F4F6 r8.6
+    RECT Rectangle x126.6 y103.3 81.5x26.4 bg#0284C7/85 r8.6
+    RECT Rectangle x72.3 y136.2 108.7x26.4 bg#F3F4F6 r8.6
+    RECT Rectangle x140.2 y169.0 67.9x26.4 bg#0284C7/85 r8.6
+  FRAM Badge/Nouveau x12.0 y12.0 72.0x24.0 bg#EEEDFF r999.0
+    TEXT Nouveau x22.0 y16.0 52.0x16.0 bg#635BFF r
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+=== sheet
+FRAM Visuel/sheet x0.0 y0.0 302.0x227.0 bg#DCFCE7 r12.0
+  FRAM Frame x98.2 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#FFFFFF r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#16A34A r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y70.4 42.1x18.7 bg#16A34A/80 r2.2
+    RECT Rectangle x117.6 y70.4 42.1x18.7 bg#16A34A/80 r2.2
+    RECT Rectangle x162.9 y70.4 42.1x18.7 bg#16A34A/80 r2.2
+    RECT Rectangle x72.3 y92.3 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x117.6 y92.3 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x162.9 y92.3 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x72.3 y114.2 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x117.6 y114.2 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x162.9 y114.2 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x72.3 y136.2 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x117.6 y136.2 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x162.9 y136.2 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x72.3 y158.1 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x117.6 y158.1 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x162.9 y158.1 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x72.3 y180.0 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x117.6 y180.0 42.1x18.7 bg#DCFCE7 r2.2
+    RECT Rectangle x162.9 y180.0 42.1x18.7 bg#DCFCE7 r2.2
+  FRAM Badge/-33 % x12.0 y12.0 55.0x24.0 bg#FEE2E2 r999.0
+    TEXT -33 % x22.0 y16.0 35.0x16.0 bg#DC2626 r
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+=== doc
+FRAM Visuel/doc x0.0 y0.0 302.0x227.0 bg#E0E7FF r12.0
+  FRAM Frame x98.1 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#FFFFFF r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#4338CA r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y70.4 135.9x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y89.2 122.3x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y108.0 129.1x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y126.8 95.1x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y145.5 135.9x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y164.3 115.5x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y183.1 67.9x5.4 bg#E5E7EB r3.2
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+=== notion
+FRAM Visuel/notion x0.0 y0.0 302.0x227.0 bg#F3F4F6 r12.0
+  FRAM Frame x98.1 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#FFFFFF r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#374151 r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y70.4 9.7x9.7 bg#374151 r2.2
+    RECT Rectangle x89.5 y72.5 94.9x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y92.3 9.7x9.7 bg#374151 r2.2
+    RECT Rectangle x89.5 y94.4 71.2x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y114.2 9.7x9.7 bg#374151 r2.2
+    RECT Rectangle x89.5 y116.4 106.8x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y136.2 9.7x9.7 bg#FFFFFF r2.2
+    RECT Rectangle x89.5 y138.3 83.1x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y158.1 9.7x9.7 bg#FFFFFF r2.2
+    RECT Rectangle x89.5 y160.2 100.8x5.4 bg#E5E7EB r3.2
+    RECT Rectangle x72.3 y180.0 9.7x9.7 bg#FFFFFF r2.2
+    RECT Rectangle x89.5 y182.2 59.3x5.4 bg#E5E7EB r3.2
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+=== book
+FRAM Visuel/book x0.0 y0.0 302.0x227.0 bg#FEF3C7 r12.0
+  FRAM Frame x98.2 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#D97706 r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#FFFFFF r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#FFFFFF/50 r3.2
+    RECT Rectangle x72.3 y70.4 135.9x5.4 bg#FFFFFF/55 r3.2
+    RECT Rectangle x72.3 y89.2 122.3x5.4 bg#FFFFFF/55 r3.2
+    RECT Rectangle x72.3 y108.0 129.1x5.4 bg#FFFFFF/55 r3.2
+    RECT Rectangle x72.3 y126.8 95.1x5.4 bg#FFFFFF/55 r3.2
+    RECT Rectangle x72.3 y145.5 135.9x5.4 bg#FFFFFF/55 r3.2
+    RECT Rectangle x72.3 y164.3 115.5x5.4 bg#FFFFFF/55 r3.2
+    RECT Rectangle x72.3 y183.1 67.9x5.4 bg#FFFFFF/55 r3.2
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+=== brand
+FRAM Visuel/brand x0.0 y0.0 302.0x227.0 bg#CCFBF1 r12.0
+  FRAM Frame x98.2 y40.2 161.8x189.8 bg#FFFFFF/55 r8.6
+  FRAM Document x59.3 y25.1 161.8x189.8 bg#FFFFFF r8.6 shadow
+    RECT Rectangle x72.3 y38.0 74.7x8.6 bg#0D9488 r4.3
+    RECT Rectangle x72.3 y53.1 108.7x5.4 bg#E5E7EB r3.2
+    ELLI Ellipse x72.3 y70.4 79.0x79.0 bg#0D9488 r
+    RECT Rectangle x72.3 y165.1 39.9x36.8 bg#0D9488 r4.3
+    RECT Rectangle x117.6 y165.1 39.9x36.8 bg#5EEAD4 r4.3
+    RECT Rectangle x162.9 y165.1 39.9x36.8 bg#111827 r4.3
+    RECT Rectangle x162.0 y79.0 46.2x6.5 bg#E5E7EB r3.2
+    RECT Rectangle x162.0 y94.1 27.7x6.5 bg#E5E7EB r3.2
+  FRAM Favori x258.0 y12.0 32.0x32.0 bg#FFFFFF r999.0
+    FRAM icon/heart x266.0 y20.0 16.0x16.0 bg r
+      VECT Vector x267.3 y22.0 13.3x12.0 bg r
+missing: set()

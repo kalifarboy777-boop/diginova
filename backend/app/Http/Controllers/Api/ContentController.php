@@ -90,14 +90,14 @@ class ContentController extends Controller
         $review = DB::transaction(function () use ($product, $user, $item, $data) {
             $review = Review::create(['user_id' => $user->id, 'product_id' => $product->id, 'order_item_id' => $item->id] + $data);
             $count = $product->rating_count + 1;
-            $dist = $product->rating_distribution ?? [5 => 0, 4 => 0, 3 => 0, 2 => 0, 1 => 0];
-            // Répartition en % recalculée de façon incrémentale.
-            $abs = collect($dist)->map(fn ($p) => $p * $product->rating_count / 100);
-            $abs[$data['rating']] = ($abs[$data['rating']] ?? 0) + 1;
+            // Répartition stockée en liste [5★, 4★, 3★, 2★, 1★] (pourcentages), recalculée de façon incrémentale.
+            $abs = collect(\App\Http\Resources\ProductResource::distribution($product->rating_distribution))
+                ->map(fn ($p) => $p * $product->rating_count / 100)->all();
+            $abs[5 - $data['rating']] += 1;
             $product->update([
                 'rating_avg' => round(($product->rating_avg * $product->rating_count + $data['rating']) / $count, 1),
                 'rating_count' => $count,
-                'rating_distribution' => $abs->map(fn ($n) => (int) round($n / $count * 100))->all(),
+                'rating_distribution' => array_map(fn ($n) => (int) round($n / $count * 100), $abs),
             ]);
             $product->seller->user?->notify(new AppNotification('review', "Nouvel avis {$data['rating']} ★ sur {$product->title}", $data['comment'] ?? null, '/studio/produits'));
 
