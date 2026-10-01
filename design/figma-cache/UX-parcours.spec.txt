@@ -1,0 +1,316 @@
+FRAM "Parcours utilisateurs" 2760x1752 col gap48 pad80/80/80/80 MIN/MIN bg#F8F9FC
+  TEXT "Parcours utilisateurs" 594x68 [Display/Hero Manrope 800 60/68] c#111827 «Parcours utilisateurs»
+  TEXT "Chaque boîte renvoie à l’écran du même n" 1205x28 [Body/Large Inter 400 18/28] c#4B5563 «Chaque boîte renvoie à l’écran du même numéro dans ce fichier. Objectif : passer de « je découvre » à « j’ai mon fichier » en quelques minutes.»
+  FRAM "Stack" 558x16 row gap20 pad0/0/0/0 MIN/CEN
+    FRAM "Stack" 61x16 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "Stack" 14x14 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF r4
+      TEXT "Vitrine" 39x16 [Label/Small Inter 600 12/16] c#4B5563 «Vitrine»
+    FRAM "Stack" 57x16 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "Stack" 14x14 row gap0 pad0/0/0/0 MIN/MIN bg#16A34A r4
+      TEXT "Achat" 35x16 [Label/Small Inter 600 12/16] c#4B5563 «Achat»
+    FRAM "Stack" 104x16 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "Stack" 14x14 row gap0 pad0/0/0/0 MIN/MIN bg#0284C7 r4
+      TEXT "Compte client" 82x16 [Label/Small Inter 600 12/16] c#4B5563 «Compte client»
+    FRAM "Stack" 74x16 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "Stack" 14x14 row gap0 pad0/0/0/0 MIN/MIN bg#D97706 r4
+      TEXT "Créateur" 52x16 [Label/Small Inter 600 12/16] c#4B5563 «Créateur»
+    FRAM "Stack" 108x16 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "Stack" 14x14 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r4
+      TEXT "Administration" 86x16 [Label/Small Inter 600 12/16] c#4B5563 «Administration»
+    FRAM "Stack" 54x16 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "Stack" 14x14 row gap0 pad0/0/0/0 MIN/MIN bg#DB2777 r4
+      TEXT "Email" 32x16 [Label/Small Inter 600 12/16] c#4B5563 «Email»
+  FRAM "Parcours/Parcours d’achat" 2600x370 bg#FFFFFF bd1#E5E7EB r24
+    FRAM "Stack" 210x100 col gap8 pad0/0/0/0 MIN/MIN
+      TEXT "Parcours d’achat" 210x32 stretch [Heading/H3 Manrope 700 24/32] c#111827 «Parcours d’achat»
+      TEXT "Du premier clic au fichier téléchargé, s" 210x60 stretch [Body/Small Inter 400 13/20] c#4B5563 «Du premier clic au fichier téléchargé, sans compte obligatoire.»
+    FRAM "Écran/01 Accueil" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#635BFF r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r9
+        TEXT "01" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «01»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Accueil" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Accueil»
+        TEXT "Vitrine" 38x16 [Caption Inter 500 12/16] c#9CA3AF «Vitrine»
+    FRAM "Écran/03 Recherche & IA" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#635BFF r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r9
+        TEXT "03" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «03»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Recherche & IA" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Recherche & IA»
+        TEXT "Vitrine" 38x16 [Caption Inter 500 12/16] c#9CA3AF «Vitrine»
+    FRAM "Écran/02 Boutique — catégorie" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#635BFF r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r9
+        TEXT "02" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «02»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Boutique — catégorie" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Boutique — catégorie»
+        TEXT "Vitrine" 38x16 [Caption Inter 500 12/16] c#9CA3AF «Vitrine»
+    FRAM "Écran/04 Fiche produit" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#635BFF r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r9
+        TEXT "04" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «04»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Fiche produit" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Fiche produit»
+        TEXT "Vitrine" 38x16 [Caption Inter 500 12/16] c#9CA3AF «Vitrine»
+    FRAM "Écran/20 Panier" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#16A34A r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r9
+        TEXT "20" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «20»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Panier" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Panier»
+        TEXT "Achat" 34x16 [Caption Inter 500 12/16] c#9CA3AF «Achat»
+    FRAM "Écran/21 Checkout — paiement" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#16A34A r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r9
+        TEXT "21" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «21»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Checkout — paiement" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Checkout — paiement»
+        TEXT "Achat" 34x16 [Caption Inter 500 12/16] c#9CA3AF «Achat»
+    FRAM "Écran/22 Validation Mobile Money" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#16A34A r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r9
+        TEXT "22" 15x16 [Label/Small Inter 600 12/16] c#FFFFFF «22»
+      FRAM "Stack" 130x50 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Validation Mobile Money" 130x32 stretch [Label/Small Inter 600 12/16] c#111827 «Validation Mobile Money»
+        TEXT "Achat" 34x16 [Caption Inter 500 12/16] c#9CA3AF «Achat»
+    FRAM "Écran/24 Paiement échoué" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#16A34A r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r9
+        TEXT "24" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «24»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Paiement échoué" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Paiement échoué»
+        TEXT "Achat" 34x16 [Caption Inter 500 12/16] c#9CA3AF «Achat»
+    FRAM "Écran/23 Paiement réussi" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#16A34A r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r9
+        TEXT "23" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «23»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Paiement réussi" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Paiement réussi»
+        TEXT "Achat" 34x16 [Caption Inter 500 12/16] c#9CA3AF «Achat»
+    FRAM "Écran/25 Email de confirmation" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#DB2777 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#DB2777 r9
+        TEXT "25" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «25»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Email de confirmation" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Email de confirmation»
+        TEXT "Email" 31x16 [Caption Inter 500 12/16] c#9CA3AF «Email»
+    FRAM "Écran/31 Ma bibliothèque" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "31" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «31»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Ma bibliothèque" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Ma bibliothèque»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    VECT "Flèche 01→03" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 01→02" 176x94 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 02→04" 185x85 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    VECT "Flèche 03→04" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 04→20" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 20→21" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 21→22" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 22→23" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    FRAM "Stack" 67x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "confirmé" 51x16 [Caption Inter 500 12/16] c#4B5563 «confirmé»
+    VECT "Flèche 22→24" 0x49 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    FRAM "Stack" 51x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "échec" 35x16 [Caption Inter 500 12/16] c#4B5563 «échec»
+    VECT "Flèche 24→21" 185x85 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    FRAM "Stack" 73x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "réessayer" 57x16 [Caption Inter 500 12/16] c#4B5563 «réessayer»
+    VECT "Flèche 23→31" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 23→25" 0x49 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+  FRAM "Parcours/Compte & connexion" 2600x500 bg#FFFFFF bd1#E5E7EB r24
+    FRAM "Stack" 210x112 col gap8 pad0/0/0/0 MIN/MIN
+      TEXT "Compte & connexion" 210x64 stretch [Heading/H3 Manrope 700 24/32] c#111827 «Compte & connexion»
+      TEXT "Mot de passe, lien magique ou code SMS." 210x40 stretch [Body/Small Inter 400 13/20] c#4B5563 «Mot de passe, lien magique ou code SMS.»
+    FRAM "Écran/10 Connexion" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "10" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «10»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Connexion" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Connexion»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/11 Inscription" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "11" 12x16 [Label/Small Inter 600 12/16] c#FFFFFF «11»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Inscription" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Inscription»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/12 Vérification par code" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "12" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «12»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Vérification par code" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Vérification par code»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/30 Tableau de bord client" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "30" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «30»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Tableau de bord client" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Tableau de bord client»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/31 Ma bibliothèque" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "31" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «31»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Ma bibliothèque" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Ma bibliothèque»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/32 Commandes & factures" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "32" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «32»
+      FRAM "Stack" 130x50 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Commandes & factures" 130x32 stretch [Label/Small Inter 600 12/16] c#111827 «Commandes & factures»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/35 Support — tickets" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "35" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «35»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Support — tickets" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Support — tickets»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/34 Profil & sécurité" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "34" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «34»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Profil & sécurité" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Profil & sécurité»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/33 Favoris" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "33" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «33»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Favoris" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Favoris»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/13 Mot de passe oublié" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "13" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «13»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Mot de passe oublié" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Mot de passe oublié»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/14 Lien envoyé" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#DB2777 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#DB2777 r9
+        TEXT "14" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «14»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Lien envoyé" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Lien envoyé»
+        TEXT "Email" 31x16 [Caption Inter 500 12/16] c#9CA3AF «Email»
+    VECT "Flèche 10→12" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 11→12" 185x85 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    VECT "Flèche 12→30" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 30→31b" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 31b→32" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 32→35" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    FRAM "Stack" 71x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "problème" 55x16 [Caption Inter 500 12/16] c#4B5563 «problème»
+    VECT "Flèche 30→34" 176x94 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 34→33" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 13→14" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+  FRAM "Parcours/Créateurs & modération" 2600x370 bg#FFFFFF bd1#E5E7EB r24
+    FRAM "Stack" 210x112 col gap8 pad0/0/0/0 MIN/MIN
+      TEXT "Créateurs & modération" 210x64 stretch [Heading/H3 Manrope 700 24/32] c#111827 «Créateurs & modération»
+      TEXT "De la candidature au premier retrait Mob" 210x40 stretch [Body/Small Inter 400 13/20] c#4B5563 «De la candidature au premier retrait Mobile Money.»
+    FRAM "Écran/05 Devenir créateur" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#635BFF r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r9
+        TEXT "05" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «05»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Devenir créateur" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Devenir créateur»
+        TEXT "Vitrine" 38x16 [Caption Inter 500 12/16] c#9CA3AF «Vitrine»
+    FRAM "Écran/11 Inscription" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#0284C7 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r9
+        TEXT "11" 12x16 [Label/Small Inter 600 12/16] c#FFFFFF «11»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Inscription" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Inscription»
+        TEXT "Compte client" 81x16 [Caption Inter 500 12/16] c#9CA3AF «Compte client»
+    FRAM "Écran/40 Candidature créateur" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#D97706 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#D97706 r9
+        TEXT "40" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «40»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Candidature créateur" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Candidature créateur»
+        TEXT "Créateur" 51x16 [Caption Inter 500 12/16] c#9CA3AF «Créateur»
+    FRAM "Écran/53 Validation candidature" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#111827 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#111827 r9
+        TEXT "53" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «53»
+      FRAM "Stack" 130x50 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Validation candidature" 130x32 stretch [Label/Small Inter 600 12/16] c#111827 «Validation candidature»
+        TEXT "Administration" 84x16 [Caption Inter 500 12/16] c#9CA3AF «Administration»
+    FRAM "Écran/41 Studio — tableau de bord" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#D97706 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#D97706 r9
+        TEXT "41" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «41»
+      FRAM "Stack" 130x50 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Studio — tableau de bord" 130x32 stretch [Label/Small Inter 600 12/16] c#111827 «Studio — tableau de bord»
+        TEXT "Créateur" 51x16 [Caption Inter 500 12/16] c#9CA3AF «Créateur»
+    FRAM "Écran/42 Ajouter un produit" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#D97706 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#D97706 r9
+        TEXT "42" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «42»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Ajouter un produit" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Ajouter un produit»
+        TEXT "Créateur" 51x16 [Caption Inter 500 12/16] c#9CA3AF «Créateur»
+    FRAM "Écran/51 Modération produit" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#111827 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#111827 r9
+        TEXT "51" 14x16 [Label/Small Inter 600 12/16] c#FFFFFF «51»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Modération produit" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Modération produit»
+        TEXT "Administration" 84x16 [Caption Inter 500 12/16] c#9CA3AF «Administration»
+    FRAM "Écran/04 Publié en boutique" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#635BFF r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r9
+        TEXT "04" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «04»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Publié en boutique" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Publié en boutique»
+        TEXT "Vitrine" 38x16 [Caption Inter 500 12/16] c#9CA3AF «Vitrine»
+    FRAM "Écran/43 Mes produits" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#D97706 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#D97706 r9
+        TEXT "43" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «43»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Mes produits" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Mes produits»
+        TEXT "Créateur" 51x16 [Caption Inter 500 12/16] c#9CA3AF «Créateur»
+    FRAM "Écran/44 Revenus & retraits" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#D97706 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#D97706 r9
+        TEXT "44" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «44»
+      FRAM "Stack" 130x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Revenus & retraits" 130x16 stretch [Label/Small Inter 600 12/16] c#111827 «Revenus & retraits»
+        TEXT "Créateur" 51x16 [Caption Inter 500 12/16] c#9CA3AF «Créateur»
+    FRAM "Écran/52 Commandes & paiements" 210x72 row gap12 pad0/14/0/14 MIN/CEN bg#FFFFFF bd1.5#111827 r12 shadow(0,4,12,0,#121733/6%)
+      FRAM "Stack" 34x34 row gap0 pad0/0/0/0 CEN/CEN bg#111827 r9
+        TEXT "52" 16x16 [Label/Small Inter 600 12/16] c#FFFFFF «52»
+      FRAM "Stack" 130x50 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Commandes & paiements" 130x32 stretch [Label/Small Inter 600 12/16] c#111827 «Commandes & paiements»
+        TEXT "Administration" 84x16 [Caption Inter 500 12/16] c#9CA3AF «Administration»
+    VECT "Flèche 05→11c" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 11c→40" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 40→53" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    FRAM "Stack" 68x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "72 h max" 52x16 [Caption Inter 500 12/16] c#4B5563 «72 h max»
+    VECT "Flèche 53→41" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    FRAM "Stack" 70x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "approuvé" 54x16 [Caption Inter 500 12/16] c#4B5563 «approuvé»
+    VECT "Flèche 41→42" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 42→51" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    VECT "Flèche 51→04c" 71x0 bd1.5#9CA3AF
+    VECT "Pointe" 9x10 bg#9CA3AF
+    FRAM "Stack" 70x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "approuvé" 54x16 [Caption Inter 500 12/16] c#4B5563 «approuvé»
+    VECT "Flèche 51→43" 0x49 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    FRAM "Stack" 53x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "refusé" 37x16 [Caption Inter 500 12/16] c#4B5563 «refusé»
+    VECT "Flèche 43→42" 185x85 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    FRAM "Stack" 62x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "corriger" 46x16 [Caption Inter 500 12/16] c#4B5563 «corriger»
+    VECT "Flèche 41→44" 0x49 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    VECT "Flèche 04c→52" 0x49 bd1.5#9CA3AF
+    VECT "Pointe" 10x9 bg#9CA3AF
+    FRAM "Stack" 55x20 row gap0 pad2/8/2/8 MIN/MIN bg#F3F4F6 r6
+      TEXT "ventes" 39x16 [Caption Inter 500 12/16] c#4B5563 «ventes»

@@ -1,0 +1,186 @@
+FRAM "34 · Profil & sécurité" 1440x1096 row gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Sidebar" 264x1096 col gap4 pad24/16/24/16 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 163x54 row gap8 pad0/8/20/8 MIN/CEN
+      FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Row" 110x30 row gap0 pad8/12/6/12 MIN/MIN
+      TEXT "MON COMPTE" 86x16 [Overline Inter 700 11/16] c#9CA3AF «MON COMPTE»
+    FRAM "Nav/Tableau de bord" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/home" 18x18
+      TEXT "Tableau de bord" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Tableau de bord»
+    FRAM "Nav/Ma bibliothèque" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/book" 18x18
+      TEXT "Ma bibliothèque" 133x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ma bibliothèque»
+      FRAM "Badge/12" 32x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "12" 14x16 [Label/Small Inter 600 12/16] c#4B5563 «12»
+    FRAM "Nav/Commandes & factures" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/file" 18x18
+      TEXT "Commandes & factures" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Commandes & factures»
+    FRAM "Nav/Favoris" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/heart" 18x18
+      TEXT "Favoris" 139x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Favoris»
+      FRAM "Badge/6" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "6" 8x16 [Label/Small Inter 600 12/16] c#4B5563 «6»
+    FRAM "Nav/Coupons" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/tag" 18x18
+      TEXT "Coupons" 139x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Coupons»
+      FRAM "Badge/2" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#4B5563 «2»
+    FRAM "Nav/Profil & sécurité" 231x40 row gap12 pad10/12/10/12 MIN/CEN stretch bg#EEEDFF r10
+      FRAM "icon/user" 18x18
+      TEXT "Profil & sécurité" 177x20 grow [Label/Default Inter 600 14/20] c#635BFF «Profil & sécurité»
+    FRAM "Nav/Support" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/msg" 18x18
+      TEXT "Support" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Support»
+    FRAM "Nav/Boutique" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/bag" 18x18
+      TEXT "Retour à la boutique" 144x24 [Body/Medium Inter 500 15/24] c#4B5563 «Retour à la boutique»
+    FRAM "Stack" 100x348 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Carte aide" 231x166 col gap10 pad16/16/16/16 MIN/MIN stretch bg#1E1B4B r14
+      FRAM "icon/help" 20x20
+      TEXT "Besoin d’aide ?" 101x20 [Label/Default Inter 600 14/20] c#FFFFFF «Besoin d’aide ?»
+      TEXT "Support WhatsApp 7j/7, réponse en moins " 199x32 stretch [Caption Inter 500 12/16] c#C7D2FE «Support WhatsApp 7j/7, réponse en moins de 2 h.»
+      FRAM "Bouton/Contacter" 83x32 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF r10
+        TEXT "Contacter" 59x16 [Label/Small Inter 600 12/16] c#111827 «Contacter»
+    FRAM "Row" 231x54 row gap10 pad16/8/0/8 MIN/CEN stretch
+      FRAM "Avatar" 38x38 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+        TEXT "AK" 17x16 [Caption Inter 500 12/16] c#FFFFFF «AK»
+      FRAM "Stack" 139x36 col gap0 pad0/0/0/0 MIN/MIN grow
+        TEXT "Aïcha Koné" 77x20 [Label/Default Inter 600 14/20] c#111827 «Aïcha Koné»
+        TEXT "aicha.kone@gmail.com" 133x16 [Caption Inter 500 12/16] c#9CA3AF «aicha.kone@gmail.com»
+      FRAM "icon/logout" 18x18
+  FRAM "Contenu" 1176x1096 col gap28 pad28/40/56/40 MIN/MIN grow
+    FRAM "Barre du haut" 1096x68 row gap16 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Stack" 1038x68 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Profil & sécurité" 243x40 [Heading/H2 Manrope 700 32/40] c#111827 «Profil & sécurité»
+        TEXT "Gérez vos informations, votre sécurité e" 413x24 [Body/Default Inter 400 15/24] c#4B5563 «Gérez vos informations, votre sécurité et vos notifications.»
+      FRAM "Notifications" 42x42 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#E5E7EB r10
+        FRAM "icon/bell" 18x18
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#DC2626 r999
+    FRAM "Onglets" 1096x37 row gap28 pad0/0/0/0 MIN/MIN stretch bd1#E5E7EB
+      FRAM "Stack" 86x34 col gap0 pad0/0/12/0 MIN/MIN bd1#635BFF
+        TEXT "Informations" 86x20 [Label/Default Inter 600 14/20] c#635BFF «Informations»
+      FRAM "Stack" 60x36 col gap0 pad0/0/12/0 MIN/MIN
+        TEXT "Sécurité" 60x24 [Body/Medium Inter 500 15/24] c#4B5563 «Sécurité»
+      FRAM "Stack" 92x36 col gap0 pad0/0/12/0 MIN/MIN
+        TEXT "Notifications" 92x24 [Body/Medium Inter 500 15/24] c#4B5563 «Notifications»
+      FRAM "Stack" 150x36 col gap0 pad0/0/12/0 MIN/MIN
+        TEXT "Moyens de paiement" 150x24 [Body/Medium Inter 500 15/24] c#4B5563 «Moyens de paiement»
+    FRAM "Row" 1096x851 row gap24 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Stack" 692x851 col gap24 pad0/0/0/0 MIN/MIN grow
+        FRAM "Informations personnelles" 692x514 col gap20 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          TEXT "Informations personnelles" 230x26 [Heading/H4 Manrope 700 18/26] c#111827 «Informations personnelles»
+          FRAM "Row" 330x72 row gap16 pad0/0/0/0 MIN/CEN
+            FRAM "Avatar" 72x72 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+              TEXT "AK" 20x20 [Label/Default Inter 600 14/20] c#FFFFFF «AK»
+            FRAM "Stack" 242x58 col gap8 pad0/0/0/0 MIN/MIN
+              FRAM "Row" 242x34 row gap8 pad0/0/0/0 MIN/MIN
+                FRAM "Bouton/Changer la photo" 149x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+                  FRAM "icon/upload" 15x15
+                  TEXT "Changer la photo" 100x16 [Label/Small Inter 600 12/16] c#111827 «Changer la photo»
+                FRAM "Bouton/Supprimer" 85x32 row gap8 pad8/12/8/12 CEN/CEN r10
+                  TEXT "Supprimer" 61x16 [Label/Small Inter 600 12/16] c#635BFF «Supprimer»
+              TEXT "JPG ou PNG, 2 Mo maximum." 167x16 [Caption Inter 500 12/16] c#9CA3AF «JPG ou PNG, 2 Mo maximum.»
+          FRAM "Row" 642x74 row gap16 pad0/0/0/0 MIN/MIN stretch
+            FRAM "Champ/Prénom" 313x74 col gap8 pad0/0/0/0 MIN/MIN grow
+              TEXT "Prénom" 53x20 [Label/Default Inter 600 14/20] c#111827 «Prénom»
+              FRAM "Row" 313x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+                TEXT "Aïcha" 283x24 grow [Body/Default Inter 400 15/24] c#111827 «Aïcha»
+            FRAM "Champ/Nom" 313x74 col gap8 pad0/0/0/0 MIN/MIN grow
+              TEXT "Nom" 32x20 [Label/Default Inter 600 14/20] c#111827 «Nom»
+              FRAM "Row" 313x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+                TEXT "Koné" 283x24 grow [Body/Default Inter 400 15/24] c#111827 «Koné»
+          FRAM "Row" 642x74 row gap16 pad0/0/0/0 MIN/MIN stretch
+            FRAM "Champ/Email" 313x74 col gap8 pad0/0/0/0 MIN/MIN grow
+              TEXT "Email" 37x20 [Label/Default Inter 600 14/20] c#111827 «Email»
+              FRAM "Row" 313x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+                FRAM "icon/mail" 16x16
+                TEXT "aicha.kone@gmail.com" 191x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha.kone@gmail.com»
+                FRAM "Badge/Vérifié" 56x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                  TEXT "Vérifié" 38x16 [Label/Small Inter 600 12/16] c#16A34A «Vérifié»
+            FRAM "Champ/Téléphone" 313x74 col gap8 pad0/0/0/0 MIN/MIN grow
+              TEXT "Téléphone" 72x20 [Label/Default Inter 600 14/20] c#111827 «Téléphone»
+              FRAM "Row" 313x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+                FRAM "icon/phone" 16x16
+                TEXT "+225 07 08 42 18 55" 191x24 grow [Body/Default Inter 400 15/24] c#111827 «+225 07 08 42 18 55»
+                FRAM "Badge/Vérifié" 56x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                  TEXT "Vérifié" 38x16 [Label/Small Inter 600 12/16] c#16A34A «Vérifié»
+          FRAM "Row" 642x74 row gap16 pad0/0/0/0 MIN/MIN stretch
+            FRAM "Champ/Pays" 313x74 col gap8 pad0/0/0/0 MIN/MIN grow
+              TEXT "Pays" 33x20 [Label/Default Inter 600 14/20] c#111827 «Pays»
+              FRAM "Row" 313x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+                TEXT "Côte d’Ivoire" 283x24 grow [Body/Default Inter 400 15/24] c#111827 «Côte d’Ivoire»
+            FRAM "Champ/Ville" 313x74 col gap8 pad0/0/0/0 MIN/MIN grow
+              TEXT "Ville" 30x20 [Label/Default Inter 600 14/20] c#111827 «Ville»
+              FRAM "Row" 313x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+                TEXT "Abidjan" 283x24 grow [Body/Default Inter 400 15/24] c#111827 «Abidjan»
+          FRAM "Row" 642x44 row gap12 pad0/0/0/0 MAX/MIN stretch
+            FRAM "Bouton/Annuler" 92x44 row gap8 pad11/18/11/18 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+              TEXT "Annuler" 54x20 [Label/Default Inter 600 14/20] c#111827 «Annuler»
+            FRAM "Bouton/Enregistrer" 112x42 row gap8 pad11/18/11/18 CEN/CEN bg#635BFF r10
+              TEXT "Enregistrer" 76x20 [Label/Default Inter 600 14/20] c#FFFFFF «Enregistrer»
+        FRAM "Sécurité" 692x313 col gap4 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          TEXT "Sécurité" 76x26 [Heading/H4 Manrope 700 18/26] c#111827 «Sécurité»
+          FRAM "Row" 642x75 row gap14 pad16/0/16/0 MIN/CEN stretch bd1#E5E7EB
+            FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#F8F9FC r10
+              FRAM "icon/lock" 18x18
+            FRAM "Stack" 499x42 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "Mot de passe" 92x20 [Label/Default Inter 600 14/20] c#111827 «Mot de passe»
+              TEXT "Modifié il y a 3 mois" 123x20 [Body/Small Inter 400 13/20] c#4B5563 «Modifié il y a 3 mois»
+            FRAM "Bouton/Modifier" 75x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+              TEXT "Modifier" 49x16 [Label/Small Inter 600 12/16] c#111827 «Modifier»
+          FRAM "Row" 642x75 row gap14 pad16/0/16/0 MIN/CEN stretch bd1#E5E7EB
+            FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#F8F9FC r10
+              FRAM "icon/shield" 18x18
+            FRAM "Stack" 530x42 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "Validation en deux étapes" 175x20 [Label/Default Inter 600 14/20] c#111827 «Validation en deux étapes»
+              TEXT "Code par SMS à chaque nouvelle connexion" 270x20 [Body/Small Inter 400 13/20] c#4B5563 «Code par SMS à chaque nouvelle connexion»
+            FRAM "Interrupteur" 44x24 row gap0 pad3/3/3/3 MAX/CEN bg#635BFF r999
+              FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r999
+          FRAM "Row" 642x75 row gap14 pad16/0/16/0 MIN/CEN stretch bd1#E5E7EB
+            FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#F8F9FC r10
+              FRAM "icon/mail" 18x18
+            FRAM "Stack" 530x42 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "Connexion par lien magique" 189x20 [Label/Default Inter 600 14/20] c#111827 «Connexion par lien magique»
+              TEXT "Se connecter sans mot de passe depuis l’" 286x20 [Body/Small Inter 400 13/20] c#4B5563 «Se connecter sans mot de passe depuis l’email»
+            FRAM "Interrupteur" 44x24 row gap0 pad3/3/3/3 MAX/CEN bg#635BFF r999
+              FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r999
+      FRAM "Stack" 380x656 col gap24 pad0/0/0/0 MIN/MIN
+        FRAM "Sessions actives" 380x216 col gap12 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          TEXT "Sessions actives" 147x26 [Heading/H4 Manrope 700 18/26] c#111827 «Sessions actives»
+          FRAM "Row" 330x58 row gap12 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+            FRAM "icon/phone" 18x18
+            FRAM "Stack" 175x34 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "iPhone · Safari" 84x16 [Label/Small Inter 600 12/16] c#111827 «iPhone · Safari»
+              TEXT "Abidjan · maintenant" 118x16 [Caption Inter 500 12/16] c#9CA3AF «Abidjan · maintenant»
+            FRAM "Badge/Cet appareil" 89x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+              TEXT "Cet appareil" 71x16 [Label/Small Inter 600 12/16] c#16A34A «Cet appareil»
+          FRAM "Row" 330x58 row gap12 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+            FRAM "icon/laptop" 18x18
+            FRAM "Stack" 188x34 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "Windows · Chrome" 110x16 [Label/Small Inter 600 12/16] c#111827 «Windows · Chrome»
+              TEXT "Abidjan · il y a 2 jours" 122x16 [Caption Inter 500 12/16] c#9CA3AF «Abidjan · il y a 2 jours»
+            TEXT "Déconnecter" 76x16 [Label/Small Inter 600 12/16] c#DC2626 «Déconnecter»
+        FRAM "Notifications" 380x228 col gap14 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          TEXT "Notifications" 115x26 [Heading/H4 Manrope 700 18/26] c#111827 «Notifications»
+          FRAM "Row" 330x24 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Confirmation de commande" 286x24 grow [Body/Default Inter 400 15/24] c#111827 «Confirmation de commande»
+            FRAM "Interrupteur" 44x24 row gap0 pad3/3/3/3 MAX/CEN bg#635BFF r999
+              FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r999
+          FRAM "Row" 330x24 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Mises à jour de mes produits" 286x24 grow [Body/Default Inter 400 15/24] c#111827 «Mises à jour de mes produits»
+            FRAM "Interrupteur" 44x24 row gap0 pad3/3/3/3 MAX/CEN bg#635BFF r999
+              FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r999
+          FRAM "Row" 330x24 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Baisse de prix des favoris" 286x24 grow [Body/Default Inter 400 15/24] c#111827 «Baisse de prix des favoris»
+            FRAM "Interrupteur" 44x24 row gap0 pad3/3/3/3 MAX/CEN bg#635BFF r999
+              FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r999
+          FRAM "Row" 330x24 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Newsletter et promotions" 286x24 grow [Body/Default Inter 400 15/24] c#111827 «Newsletter et promotions»
+            FRAM "Interrupteur" 44x24 row gap0 pad3/3/3/3 MIN/CEN bg#D1D5DB r999
+              FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r999
+        FRAM "Zone sensible" 380x164 col gap12 pad24/24/24/24 MIN/MIN stretch bg#FEE2E2 r16
+          TEXT "Supprimer mon compte" 159x20 [Label/Default Inter 600 14/20] c#DC2626 «Supprimer mon compte»
+          TEXT "Vos achats et votre bibliothèque seront " 332x40 stretch [Body/Small Inter 400 13/20] c#4B5563 «Vos achats et votre bibliothèque seront définitivement supprimés.»
+          FRAM "Bouton/Supprimer le compte" 168x32 row gap8 pad8/12/8/12 CEN/CEN bg#FEE2E2 r10
+            FRAM "icon/trash" 15x15
+            TEXT "Supprimer le compte" 121x16 [Label/Small Inter 600 12/16] c#DC2626 «Supprimer le compte»

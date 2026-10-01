@@ -1,0 +1,108 @@
+FRAM "40 · Candidature créateur" 1440x1299 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Header" 1440x76 row gap0 pad0/80/0/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Row" 909x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    TEXT "Besoin d’aide ? Guide du vendeur" 224x20 [Label/Default Inter 600 14/20] c#635BFF «Besoin d’aide ? Guide du vendeur»
+  FRAM "Row" 1440x1223 row gap48 pad48/160/80/160 MIN/MIN
+    FRAM "Stack" 712x1095 col gap28 pad0/0/0/0 MIN/MIN grow
+      FRAM "Badge/Étape 2 sur 4" 95x22 row gap0 pad3/9/3/9 MIN/CEN bg#EEEDFF r999
+        TEXT "Étape 2 sur 4" 77x16 [Label/Small Inter 600 12/16] c#635BFF «Étape 2 sur 4»
+      TEXT "Parlez-nous de votre activité" 552x48 [Heading/H1 Manrope 800 40/48] c#111827 «Parlez-nous de votre activité»
+      TEXT "Ces informations nous aident à valider v" 712x56 stretch [Body/Large Inter 400 18/28] c#4B5563 «Ces informations nous aident à valider votre studio et à présenter votre profil aux acheteurs.»
+      FRAM "Row" 712x6 row gap8 pad0/0/0/0 MIN/MIN stretch
+        FRAM "Row" 172x6 row gap0 pad0/0/0/0 MIN/MIN grow bg#635BFF r3
+        FRAM "Row" 172x6 row gap0 pad0/0/0/0 MIN/MIN grow bg#635BFF r3
+        FRAM "Row" 172x6 row gap0 pad0/0/0/0 MIN/MIN grow bg#E5E7EB r3
+        FRAM "Row" 172x6 row gap0 pad0/0/0/0 MIN/MIN grow bg#E5E7EB r3
+      FRAM "Formulaire" 712x723 col gap20 pad32/32/32/32 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 646x74 row gap16 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Champ/Nom public du studio" 315x74 col gap8 pad0/0/0/0 MIN/MIN grow
+            TEXT "Nom public du studio" 144x20 [Label/Default Inter 600 14/20] c#111827 «Nom public du studio»
+            FRAM "Row" 315x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+              TEXT "Jean Kouassi Design" 285x24 grow [Body/Default Inter 400 15/24] c#111827 «Jean Kouassi Design»
+          FRAM "Champ/Pays" 315x74 col gap8 pad0/0/0/0 MIN/MIN grow
+            TEXT "Pays" 33x20 [Label/Default Inter 600 14/20] c#111827 «Pays»
+            FRAM "Row" 315x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+              TEXT "Côte d’Ivoire" 259x24 grow [Body/Default Inter 400 15/24] c#111827 «Côte d’Ivoire»
+              FRAM "icon/chevD" 16x16
+        FRAM "Champ/Biographie courte" 646x162 col gap8 pad0/0/0/0 MIN/MIN stretch
+          TEXT "Biographie courte" 121x20 [Label/Default Inter 600 14/20] c#111827 «Biographie courte»
+          FRAM "Row" 646x110 row gap10 pad12/14/0/14 MIN/MIN stretch bg#FFFFFF bd1#D1D5DB r10
+            TEXT "Formateur Excel et designer depuis 8 ans" 616x48 grow [Body/Default Inter 400 15/24] c#111827 «Formateur Excel et designer depuis 8 ans. J’aide les PME à mieux gérer leur activité avec des outils simples.»
+          TEXT "164 / 300 caractères" 120x16 [Caption Inter 500 12/16] c#9CA3AF «164 / 300 caractères»
+        FRAM "Stack" 646x106 col gap10 pad0/0/0/0 MIN/MIN stretch
+          TEXT "Ce que vous souhaitez vendre" 205x20 [Label/Default Inter 600 14/20] c#111827 «Ce que vous souhaitez vendre»
+          FRAM "Row" 646x76 row gap8 pad0/0/0/0 MIN/MIN wrap stretch
+            FRAM "Row" 103x34 row gap6 pad8/14/8/14 MIN/CEN bg#EEEDFF bd1#635BFF r999
+              FRAM "icon/check" 14x14
+              TEXT "Business" 53x16 [Label/Small Inter 600 12/16] c#635BFF «Business»
+            FRAM "Row" 91x34 row gap6 pad8/14/8/14 MIN/CEN bg#EEEDFF bd1#635BFF r999
+              FRAM "icon/check" 14x14
+              TEXT "Design" 41x16 [Label/Small Inter 600 12/16] c#635BFF «Design»
+            FRAM "Row" 128x34 row gap6 pad8/14/8/14 MIN/CEN bg#FFFFFF bd1#D1D5DB r999
+              TEXT "Réseaux sociaux" 98x16 [Label/Small Inter 600 12/16] c#4B5563 «Réseaux sociaux»
+            FRAM "Row" 176x34 row gap6 pad8/14/8/14 MIN/CEN bg#EEEDFF bd1#635BFF r999
+              FRAM "icon/check" 14x14
+              TEXT "E-books & formations" 126x16 [Label/Small Inter 600 12/16] c#635BFF «E-books & formations»
+            FRAM "Row" 101x34 row gap6 pad8/14/8/14 MIN/CEN bg#FFFFFF bd1#D1D5DB r999
+              TEXT "Productivité" 71x16 [Label/Small Inter 600 12/16] c#4B5563 «Productivité»
+            FRAM "Row" 42x34 row gap6 pad8/14/8/14 MIN/CEN bg#FFFFFF bd1#D1D5DB r999
+              TEXT "IA" 12x16 [Label/Small Inter 600 12/16] c#4B5563 «IA»
+            FRAM "Row" 99x34 row gap6 pad8/14/8/14 MIN/CEN bg#FFFFFF bd1#D1D5DB r999
+              TEXT "Web & Tech" 69x16 [Label/Small Inter 600 12/16] c#4B5563 «Web & Tech»
+            FRAM "Row" 64x34 row gap6 pad8/14/8/14 MIN/CEN bg#FFFFFF bd1#D1D5DB r999
+              TEXT "Audio" 34x16 [Label/Small Inter 600 12/16] c#4B5563 «Audio»
+            FRAM "Row" 64x34 row gap6 pad8/14/8/14 MIN/CEN bg#FFFFFF bd1#D1D5DB r999
+              TEXT "Vidéo" 34x16 [Label/Small Inter 600 12/16] c#4B5563 «Vidéo»
+        FRAM "Champ/Portfolio ou réseaux (facultatif)" 646x74 col gap8 pad0/0/0/0 MIN/MIN stretch
+          TEXT "Portfolio ou réseaux (facultatif)" 212x20 [Label/Default Inter 600 14/20] c#111827 «Portfolio ou réseaux (facultatif)»
+          FRAM "Row" 646x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/link" 16x16
+            TEXT "behance.net/jeankouassi" 590x24 grow [Body/Default Inter 400 15/24] c#111827 «behance.net/jeankouassi»
+        FRAM "Stack" 646x161 col gap10 pad0/0/0/0 MIN/MIN stretch
+          TEXT "Exemples de vos créations" 181x20 [Label/Default Inter 600 14/20] c#111827 «Exemples de vos créations»
+          FRAM "Row" 646x105 row gap12 pad0/0/0/0 MIN/MIN stretch
+            FRAM "Visuel/sheet" 140x105 bg#DCFCE7 r12
+            FRAM "Visuel/doc" 140x105 bg#E0E7FF r12
+            FRAM "Stack" 140x105 col gap6 pad0/0/0/0 CEN/CEN bd1#D1D5DB r12
+              FRAM "icon/upload" 20x20
+              TEXT "Ajouter" 43x16 [Label/Small Inter 600 12/16] c#635BFF «Ajouter»
+          TEXT "2 à 5 fichiers, aperçus PDF ou images. I" 364x16 [Caption Inter 500 12/16] c#9CA3AF «2 à 5 fichiers, aperçus PDF ou images. Ils ne seront pas publiés.»
+      FRAM "Row" 712x100 row gap12 pad0/0/0/0 MIN/MIN stretch
+        FRAM "Bouton/Retour" 110x44 row gap8 pad11/18/11/18 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+          FRAM "icon/chevL" 18x18
+          TEXT "Retour" 46x20 [Label/Default Inter 600 14/20] c#111827 «Retour»
+        FRAM "Row" 272x100 row gap0 pad0/0/0/0 MIN/MIN grow
+        FRAM "Bouton/Continuer : paiement des revenus" 306x52 row gap8 pad16/26/16/26 CEN/CEN bg#635BFF r10
+          TEXT "Continuer : paiement des revenus" 228x20 [Label/Default Inter 600 14/20] c#FFFFFF «Continuer : paiement des revenus»
+          FRAM "icon/chevR" 18x18
+    FRAM "Stack" 360x498 col gap20 pad0/0/0/0 MIN/MIN
+      FRAM "Étapes" 360x298 col gap0 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 310x62 row gap14 pad12/0/12/0 MIN/MIN stretch
+          FRAM "Row" 28x28 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+            FRAM "icon/check" 14x14
+          FRAM "Stack" 118x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Profil" 36x20 [Label/Default Inter 600 14/20] c#111827 «Profil»
+            TEXT "Nom, photo, contact" 118x16 [Caption Inter 500 12/16] c#9CA3AF «Nom, photo, contact»
+        FRAM "Row" 310x62 row gap14 pad12/0/12/0 MIN/MIN stretch
+          FRAM "Row" 28x28 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+            TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#FFFFFF «2»
+          FRAM "Stack" 149x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Activité" 53x20 [Label/Default Inter 600 14/20] c#111827 «Activité»
+            TEXT "Catégories, bio, exemples" 149x16 [Caption Inter 500 12/16] c#9CA3AF «Catégories, bio, exemples»
+        FRAM "Row" 310x62 row gap14 pad12/0/12/0 MIN/MIN stretch
+          FRAM "Row" 28x28 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r999
+            TEXT "3" 8x16 [Label/Small Inter 600 12/16] c#9CA3AF «3»
+          FRAM "Stack" 200x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Paiement des revenus" 150x20 [Label/Default Inter 600 14/20] c#9CA3AF «Paiement des revenus»
+            TEXT "Compte Mobile Money ou bancaire" 200x16 [Caption Inter 500 12/16] c#9CA3AF «Compte Mobile Money ou bancaire»
+        FRAM "Row" 310x62 row gap14 pad12/0/12/0 MIN/MIN stretch
+          FRAM "Row" 28x28 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r999
+            TEXT "4" 8x16 [Label/Small Inter 600 12/16] c#9CA3AF «4»
+          FRAM "Stack" 203x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Vérification" 78x20 [Label/Default Inter 600 14/20] c#9CA3AF «Vérification»
+            TEXT "Pièce d’identité · réponse sous 72 h" 203x16 [Caption Inter 500 12/16] c#9CA3AF «Pièce d’identité · réponse sous 72 h»
+      FRAM "Stack" 360x180 col gap12 pad24/24/24/24 MIN/MIN stretch bg#1E1B4B r16
+        FRAM "icon/shield" 22x22
+        TEXT "Pourquoi une vérification ?" 235x26 [Heading/H4 Manrope 700 18/26] c#FFFFFF «Pourquoi une vérification ?»
+        TEXT "Elle garantit aux acheteurs des produits" 312x60 stretch [Body/Small Inter 400 13/20] c#C7D2FE «Elle garantit aux acheteurs des produits de qualité, sans contenu piraté, et protège vos revenus contre la fraude.»

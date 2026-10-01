@@ -1,0 +1,81 @@
+FRAM "22 · Paiement en attente" 1440x1179 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Header checkout" 1440x76 row gap24 pad0/80/0/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Row" 186x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Étapes" 473x26 row gap12 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 80x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+          FRAM "icon/check" 14x14
+        TEXT "Panier" 46x24 [Body/Medium Inter 500 15/24] c#111827 «Panier»
+      FRAM "Row" 48x2 row gap0 pad0/0/0/0 MIN/MIN bg#E5E7EB r1
+      FRAM "Row" 98x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+          TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#FFFFFF «2»
+        TEXT "Paiement" 64x20 [Label/Default Inter 600 14/20] c#111827 «Paiement»
+      FRAM "Row" 48x2 row gap0 pad0/0/0/0 MIN/MIN bg#E5E7EB r1
+      FRAM "Row" 151x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r999
+          TEXT "3" 8x16 [Label/Small Inter 600 12/16] c#9CA3AF «3»
+        TEXT "Téléchargement" 117x24 [Body/Medium Inter 500 15/24] c#9CA3AF «Téléchargement»
+    FRAM "Row" 186x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 193x20 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "icon/lock" 16x16
+      TEXT "Paiement 100 % sécurisé" 169x20 [Label/Default Inter 600 14/20] c#16A34A «Paiement 100 % sécurisé»
+  FRAM "Centre" 1440x1016 col gap0 pad56/0/80/0 MIN/CEN
+    FRAM "Carte" 640x880 col gap24 pad48/48/48/48 MIN/CEN bg#FFFFFF bd1#E5E7EB r28 shadow(0,4,16,-4,#121733/6%)
+      FRAM "Icône statut" 128x128 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+        FRAM "Row" 96x96 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+          FRAM "icon/phone" 40x40
+      FRAM "Badge/En attente de confirmation · 01:47" 216x24 row gap0 pad4/10/4/10 MIN/CEN bg#FEF3C7 r999
+        TEXT "En attente de confirmation · 01:47" 196x16 [Label/Small Inter 600 12/16] c#D97706 «En attente de confirmation · 01:47»
+      TEXT "Validez le paiement sur votre téléphone" 599x40 [Heading/H2 Manrope 700 32/40] align-center c#111827 «Validez le paiement sur votre téléphone»
+      TEXT "Une demande de 18 000 FCFA a été envoyée" 542x56 stretch [Body/Large Inter 400 18/28] align-center c#4B5563 «Une demande de 18 000 FCFA a été envoyée au 07 •• •• 18 55 via Wave.»
+      FRAM "Instructions" 542x226 col gap0 pad0/0/0/0 MIN/MIN stretch bd1#E5E7EB r16
+        FRAM "Row" 540x75 row gap14 pad16/20/16/20 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Row" 30x30 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+            TEXT "1" 7x20 [Label/Default Inter 600 14/20] c#635BFF «1»
+          FRAM "Stack" 456x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Ouvrez l’application Wave" 174x20 [Label/Default Inter 600 14/20] c#111827 «Ouvrez l’application Wave»
+            TEXT "Une notification « Paiement DigiNova » v" 315x20 [Body/Small Inter 400 13/20] c#4B5563 «Une notification « Paiement DigiNova » vous attend»
+        FRAM "Row" 540x75 row gap14 pad16/20/16/20 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Row" 30x30 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+            TEXT "2" 9x20 [Label/Default Inter 600 14/20] c#635BFF «2»
+          FRAM "Stack" 456x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Vérifiez le montant" 128x20 [Label/Default Inter 600 14/20] c#111827 «Vérifiez le montant»
+            TEXT "18 000 FCFA · bénéficiaire DigiNova" 220x20 [Body/Small Inter 400 13/20] c#4B5563 «18 000 FCFA · bénéficiaire DigiNova»
+        FRAM "Row" 540x74 row gap14 pad16/20/16/20 MIN/CEN stretch bd0#E5E7EB
+          FRAM "Row" 30x30 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+            TEXT "3" 10x20 [Label/Default Inter 600 14/20] c#635BFF «3»
+          FRAM "Stack" 456x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Confirmez avec votre code secret" 229x20 [Label/Default Inter 600 14/20] c#111827 «Confirmez avec votre code secret»
+            TEXT "La page se mettra à jour automatiquement" 261x20 [Body/Small Inter 400 13/20] c#4B5563 «La page se mettra à jour automatiquement»
+      FRAM "Stack" 542x30 col gap8 pad0/0/0/0 MIN/MIN stretch
+        FRAM "Row" 542x6 row gap0 pad0/0/0/0 MIN/MIN stretch bg#F3F4F6 r3
+          FRAM "Row" 300x6 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF r3
+        TEXT "Nous vérifions la confirmation auprès de" 276x16 [Caption Inter 500 12/16] c#9CA3AF «Nous vérifions la confirmation auprès de Wave…»
+      FRAM "Row" 542x46 row gap12 pad0/0/0/0 MIN/MIN stretch
+        FRAM "Bouton/Renvoyer la demande" 265x46 row gap8 pad12/20/12/20 CEN/CEN grow bg#FFFFFF bd1#D1D5DB r10
+          FRAM "icon/refresh" 18x18
+          TEXT "Renvoyer la demande" 146x20 [Label/Default Inter 600 14/20] c#111827 «Renvoyer la demande»
+        FRAM "Bouton/Changer de moyen de paiement" 265x46 row gap8 pad12/20/12/20 CEN/CEN grow bg#FFFFFF bd1#D1D5DB r10
+          TEXT "Changer de moyen de paiement" 216x20 [Label/Default Inter 600 14/20] c#111827 «Changer de moyen de paiement»
+      FRAM "Row" 542x64 row gap10 pad12/14/12/14 MIN/CEN stretch bg#F3F4F6 r12
+        FRAM "icon/info" 16x16
+        TEXT "Ne fermez pas cette page. Vous recevrez " 488x40 grow [Body/Small Inter 400 13/20] c#4B5563 «Ne fermez pas cette page. Vous recevrez aussi un email dès que le paiement sera confirmé.»
+  FRAM "Footer simplifié" 1440x87 row gap16 pad28/80/28/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    TEXT "© 2026 DigiNova · CGV · Remboursements ·" 667x20 grow [Body/Small Inter 400 13/20] c#9CA3AF «© 2026 DigiNova · CGV · Remboursements · Aide : support@diginova.ci»
+    FRAM "Paiement/Orange Money" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#FF7900
+      TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#4B5563 «Orange Money»
+    FRAM "Paiement/MTN MoMo" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#FFCC00
+      TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#4B5563 «MTN MoMo»
+    FRAM "Paiement/Wave" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#1DC8F2
+      TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#4B5563 «Wave»
+    FRAM "Paiement/Moov Money" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#0066B3
+      TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#4B5563 «Moov Money»
+    FRAM "Paiement/Carte bancaire" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#635BFF
+      TEXT "Carte bancaire" 85x16 [Caption Inter 500 12/16] c#4B5563 «Carte bancaire»

@@ -1,0 +1,85 @@
+FRAM "67 · Mobile — studio créateur" 390x844 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC bd1#E5E7EB r40 shadow(0,24,60,-8,#121733/12%)
+  FRAM "Barre d’état" 388x48 row gap0 pad0/28/0/28 MIN/CEN stretch bg#FFFFFF
+    TEXT "9:41" 30x20 [Label/Default Inter 600 14/20] c#111827 «9:41»
+    FRAM "Row" 238x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 64x10 row gap5 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 16x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 14x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 24x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+  FRAM "Barre d’app" 388x56 row gap12 pad0/20/0/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB
+    TEXT "Studio" 298x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Studio»
+    FRAM "Row" 38x38 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r12
+      FRAM "icon/bell" 18x18
+  FRAM "Contenu" 388x659 col gap14 pad20/20/24/20 MIN/MIN grow stretch
+    FRAM "Stack" 348x162 col gap8 pad20/20/20/20 MIN/MIN stretch bg#1E1B4B r20
+      TEXT "Solde disponible" 102x20 [Body/Small Inter 400 13/20] c#C7D2FE «Solde disponible»
+      TEXT "312 000 FCFA" 256x48 [Heading/H1 Manrope 800 40/48] c#FFFFFF «312 000 FCFA»
+      FRAM "Row" 228x38 row gap8 pad6/0/0/0 MIN/CEN
+        FRAM "Bouton/Retirer" 86x32 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF r12
+          FRAM "icon/wallet" 15x15
+          TEXT "Retirer" 39x16 [Label/Small Inter 600 12/16] c#111827 «Retirer»
+        TEXT "+108 000 F en garantie" 134x16 [Caption Inter 500 12/16] c#A5B4FC «+108 000 F en garantie»
+    FRAM "Row" 348x102 row gap10 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Stack" 169x102 col gap4 pad14/14/14/14 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Ventes (30 j)" 75x16 [Caption Inter 500 12/16] c#4B5563 «Ventes (30 j)»
+        TEXT "84" 30x32 [Heading/H3 Manrope 700 24/32] c#111827 «84»
+        TEXT "+12" 22x16 [Caption Inter 500 12/16] c#16A34A «+12»
+      FRAM "Stack" 169x102 col gap4 pad14/14/14/14 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Revenus" 49x16 [Caption Inter 500 12/16] c#4B5563 «Revenus»
+        TEXT "420 k" 62x32 [Heading/H3 Manrope 700 24/32] c#111827 «420 k»
+        TEXT "+18 %" 35x16 [Caption Inter 500 12/16] c#16A34A «+18 %»
+    FRAM "Stack" 348x154 col gap10 pad16/16/16/16 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+      TEXT "Revenus — 14 derniers jours" 193x20 [Label/Default Inter 600 14/20] c#111827 «Revenus — 14 derniers jours»
+      FRAM "Frame" 318x90
+        RECT "Rectangle" 16x30 bg#EEEDFF r4
+        RECT "Rectangle" 16x45 bg#EEEDFF r4
+        RECT "Rectangle" 16x38 bg#EEEDFF r4
+        RECT "Rectangle" 16x52 bg#EEEDFF r4
+        RECT "Rectangle" 16x48 bg#EEEDFF r4
+        RECT "Rectangle" 16x60 bg#EEEDFF r4
+        RECT "Rectangle" 16x42 bg#EEEDFF r4
+        RECT "Rectangle" 16x66 bg#EEEDFF r4
+        RECT "Rectangle" 16x58 bg#EEEDFF r4
+        RECT "Rectangle" 16x70 bg#EEEDFF r4
+        RECT "Rectangle" 16x62 bg#EEEDFF r4
+        RECT "Rectangle" 16x74 bg#EEEDFF r4
+        RECT "Rectangle" 16x68 bg#EEEDFF r4
+        RECT "Rectangle" 16x82 bg#635BFF r4
+    TEXT "Ventes récentes" 142x26 [Heading/H4 Manrope 700 18/26] c#111827 «Ventes récentes»
+    FRAM "Row" 348x62 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r14
+      FRAM "Row" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+        TEXT "FD" 16x16 [Caption Inter 500 12/16] c#635BFF «FD»
+      FRAM "Stack" 209x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Template CV moderne" 130x16 [Label/Small Inter 600 12/16] c#111827 «Template CV moderne»
+        TEXT "Fatou D. · il y a 8 min" 118x16 [Caption Inter 500 12/16] c#9CA3AF «Fatou D. · il y a 8 min»
+      TEXT "+4 250 F" 53x16 [Label/Small Inter 600 12/16] c#16A34A «+4 250 F»
+    FRAM "Row" 348x62 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r14
+      FRAM "Row" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+        TEXT "KB" 16x16 [Caption Inter 500 12/16] c#635BFF «KB»
+      FRAM "Stack" 211x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Pack Canva restaurant" 132x16 [Label/Small Inter 600 12/16] c#111827 «Pack Canva restaurant»
+        TEXT "Koffi B. · il y a 1 h" 96x16 [Caption Inter 500 12/16] c#9CA3AF «Koffi B. · il y a 1 h»
+      TEXT "+5 100 F" 51x16 [Label/Small Inter 600 12/16] c#16A34A «+5 100 F»
+    FRAM "Row" 348x62 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r14
+      FRAM "Row" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+        TEXT "AS" 17x16 [Caption Inter 500 12/16] c#635BFF «AS»
+      FRAM "Stack" 211x34 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Excel Business" 87x16 [Label/Small Inter 600 12/16] c#111827 «Excel Business»
+        TEXT "Awa S. · il y a 3 h" 96x16 [Caption Inter 500 12/16] c#9CA3AF «Awa S. · il y a 3 h»
+      TEXT "+5 100 F" 51x16 [Label/Small Inter 600 12/16] c#16A34A «+5 100 F»
+  FRAM "Barre d’onglets" 388x79 row gap0 pad10/8/26/8 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/home" 22x22
+      TEXT "Accueil" 43x16 [Caption Inter 500 12/16] c#635BFF «Accueil»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/package" 22x22
+      TEXT "Produits" 48x16 [Caption Inter 500 12/16] c#9CA3AF «Produits»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/plus" 22x22
+      TEXT "Ajouter" 42x16 [Caption Inter 500 12/16] c#9CA3AF «Ajouter»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/wallet" 22x22
+      TEXT "Revenus" 49x16 [Caption Inter 500 12/16] c#9CA3AF «Revenus»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/user" 22x22
+      TEXT "Profil" 30x16 [Caption Inter 500 12/16] c#9CA3AF «Profil»

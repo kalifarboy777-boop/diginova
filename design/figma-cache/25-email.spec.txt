@@ -1,0 +1,33 @@
+FRAM "25 · Email de confirmation" 720x807 col gap0 pad0/0/0/0 MIN/MIN bg#F3F4F6
+  FRAM "Fond email" 720x807 col gap0 pad40/40/40/40 MIN/CEN
+    FRAM "Email" 600x727 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r20
+      FRAM "Row" 600x82 row gap0 pad24/32/24/32 MIN/CEN stretch bg#1E1B4B
+        FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+      FRAM "Stack" 600x551 col gap20 pad32/32/32/32 MIN/MIN stretch
+        TEXT "Merci pour votre achat, Aïcha !" 461x40 [Heading/H2 Manrope 700 32/40] c#111827 «Merci pour votre achat, Aïcha !»
+        TEXT "Votre paiement de 18 000 FCFA a bien été" 536x72 stretch [Body/Default Inter 400 15/24] c#4B5563 «Votre paiement de 18 000 FCFA a bien été reçu. Vos fichiers sont prêts : cliquez ci-dessous pour les télécharger. Ils restent aussi disponibles à vie dans votre bibliothèque.»
+        FRAM "Bouton/Télécharger mes fichiers" 536x52 row gap8 pad16/26/16/26 CEN/CEN stretch bg#635BFF r10
+          FRAM "icon/download" 18x18
+          TEXT "Télécharger mes fichiers" 168x20 [Label/Default Inter 600 14/20] c#FFFFFF «Télécharger mes fichiers»
+        FRAM "Récapitulatif commande" 536x223 col gap0 pad0/0/0/0 MIN/MIN stretch bd1#E5E7EB r12
+          FRAM "Row" 534x41 row gap0 pad12/16/12/16 MIN/MIN stretch bg#F8F9FC bd1#E5E7EB
+            TEXT "Commande DN-2026-004812 · 1 oct. 2026" 453x16 grow [Label/Small Inter 600 12/16] c#4B5563 «Commande DN-2026-004812 · 1 oct. 2026»
+            TEXT "Montant" 49x16 [Label/Small Inter 600 12/16] c#4B5563 «Montant»
+          FRAM "Row" 534x45 row gap0 pad12/16/12/16 MIN/MIN stretch bd1#E5E7EB
+            TEXT "Business Plan Pro — licence personnelle" 451x20 grow [Body/Small Inter 400 13/20] c#111827 «Business Plan Pro — licence personnelle»
+            TEXT "12 000 F" 51x16 [Label/Small Inter 600 12/16] c#111827 «12 000 F»
+          FRAM "Row" 534x45 row gap0 pad12/16/12/16 MIN/MIN stretch bd1#E5E7EB
+            TEXT "Dashboard Excel — gestion de stock" 457x20 grow [Body/Small Inter 400 13/20] c#111827 «Dashboard Excel — gestion de stock»
+            TEXT "8 000 F" 45x16 [Label/Small Inter 600 12/16] c#111827 «8 000 F»
+          FRAM "Row" 534x45 row gap0 pad12/16/12/16 MIN/MIN stretch bd1#E5E7EB
+            TEXT "Réduction LANCEMENT" 448x20 grow [Body/Small Inter 400 13/20] c#111827 «Réduction LANCEMENT»
+            TEXT "- 2 000 F" 54x16 [Label/Small Inter 600 12/16] c#111827 «- 2 000 F»
+          FRAM "Row" 534x45 row gap0 pad12/16/12/16 MIN/MIN stretch bd1#E5E7EB
+            TEXT "Total payé avec Wave" 427x20 grow [Body/Small Inter 400 13/20] c#111827 «Total payé avec Wave»
+            TEXT "18 000 FCFA" 75x16 [Label/Small Inter 600 12/16] c#111827 «18 000 FCFA»
+        FRAM "Row" 214x20 row gap8 pad0/0/0/0 MIN/CEN
+          FRAM "icon/file" 16x16
+          TEXT "Télécharger la facture (PDF)" 190x20 [Label/Default Inter 600 14/20] c#635BFF «Télécharger la facture (PDF)»
+      FRAM "Stack" 600x94 col gap6 pad20/32/20/32 MIN/MIN stretch bg#F8F9FC
+        TEXT "Une question ? Répondez à cet email ou é" 536x32 stretch [Caption Inter 500 12/16] c#9CA3AF «Une question ? Répondez à cet email ou écrivez-nous sur WhatsApp au +225 07 00 00 00 00.»
+        TEXT "DigiNova · Abidjan, Côte d’Ivoire" 184x16 [Caption Inter 500 12/16] c#9CA3AF «DigiNova · Abidjan, Côte d’Ivoire»

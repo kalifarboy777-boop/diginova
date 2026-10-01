@@ -1,0 +1,76 @@
+FRAM "10 · Connexion" 1440x980 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF
+  FRAM "Panneau marque" 620x980 col gap32 pad56/56/56/56 MIN/MIN stretch bg#1E1B4B
+    ELLI "Ellipse" 600x600 bg#635BFF/40%
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Stack" 100x236 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Collage produits" 508x250
+      FRAM "Visuel/grid" 204x162 bg#FCE7F3 bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+      FRAM "Visuel/sheet" 193x153 bg#DCFCE7 bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+      FRAM "Visuel/chart" 230x173 bg#EEEDFF bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+    TEXT "Le meilleur du digital, à portée de clic" 508x96 [Heading/H1 Manrope 800 40/48] c#FFFFFF «Le meilleur du digital, à portée de clic.»
+    FRAM "Stack" 419x124 col gap14 pad0/0/0/0 MIN/MIN
+      FRAM "Row" 419x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/phone" 16x16
+        TEXT "Payez en Orange Money, MTN, Wave, Moov o" 375x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Payez en Orange Money, MTN, Wave, Moov ou carte»
+      FRAM "Row" 346x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/zap" 16x16
+        TEXT "Téléchargement immédiat après paiement" 302x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Téléchargement immédiat après paiement»
+      FRAM "Row" 334x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/book" 16x16
+        TEXT "Vos achats à vie dans votre bibliothèque" 290x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Vos achats à vie dans votre bibliothèque»
+  FRAM "Zone formulaire" 820x980 col gap0 pad40/80/40/80 MIN/CEN grow stretch
+    FRAM "Barre haut" 660x100 row gap0 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Row" 158x20 row gap6 pad0/0/0/0 MIN/CEN
+        FRAM "icon/chevL" 16x16
+        TEXT "Retour à la boutique" 136x20 [Label/Default Inter 600 14/20] c#4B5563 «Retour à la boutique»
+      FRAM "Row" 453x100 row gap0 pad0/0/0/0 MIN/MIN grow
+      TEXT "FR · XOF" 49x16 [Label/Small Inter 600 12/16] c#9CA3AF «FR · XOF»
+    FRAM "Centre" 660x784 col gap0 pad0/0/0/0 CEN/CEN grow stretch
+      FRAM "Formulaire" 440x742 col gap20 pad0/0/0/0 MIN/MIN
+        TEXT "Bon retour parmi nous" 423x48 [Heading/H1 Manrope 800 40/48] c#111827 «Bon retour parmi nous»
+        TEXT "Connectez-vous pour retrouver vos achats" 440x56 stretch [Body/Large Inter 400 18/28] c#4B5563 «Connectez-vous pour retrouver vos achats et vos téléchargements.»
+        FRAM "Bouton/Continuer avec Google" 440x52 row gap10 pad15/24/15/24 CEN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+          FRAM "Row" 20x20 row gap0 pad0/0/0/0 CEN/CEN bd1#D1D5DB r999
+            TEXT "G" 10x16 [Label/Small Inter 600 12/16] c#4285F4 «G»
+          TEXT "Continuer avec Google" 155x20 [Label/Default Inter 600 14/20] c#111827 «Continuer avec Google»
+        FRAM "Séparateur" 440x16 row gap12 pad0/0/0/0 MIN/CEN stretch
+          FRAM "Row" 152x1 row gap0 pad0/0/0/0 MIN/MIN grow bg#E5E7EB
+          TEXT "ou avec votre email" 112x16 [Caption Inter 500 12/16] c#9CA3AF «ou avec votre email»
+          FRAM "Row" 152x1 row gap0 pad0/0/0/0 MIN/MIN grow bg#E5E7EB
+        FRAM "Choix email / téléphone" 440x48 row gap0 pad4/4/4/4 MIN/MIN stretch bg#F3F4F6 r12
+          FRAM "Row" 216x40 row gap0 pad10/0/10/0 CEN/MIN grow bg#FFFFFF r9 shadow(0,4,16,-4,#121733/6%)
+            TEXT "Email" 37x20 [Label/Default Inter 600 14/20] c#111827 «Email»
+          FRAM "Row" 216x40 row gap0 pad10/0/10/0 CEN/MIN grow r9
+            TEXT "Téléphone" 72x20 [Label/Default Inter 600 14/20] c#4B5563 «Téléphone»
+        FRAM "Champ/Adresse email" 440x78 col gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Row" 440x20 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Adresse email" 440x20 grow [Label/Default Inter 600 14/20] c#111827 «Adresse email»
+          FRAM "Input" 440x50 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/mail" 18x18
+            TEXT "aicha.kone@gmail.com" 382x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha.kone@gmail.com»
+        FRAM "Champ/Mot de passe" 440x78 col gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Row" 440x20 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Mot de passe" 313x20 grow [Label/Default Inter 600 14/20] c#111827 «Mot de passe»
+            TEXT "Mot de passe oublié ?" 127x16 [Label/Small Inter 600 12/16] c#635BFF «Mot de passe oublié ?»
+          FRAM "Input" 440x50 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd2#635BFF r10 shadow(0,0,0,4,#635CFF/18%)
+            FRAM "icon/lock" 18x18
+            TEXT "••••••••••" 352x24 grow [Body/Default Inter 400 15/24] c#111827 «••••••••••»
+            FRAM "icon/eye" 18x18
+        FRAM "Row" 258x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "Row" 18x18 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r5
+            FRAM "icon/check" 12x12
+          TEXT "Rester connecté sur cet appareil" 230x24 [Body/Default Inter 400 15/24] c#4B5563 «Rester connecté sur cet appareil»
+        FRAM "Bouton/Se connecter" 440x50 row gap10 pad15/24/15/24 CEN/CEN stretch bg#635BFF r10
+          TEXT "Se connecter" 90x20 [Label/Default Inter 600 14/20] c#FFFFFF «Se connecter»
+          FRAM "icon/arrow" 18x18
+        FRAM "Row" 440x68 row gap10 pad14/16/14/16 MIN/CEN stretch bg#EEEDFF r12
+          FRAM "icon/sparkle" 18x18
+          TEXT "Sans mot de passe : recevez un lien de c" 380x40 grow [Body/Small Inter 400 13/20] c#635BFF «Sans mot de passe : recevez un lien de connexion par email ou un code par SMS.»
+        FRAM "Row" 440x24 row gap6 pad0/0/0/0 CEN/MIN stretch
+          TEXT "Pas encore de compte ?" 171x24 [Body/Default Inter 400 15/24] c#4B5563 «Pas encore de compte ?»
+          TEXT "Créer un compte" 114x20 [Label/Default Inter 600 14/20] c#635BFF «Créer un compte»
+    FRAM "Row" 660x16 row gap0 pad0/0/0/0 CEN/MIN stretch
+      TEXT "Connexion chiffrée · CGU · Confidentiali" 240x16 [Caption Inter 500 12/16] c#9CA3AF «Connexion chiffrée · CGU · Confidentialité»

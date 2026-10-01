@@ -1,0 +1,475 @@
+FRAM "04 · Fiche produit" 1440x3976 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Header" 1440x76 row gap40 pad0/80/0/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Navigation" 507x24 row gap28 pad0/0/0/0 MIN/CEN
+      TEXT "Boutique" 61x20 [Label/Default Inter 600 14/20] c#635BFF «Boutique»
+      TEXT "Catégories" 79x24 [Body/Medium Inter 500 15/24] c#4B5563 «Catégories»
+      TEXT "Nouveautés" 86x24 [Body/Medium Inter 500 15/24] c#4B5563 «Nouveautés»
+      TEXT "Meilleures ventes" 126x24 [Body/Medium Inter 500 15/24] c#4B5563 «Meilleures ventes»
+      TEXT "Packs" 43x24 [Body/Medium Inter 500 15/24] c#4B5563 «Packs»
+    FRAM "Spacer" 1x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Recherche" 280x44 row gap10 pad0/14/0/14 MIN/CEN bg#F3F4F6 r10
+      FRAM "icon/search" 18x18
+      TEXT "Rechercher un produit…" 170x24 [Body/Default Inter 400 15/24] c#9CA3AF «Rechercher un produit…»
+    FRAM "Actions" 92x44 row gap4 pad0/0/0/0 MIN/CEN
+      FRAM "Favoris" 44x44 row gap0 pad0/0/0/0 CEN/CEN r10
+        FRAM "icon/heart" 20x20
+      FRAM "Panier" 44x44 row gap0 pad0/0/0/0 CEN/CEN r10
+        FRAM "icon/bag" 20x20
+        FRAM "Compteur" 18x18 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+          TEXT "2" 8x16 [Caption Inter 500 12/16] c#FFFFFF «2»
+    FRAM "Bouton/Connexion" 113x44 row gap8 pad12/20/12/20 CEN/CEN bg#111827 r10
+      TEXT "Connexion" 73x20 [Label/Default Inter 600 14/20] c#FFFFFF «Connexion»
+  FRAM "Fil" 1440x52 row gap0 pad24/80/8/80 MIN/MIN
+    FRAM "Fil d’Ariane" 476x20 row gap8 pad0/0/0/0 MIN/CEN
+      TEXT "Accueil" 45x20 [Body/Small Inter 400 13/20] c#9CA3AF «Accueil»
+      FRAM "icon/chevR" 14x14
+      TEXT "Boutique" 55x20 [Body/Small Inter 400 13/20] c#9CA3AF «Boutique»
+      FRAM "icon/chevR" 14x14
+      TEXT "Business" 55x20 [Body/Small Inter 400 13/20] c#9CA3AF «Business»
+      FRAM "icon/chevR" 14x14
+      TEXT "Business plans" 92x20 [Body/Small Inter 400 13/20] c#9CA3AF «Business plans»
+      FRAM "icon/chevR" 14x14
+      TEXT "Business Plan Pro" 109x20 [Body/Small Inter 400 13/20] c#111827 «Business Plan Pro»
+  FRAM "Haut de page" 1440x1058 row gap48 pad16/80/56/80 MIN/MIN
+    FRAM "Galerie" 680x620 col gap16 pad0/0/0/0 MIN/MIN
+      FRAM "Aperçu principal" 680x510 bg#EEEDFF r24
+        FRAM "Frame" 364x427 bg#FFFFFF/55% r19.4286
+        FRAM "Document" 364x427 bg#FFFFFF r19.4286 shadow(0,19.4286,48.5714,0,#121733/14%)
+          RECT "Rectangle" 168x19 bg#635BFF r9.71429
+          RECT "Rectangle" 245x12 bg#E5E7EB r7.28571
+          RECT "Rectangle" 47x133 bg#635BFF/35% r7.28571
+          RECT "Rectangle" 47x207 bg#635BFF/48% r7.28571
+          RECT "Rectangle" 47x163 bg#635BFF/61% r7.28571
+          RECT "Rectangle" 47x281 bg#635BFF/74% r7.28571
+          RECT "Rectangle" 47x237 bg#635BFF/87% r7.28571
+        FRAM "Badge/Best-seller" 84x24 row gap4 pad4/10/4/10 MIN/CEN bg#F59E0B r999
+          TEXT "Best-seller" 64x16 [Label/Small Inter 600 12/16] c#FFFFFF «Best-seller»
+        FRAM "Voir l’aperçu" 156x36 row gap8 pad10/14/10/14 MIN/CEN bg#FFFFFF r12 shadow(0,4,16,-4,#121733/6%)
+          FRAM "icon/eye" 16x16
+          TEXT "Feuilleter 6 pages" 104x16 [Label/Small Inter 600 12/16] c#111827 «Feuilleter 6 pages»
+        FRAM "Vidéo démo" 224x36 row gap8 pad10/14/10/14 MIN/CEN bg#111827 r12
+          FRAM "icon/play" 14x14
+          TEXT "Vidéo de démonstration · 1:24" 174x16 [Label/Small Inter 600 12/16] c#FFFFFF «Vidéo de démonstration · 1:24»
+      FRAM "Miniatures" 678x94 row gap12 pad0/0/0/0 MIN/MIN
+        FRAM "Visuel/chart" 126x94 bg#EEEDFF bd2#635BFF r12
+        FRAM "Visuel/doc" 126x94 bg#E0E7FF r12 op0.85
+        FRAM "Visuel/sheet" 126x94 bg#DCFCE7 r12 op0.85
+        FRAM "Visuel/book" 126x94 bg#FEF3C7 r12 op0.85
+        FRAM "Visuel/chat" 126x94 bg#E0F2FE r12 op0.85
+    FRAM "Bloc achat" 552x986 col gap24 pad0/0/0/0 MIN/MIN grow
+      TEXT "BUSINESS · BUSINESS PLANS" 179x16 [Overline Inter 700 11/16] c#635BFF «BUSINESS · BUSINESS PLANS»
+      TEXT "Business Plan Pro — modèle complet" 552x96 stretch [Heading/H1 Manrope 800 40/48] c#111827 «Business Plan Pro — modèle complet»
+      FRAM "Row" 284x20 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 98x18 row gap2 pad0/0/0/0 MIN/MIN
+          FRAM "icon/star" 18x18
+          FRAM "icon/star" 18x18
+          FRAM "icon/star" 18x18
+          FRAM "icon/star" 18x18
+          FRAM "icon/star" 18x18
+        TEXT "4,9" 23x20 [Label/Default Inter 600 14/20] c#111827 «4,9»
+        TEXT "127 avis · 1 240 ventes" 139x20 [Body/Small Inter 400 13/20] c#4B5563 «127 avis · 1 240 ventes»
+      FRAM "Créateur" 319x32 row gap10 pad0/0/0/0 MIN/CEN
+        FRAM "Avatar" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+          TEXT "DS" 17x16 [Caption Inter 500 12/16] c#FFFFFF «DS»
+        TEXT "par" 21x20 [Body/Small Inter 400 13/20] c#4B5563 «par»
+        TEXT "DigiNova Studio" 109x20 [Label/Default Inter 600 14/20] c#111827 «DigiNova Studio»
+        FRAM "Badge/Créateur vérifié" 127x24 row gap4 pad4/10/4/10 MIN/CEN bg#EEEDFF r999
+          FRAM "icon/check" 12x12
+          TEXT "Créateur vérifié" 91x16 [Label/Small Inter 600 12/16] c#635BFF «Créateur vérifié»
+      TEXT "Le business plan prêt à remplir qu’atten" 552x84 stretch [Body/Large Inter 400 18/28] c#4B5563 «Le business plan prêt à remplir qu’attendent les banques et les investisseurs : 42 pages structurées, prévisionnel financier sur 3 ans et 10 exemples adaptés au marché ouest-africain.»
+      FRAM "Choix de licence" 552x194 col gap10 pad0/0/0/0 MIN/MIN stretch
+        TEXT "Licence" 53x20 [Label/Default Inter 600 14/20] c#111827 «Licence»
+        FRAM "Licence/Personnelle" 552x78 row gap14 pad16/16/16/16 MIN/CEN stretch bg#EEEDFF bd2#635BFF r14
+          FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd6#635BFF r999
+          FRAM "Stack" 368x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Personnelle" 80x20 [Label/Default Inter 600 14/20] c#111827 «Personnelle»
+            TEXT "Pour votre propre entreprise" 174x20 [Body/Small Inter 400 13/20] c#4B5563 «Pour votre propre entreprise»
+          TEXT "12 000 FCFA" 100x24 [Price/Default Inter 700 16/24] c#111827 «12 000 FCFA»
+        FRAM "Licence/Commerciale" 552x76 row gap14 pad16/16/16/16 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r14
+          FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+          FRAM "Stack" 369x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Commerciale" 90x20 [Label/Default Inter 600 14/20] c#111827 «Commerciale»
+            TEXT "Pour vos clients (consultants, agences)" 241x20 [Body/Small Inter 400 13/20] c#4B5563 «Pour vos clients (consultants, agences)»
+          TEXT "18 000 FCFA" 101x24 [Price/Default Inter 700 16/24] c#111827 «18 000 FCFA»
+      FRAM "Row" 491x36 row gap12 pad0/0/0/0 MIN/CEN
+        TEXT "12 000 FCFA" 184x36 [Price/Large Inter 700 30/36] c#111827 «12 000 FCFA»
+        TEXT "18 000 FCFA" 109x28 [Body/Large Inter 400 18/28] c#9CA3AF «18 000 FCFA»
+        FRAM "Badge/-33 % · offre de lancement" 174x24 row gap4 pad4/10/4/10 MIN/CEN bg#FEE2E2 r999
+          TEXT "-33 % · offre de lancement" 154x16 [Label/Small Inter 600 12/16] c#DC2626 «-33 % · offre de lancement»
+      FRAM "Stack" 552x120 col gap12 pad0/0/0/0 MIN/MIN stretch
+        FRAM "Bouton/Acheter maintenant" 552x52 row gap8 pad16/26/16/26 CEN/CEN stretch bg#635BFF r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#FFFFFF «Acheter maintenant»
+        FRAM "Row" 552x56 row gap12 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Ajouter au panier" 416x54 row gap8 pad16/26/16/26 CEN/CEN grow bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/bag" 18x18
+            TEXT "Ajouter au panier" 117x20 [Label/Default Inter 600 14/20] c#111827 «Ajouter au panier»
+          FRAM "Row" 56x56 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/heart" 20x20
+          FRAM "Row" 56x56 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/share" 20x20
+      FRAM "Garanties" 552x104 row gap16 pad20/20/20/20 MIN/MIN wrap stretch bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 240x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "icon/zap" 18x18
+          TEXT "Téléchargement immédiat" 187x24 [Body/Medium Inter 500 15/24] c#111827 «Téléchargement immédiat»
+        FRAM "Row" 240x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "icon/book" 18x18
+          TEXT "Accès à vie" 82x24 [Body/Medium Inter 500 15/24] c#111827 «Accès à vie»
+        FRAM "Row" 240x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "icon/refresh" 18x18
+          TEXT "Mises à jour incluses" 149x24 [Body/Medium Inter 500 15/24] c#111827 «Mises à jour incluses»
+        FRAM "Row" 240x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "icon/shield" 18x18
+          TEXT "Remboursé sous 7 jours" 172x24 [Body/Medium Inter 500 15/24] c#111827 «Remboursé sous 7 jours»
+      FRAM "Row" 552x68 row gap8 pad0/0/0/0 MIN/CEN wrap stretch
+        FRAM "icon/lock" 14x14
+        TEXT "Paiement sécurisé" 106x16 [Caption Inter 500 12/16] c#4B5563 «Paiement sécurisé»
+        FRAM "Paiement/Orange Money" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#FF7900
+          TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#4B5563 «Orange Money»
+        FRAM "Paiement/MTN MoMo" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#FFCC00
+          TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#4B5563 «MTN MoMo»
+        FRAM "Paiement/Wave" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#1DC8F2
+          TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#4B5563 «Wave»
+        FRAM "Paiement/Moov Money" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#0066B3
+          TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#4B5563 «Moov Money»
+        FRAM "Paiement/Carte bancaire" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#635BFF
+          TEXT "Carte bancaire" 85x16 [Caption Inter 500 12/16] c#4B5563 «Carte bancaire»
+  FRAM "Onglets" 1440x64 row gap32 pad0/80/0/80 MIN/MIN bg#FFFFFF bd1#E5E7EB
+    FRAM "Onglet/Description" 79x60 col gap0 pad20/0/18/0 MIN/MIN bd2#635BFF
+      TEXT "Description" 79x20 [Label/Default Inter 600 14/20] c#635BFF «Description»
+    FRAM "Onglet/Contenu du pack" 123x62 col gap0 pad20/0/18/0 MIN/MIN
+      TEXT "Contenu du pack" 123x24 [Body/Medium Inter 500 15/24] c#4B5563 «Contenu du pack»
+    FRAM "Onglet/Fiche technique" 115x62 col gap0 pad20/0/18/0 MIN/MIN
+      TEXT "Fiche technique" 115x24 [Body/Medium Inter 500 15/24] c#4B5563 «Fiche technique»
+    FRAM "Onglet/Avis (127)" 71x62 col gap0 pad20/0/18/0 MIN/MIN
+      TEXT "Avis (127)" 71x24 [Body/Medium Inter 500 15/24] c#4B5563 «Avis (127)»
+    FRAM "Onglet/FAQ" 29x62 col gap0 pad20/0/18/0 MIN/MIN
+      TEXT "FAQ" 29x24 [Body/Medium Inter 500 15/24] c#4B5563 «FAQ»
+  FRAM "Détails" 1440x826 row gap48 pad48/80/48/80 MIN/MIN
+    FRAM "Stack" 760x727 col gap32 pad0/0/0/0 MIN/MIN
+      FRAM "Ce que vous obtenez" 760x495 col gap8 pad28/28/28/28 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r20
+        TEXT "Ce que vous obtenez" 240x32 [Heading/H3 Manrope 700 24/32] c#111827 «Ce que vous obtenez»
+        FRAM "Row" 702x73 row gap16 pad14/0/14/0 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Row" 44x44 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+            FRAM "icon/file" 20x20
+          FRAM "Stack" 538x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Modèle de business plan" 168x20 [Label/Default Inter 600 14/20] c#111827 «Modèle de business plan»
+            TEXT "42 pages structurées, prêtes à remplir" 235x20 [Body/Small Inter 400 13/20] c#4B5563 «42 pages structurées, prêtes à remplir»
+          FRAM "Badge/DOCX · PDF" 88x24 row gap4 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+            TEXT "DOCX · PDF" 68x16 [Label/Small Inter 600 12/16] c#4B5563 «DOCX · PDF»
+        FRAM "Row" 702x73 row gap16 pad14/0/14/0 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Row" 44x44 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+            FRAM "icon/file" 20x20
+          FRAM "Stack" 574x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Prévisionnel financier sur 3 ans" 212x20 [Label/Default Inter 600 14/20] c#111827 «Prévisionnel financier sur 3 ans»
+            TEXT "Compte de résultat, trésorerie, seuil de" 392x20 [Body/Small Inter 400 13/20] c#4B5563 «Compte de résultat, trésorerie, seuil de rentabilité automatiques»
+          FRAM "Badge/XLSX" 52x24 row gap4 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+            TEXT "XLSX" 32x16 [Label/Small Inter 600 12/16] c#4B5563 «XLSX»
+        FRAM "Row" 702x73 row gap16 pad14/0/14/0 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Row" 44x44 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+            FRAM "icon/book" 20x20
+          FRAM "Stack" 582x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Guide de rédaction" 129x20 [Label/Default Inter 600 14/20] c#111827 «Guide de rédaction»
+            TEXT "28 pages de conseils et d’exemples rédig" 267x20 [Body/Small Inter 400 13/20] c#4B5563 «28 pages de conseils et d’exemples rédigés»
+          FRAM "Badge/PDF" 44x24 row gap4 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+            TEXT "PDF" 24x16 [Label/Small Inter 600 12/16] c#4B5563 «PDF»
+        FRAM "Row" 702x73 row gap16 pad14/0/14/0 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Row" 44x44 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+            FRAM "icon/file" 20x20
+          FRAM "Stack" 570x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "10 exemples sectoriels" 155x20 [Label/Default Inter 600 14/20] c#111827 «10 exemples sectoriels»
+            TEXT "Commerce, restauration, transport, agric" 355x20 [Body/Small Inter 400 13/20] c#4B5563 «Commerce, restauration, transport, agriculture, services…»
+          FRAM "Badge/DOCX" 56x24 row gap4 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+            TEXT "DOCX" 36x16 [Label/Small Inter 600 12/16] c#4B5563 «DOCX»
+        FRAM "Row" 702x73 row gap16 pad14/0/14/0 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Row" 44x44 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+            FRAM "icon/sparkle" 20x20
+          FRAM "Stack" 528x42 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Bonus : pitch deck investisseurs" 218x20 [Label/Default Inter 600 14/20] c#111827 «Bonus : pitch deck investisseurs»
+            TEXT "12 slides au format présentation" 197x20 [Body/Small Inter 400 13/20] c#4B5563 «12 slides au format présentation»
+          FRAM "Badge/PPTX · Canva" 98x24 row gap4 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+            TEXT "PPTX · Canva" 78x16 [Label/Small Inter 600 12/16] c#4B5563 «PPTX · Canva»
+      FRAM "Description" 760x200 col gap14 pad0/0/0/0 MIN/MIN stretch
+        TEXT "Description" 135x32 [Heading/H3 Manrope 700 24/32] c#111827 «Description»
+        TEXT "Rédiger un business plan prend des semai" 760x84 stretch [Body/Large Inter 400 18/28] c#4B5563 «Rédiger un business plan prend des semaines. Ce modèle vous guide section par section : résumé exécutif, étude de marché, stratégie commerciale, organisation et plan de financement.»
+        TEXT "Le prévisionnel Excel calcule automatiqu" 760x56 stretch [Body/Large Inter 400 18/28] c#4B5563 «Le prévisionnel Excel calcule automatiquement vos marges, votre trésorerie et votre seuil de rentabilité en FCFA. Il suffit de saisir vos hypothèses de ventes et de charges.»
+    FRAM "Stack" 472x730 col gap24 pad0/0/0/0 MIN/MIN
+      FRAM "Fiche technique" 472x402 col gap12 pad28/28/28/28 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r20
+        TEXT "Fiche technique" 140x26 [Heading/H4 Manrope 700 18/26] c#111827 «Fiche technique»
+        FRAM "Row" 414x41 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+          TEXT "Format" 277x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Format»
+          TEXT "ZIP · DOCX · XLSX · PDF" 137x16 [Label/Small Inter 600 12/16] c#111827 «ZIP · DOCX · XLSX · PDF»
+        FRAM "Row" 414x41 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+          TEXT "Taille" 372x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Taille»
+          TEXT "125 Mo" 42x16 [Label/Small Inter 600 12/16] c#111827 «125 Mo»
+        FRAM "Row" 414x41 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+          TEXT "Version" 230x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Version»
+          TEXT "2.1 · mise à jour le 12 sept. 2026" 184x16 [Label/Small Inter 600 12/16] c#111827 «2.1 · mise à jour le 12 sept. 2026»
+        FRAM "Row" 414x41 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+          TEXT "Compatibilité" 195x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Compatibilité»
+          TEXT "Word, Excel, Google Docs, LibreOffice" 219x16 [Label/Small Inter 600 12/16] c#111827 «Word, Excel, Google Docs, LibreOffice»
+        FRAM "Row" 414x41 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+          TEXT "Langue" 364x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Langue»
+          TEXT "Français" 50x16 [Label/Small Inter 600 12/16] c#111827 «Français»
+        FRAM "Row" 414x41 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+          TEXT "Licence" 250x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Licence»
+          TEXT "Personnelle ou commerciale" 164x16 [Label/Small Inter 600 12/16] c#111827 «Personnelle ou commerciale»
+      FRAM "Le créateur" 472x260 col gap16 pad28/28/28/28 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r20
+        FRAM "Row" 258x56 row gap14 pad0/0/0/0 MIN/CEN
+          FRAM "Avatar" 56x56 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+            TEXT "DS" 20x20 [Label/Default Inter 600 14/20] c#FFFFFF «DS»
+          FRAM "Stack" 188x50 col gap4 pad0/0/0/0 MIN/MIN
+            FRAM "Row" 162x26 row gap6 pad0/0/0/0 MIN/CEN
+              TEXT "DigiNova Studio" 140x26 [Heading/H4 Manrope 700 18/26] c#111827 «DigiNova Studio»
+              FRAM "icon/shield" 16x16
+            TEXT "Abidjan · membre depuis 2026" 188x20 [Body/Small Inter 400 13/20] c#4B5563 «Abidjan · membre depuis 2026»
+        FRAM "Row" 414x68 row gap12 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Stack" 130x68 col gap2 pad12/12/12/12 MIN/MIN grow bg#F8F9FC r12
+            TEXT "42" 22x26 [Heading/H4 Manrope 700 18/26] c#111827 «42»
+            TEXT "produits" 48x16 [Caption Inter 500 12/16] c#4B5563 «produits»
+          FRAM "Stack" 130x68 col gap2 pad12/12/12/12 MIN/MIN grow bg#F8F9FC r12
+            TEXT "4,8 ★" 48x26 [Heading/H4 Manrope 700 18/26] c#111827 «4,8 ★»
+            TEXT "note moyenne" 82x16 [Caption Inter 500 12/16] c#4B5563 «note moyenne»
+          FRAM "Stack" 130x68 col gap2 pad12/12/12/12 MIN/MIN grow bg#F8F9FC r12
+            TEXT "3,1 k" 35x26 [Heading/H4 Manrope 700 18/26] c#111827 «3,1 k»
+            TEXT "ventes" 39x16 [Caption Inter 500 12/16] c#4B5563 «ventes»
+        FRAM "Bouton/Voir la boutique du créateur" 414x46 row gap8 pad12/20/12/20 CEN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+          TEXT "Voir la boutique du créateur" 188x20 [Label/Default Inter 600 14/20] c#111827 «Voir la boutique du créateur»
+      FRAM "Row" 146x20 row gap8 pad0/4/0/4 MIN/CEN
+        FRAM "icon/flag" 14x14
+        TEXT "Signaler ce produit" 116x20 [Body/Small Inter 400 13/20] c#9CA3AF «Signaler ce produit»
+  FRAM "Avis" 1440x496 col gap32 pad48/80/48/80 MIN/MIN bg#FFFFFF
+    FRAM "Row" 1280x70 row gap0 pad0/0/0/0 MIN/MAX stretch
+      FRAM "Stack" 1121x70 col gap6 pad0/0/0/0 MIN/MIN grow
+        TEXT "Avis des acheteurs" 286x40 [Heading/H2 Manrope 700 32/40] c#111827 «Avis des acheteurs»
+        TEXT "Seuls les clients ayant acheté ce produi" 692x24 [Body/Default Inter 400 15/24] c#4B5563 «Seuls les clients ayant acheté ce produit peuvent laisser un avis. Avis d’exemple pour la maquette.»
+      FRAM "Bouton/Écrire un avis" 159x46 row gap8 pad12/20/12/20 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+        FRAM "icon/pen" 18x18
+        TEXT "Écrire un avis" 91x20 [Label/Default Inter 600 14/20] c#111827 «Écrire un avis»
+    FRAM "Row" 1280x298 row gap48 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Synthèse" 360x264 col gap12 pad28/28/28/28 MIN/MIN bg#F8F9FC r20
+        FRAM "Row" 200x68 row gap12 pad0/0/0/0 MIN/CEN
+          TEXT "4,9" 90x68 [Display/Hero Manrope 800 60/68] c#111827 «4,9»
+          FRAM "Stack" 98x40 col gap4 pad0/0/0/0 MIN/MIN
+            FRAM "Row" 88x16 row gap2 pad0/0/0/0 MIN/MIN
+              FRAM "icon/star" 16x16
+              FRAM "icon/star" 16x16
+              FRAM "icon/star" 16x16
+              FRAM "icon/star" 16x16
+              FRAM "icon/star" 16x16
+            TEXT "127 avis vérifiés" 98x20 [Body/Small Inter 400 13/20] c#4B5563 «127 avis vérifiés»
+        FRAM "Row" 293x16 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "5 ★" 24x16 [Label/Small Inter 600 12/16] c#4B5563 «5 ★»
+          FRAM "Frame" 220x8 bg#E5E7EB r4
+            RECT "Rectangle" 194x8 bg#F59E0B r4
+          TEXT "88 %" 29x16 [Caption Inter 500 12/16] c#9CA3AF «88 %»
+        FRAM "Row" 285x16 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "4 ★" 24x16 [Label/Small Inter 600 12/16] c#4B5563 «4 ★»
+          FRAM "Frame" 220x8 bg#E5E7EB r4
+            RECT "Rectangle" 20x8 bg#F59E0B r4
+          TEXT "9 %" 21x16 [Caption Inter 500 12/16] c#9CA3AF «9 %»
+        FRAM "Row" 285x16 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "3 ★" 24x16 [Label/Small Inter 600 12/16] c#4B5563 «3 ★»
+          FRAM "Frame" 220x8 bg#E5E7EB r4
+            RECT "Rectangle" 4x8 bg#F59E0B r4
+          TEXT "2 %" 21x16 [Caption Inter 500 12/16] c#9CA3AF «2 %»
+        FRAM "Row" 282x16 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "2 ★" 23x16 [Label/Small Inter 600 12/16] c#4B5563 «2 ★»
+          FRAM "Frame" 220x8 bg#E5E7EB r4
+            RECT "Rectangle" 2x8 bg#F59E0B r4
+          TEXT "1 %" 19x16 [Caption Inter 500 12/16] c#9CA3AF «1 %»
+        FRAM "Row" 283x16 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "1 ★" 22x16 [Label/Small Inter 600 12/16] c#4B5563 «1 ★»
+          FRAM "Frame" 220x8 bg#E5E7EB r4
+          TEXT "0 %" 21x16 [Caption Inter 500 12/16] c#9CA3AF «0 %»
+      FRAM "Stack" 872x298 col gap0 pad0/0/0/0 MIN/MIN grow
+        FRAM "Stack" 872x127 col gap12 pad24/0/24/0 MIN/MIN stretch bd1#E5E7EB
+          FRAM "Row" 872x42 row gap12 pad0/0/0/0 MIN/CEN stretch
+            FRAM "Avatar" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+              TEXT "AK" 20x20 [Label/Default Inter 600 14/20] c#FFFFFF «AK»
+            FRAM "Stack" 730x42 col gap2 pad0/0/0/0 MIN/MIN grow
+              FRAM "Row" 192x24 row gap8 pad0/0/0/0 MIN/CEN
+                TEXT "Aminata K." 74x20 [Label/Default Inter 600 14/20] c#111827 «Aminata K.»
+                FRAM "Badge/Achat vérifié" 110x24 row gap4 pad4/10/4/10 MIN/CEN bg#DCFCE7 r999
+                  FRAM "icon/check" 12x12
+                  TEXT "Achat vérifié" 74x16 [Label/Small Inter 600 12/16] c#16A34A «Achat vérifié»
+              TEXT "il y a 3 jours" 69x16 [Caption Inter 500 12/16] c#9CA3AF «il y a 3 jours»
+            FRAM "Row" 78x14 row gap2 pad0/0/0/0 MIN/MIN
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+          TEXT "Présenté à ma banque sans rien refaire. " 872x24 stretch [Body/Default Inter 400 15/24] c#4B5563 «Présenté à ma banque sans rien refaire. Le prévisionnel Excel m’a évité de payer un consultant.»
+        FRAM "Stack" 872x127 col gap12 pad24/0/24/0 MIN/MIN stretch bd1#E5E7EB
+          FRAM "Row" 872x42 row gap12 pad0/0/0/0 MIN/CEN stretch
+            FRAM "Avatar" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+              TEXT "ST" 19x20 [Label/Default Inter 600 14/20] c#FFFFFF «ST»
+            FRAM "Stack" 730x42 col gap2 pad0/0/0/0 MIN/MIN grow
+              FRAM "Row" 174x24 row gap8 pad0/0/0/0 MIN/CEN
+                TEXT "Serge T." 56x20 [Label/Default Inter 600 14/20] c#111827 «Serge T.»
+                FRAM "Badge/Achat vérifié" 110x24 row gap4 pad4/10/4/10 MIN/CEN bg#DCFCE7 r999
+                  FRAM "icon/check" 12x12
+                  TEXT "Achat vérifié" 74x16 [Label/Small Inter 600 12/16] c#16A34A «Achat vérifié»
+              TEXT "il y a 2 semaines" 95x16 [Caption Inter 500 12/16] c#9CA3AF «il y a 2 semaines»
+            FRAM "Row" 78x14 row gap2 pad0/0/0/0 MIN/MIN
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+              FRAM "icon/star" 14x14
+          TEXT "Très complet. Les exemples sectoriels m’" 872x24 stretch [Body/Default Inter 400 15/24] c#4B5563 «Très complet. Les exemples sectoriels m’ont aidé pour mon projet de transport. J’aurais aimé un exemple agricole de plus.»
+        FRAM "Bouton/Voir les 127 avis" 174x44 row gap8 pad12/20/12/20 CEN/CEN r10
+          TEXT "Voir les 127 avis" 108x20 [Label/Default Inter 600 14/20] c#635BFF «Voir les 127 avis»
+          FRAM "icon/arrow" 18x18
+  FRAM "FAQ & bundle" 1440x526 row gap48 pad56/80/56/80 MIN/MIN
+    FRAM "FAQ" 760x370 col gap12 pad0/0/0/0 MIN/MIN
+      TEXT "Questions fréquentes" 253x32 [Heading/H3 Manrope 700 24/32] c#111827 «Questions fréquentes»
+      FRAM "Stack" 760x116 col gap10 pad18/20/18/20 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 718x20 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Comment vais-je recevoir le fichier ?" 700x20 grow [Label/Default Inter 600 14/20] c#111827 «Comment vais-je recevoir le fichier ?»
+          FRAM "icon/chevU" 18x18
+        TEXT "Dès la confirmation du paiement, un bout" 718x48 stretch [Body/Default Inter 400 15/24] c#4B5563 «Dès la confirmation du paiement, un bouton de téléchargement s’affiche, un email vous est envoyé et le produit est ajouté à votre bibliothèque, accessible à vie.»
+      FRAM "Stack" 760x58 col gap10 pad18/20/18/20 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 718x20 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Puis-je l’utiliser pour mes clients ?" 700x20 grow [Label/Default Inter 600 14/20] c#111827 «Puis-je l’utiliser pour mes clients ?»
+          FRAM "icon/chevD" 18x18
+      FRAM "Stack" 760x58 col gap10 pad18/20/18/20 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 718x20 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Le modèle fonctionne-t-il sur Google Doc" 700x20 grow [Label/Default Inter 600 14/20] c#111827 «Le modèle fonctionne-t-il sur Google Docs ?»
+          FRAM "icon/chevD" 18x18
+      FRAM "Stack" 760x58 col gap10 pad18/20/18/20 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 718x20 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Que se passe-t-il si le fichier est défe" 700x20 grow [Label/Default Inter 600 14/20] c#111827 «Que se passe-t-il si le fichier est défectueux ?»
+          FRAM "icon/chevD" 18x18
+    FRAM "Souvent achetés ensemble" 472x414 col gap16 pad28/28/28/28 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r20
+      TEXT "Souvent achetés ensemble" 238x26 [Heading/H4 Manrope 700 18/26] c#111827 «Souvent achetés ensemble»
+      FRAM "Row" 400x81 row gap10 pad0/0/0/0 MIN/CEN
+        FRAM "Visuel/chart" 108x81 bg#EEEDFF r10
+        FRAM "icon/plus" 18x18
+        FRAM "Visuel/sheet" 108x81 bg#DCFCE7 r10
+        FRAM "icon/plus" 18x18
+        FRAM "Visuel/doc" 108x81 bg#E0E7FF r10
+      FRAM "Row" 414x24 row gap10 pad0/0/0/0 MIN/CEN stretch
+        FRAM "Row" 18x18 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r5
+          FRAM "icon/check" 12x12
+        TEXT "Business Plan Pro" 317x24 grow [Body/Default Inter 400 15/24] c#111827 «Business Plan Pro»
+        TEXT "12 000 F" 59x20 [Label/Default Inter 600 14/20] c#111827 «12 000 F»
+      FRAM "Row" 414x24 row gap10 pad0/0/0/0 MIN/CEN stretch
+        FRAM "Row" 18x18 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r5
+          FRAM "icon/check" 12x12
+        TEXT "Dashboard Excel — stock" 323x24 grow [Body/Default Inter 400 15/24] c#111827 «Dashboard Excel — stock»
+        TEXT "8 000 F" 53x20 [Label/Default Inter 600 14/20] c#111827 «8 000 F»
+      FRAM "Row" 414x24 row gap10 pad0/0/0/0 MIN/CEN stretch
+        FRAM "Row" 18x18 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r5
+          FRAM "icon/check" 12x12
+        TEXT "Modèles de factures OHADA" 323x24 grow [Body/Default Inter 400 15/24] c#111827 «Modèles de factures OHADA»
+        TEXT "5 000 F" 53x20 [Label/Default Inter 600 14/20] c#111827 «5 000 F»
+      FRAM "Row" 414x37 row gap8 pad12/0/0/0 MIN/CEN stretch bd1#E5E7EB
+        TEXT "Total pour les 3" 256x24 grow [Body/Medium Inter 500 15/24] c#111827 «Total pour les 3»
+        TEXT "25 000" 44x20 [Body/Small Inter 400 13/20] c#9CA3AF «25 000»
+        TEXT "21 250 FCFA" 98x24 [Price/Default Inter 700 16/24] c#635BFF «21 250 FCFA»
+      FRAM "Bouton/Ajouter les 3 au panier" 414x44 row gap8 pad12/20/12/20 CEN/CEN stretch bg#111827 r10
+        FRAM "icon/bag" 18x18
+        TEXT "Ajouter les 3 au panier" 152x20 [Label/Default Inter 600 14/20] c#FFFFFF «Ajouter les 3 au panier»
+  FRAM "Produits similaires" 1440x491 col gap24 pad16/80/72/80 MIN/MIN
+    TEXT "Vous aimerez aussi" 290x40 [Heading/H2 Manrope 700 32/40] c#111827 «Vous aimerez aussi»
+    FRAM "Row" 1280x339 row gap24 pad0/0/0/0 MIN/MIN
+      FRAM "Carte produit" 302x339 col gap14 pad0/0/0/0 MIN/MIN
+        FRAM "Visuel/sheet" 302x227 bg#DCFCE7 r12
+        FRAM "Infos" 302x98 col gap6 pad0/0/0/0 MIN/MIN stretch
+          TEXT "BUSINESS" 61x16 [Overline Inter 700 11/16] c#9CA3AF «BUSINESS»
+          TEXT "Dashboard Excel — gestion de stock" 302x24 stretch [Body/Medium Inter 500 15/24] c#111827 «Dashboard Excel — gestion de stock»
+          FRAM "Note" 66x16 row gap4 pad0/0/0/0 MIN/CEN
+            FRAM "icon/star" 14x14
+            TEXT "4,7" 19x16 [Label/Small Inter 600 12/16] c#111827 «4,7»
+            TEXT "(68)" 25x16 [Caption Inter 500 12/16] c#9CA3AF «(68)»
+          FRAM "Prix" 143x24 row gap8 pad0/0/0/0 MIN/CEN
+            TEXT "8 000 FCFA" 93x24 [Price/Default Inter 700 16/24] c#111827 «8 000 FCFA»
+            TEXT "12 000" 42x20 [Body/Small Inter 400 13/20] c#9CA3AF «12 000»
+      FRAM "Carte produit" 302x339 col gap14 pad0/0/0/0 MIN/MIN
+        FRAM "Visuel/book" 302x227 bg#FEF3C7 r12
+        FRAM "Infos" 302x98 col gap6 pad0/0/0/0 MIN/MIN stretch
+          TEXT "E-BOOKS" 57x16 [Overline Inter 700 11/16] c#9CA3AF «E-BOOKS»
+          TEXT "Guide : lancer sa boutique en ligne" 302x24 stretch [Body/Medium Inter 500 15/24] c#111827 «Guide : lancer sa boutique en ligne»
+          FRAM "Note" 66x16 row gap4 pad0/0/0/0 MIN/CEN
+            FRAM "icon/star" 14x14
+            TEXT "4,9" 19x16 [Label/Small Inter 600 12/16] c#111827 «4,9»
+            TEXT "(88)" 25x16 [Caption Inter 500 12/16] c#9CA3AF «(88)»
+          FRAM "Prix" 92x24 row gap8 pad0/0/0/0 MIN/CEN
+            TEXT "4 500 FCFA" 92x24 [Price/Default Inter 700 16/24] c#111827 «4 500 FCFA»
+      FRAM "Carte produit" 302x339 col gap14 pad0/0/0/0 MIN/MIN
+        FRAM "Visuel/chat" 302x227 bg#E0F2FE r12
+        FRAM "Infos" 302x98 col gap6 pad0/0/0/0 MIN/MIN stretch
+          TEXT "IA" 13x16 [Overline Inter 700 11/16] c#9CA3AF «IA»
+          TEXT "Pack 500 prompts IA pour entrepreneurs" 302x24 stretch [Body/Medium Inter 500 15/24] c#111827 «Pack 500 prompts IA pour entrepreneurs»
+          FRAM "Note" 71x16 row gap4 pad0/0/0/0 MIN/CEN
+            FRAM "icon/star" 14x14
+            TEXT "4,9" 19x16 [Label/Small Inter 600 12/16] c#111827 «4,9»
+            TEXT "(212)" 30x16 [Caption Inter 500 12/16] c#9CA3AF «(212)»
+          FRAM "Prix" 91x24 row gap8 pad0/0/0/0 MIN/CEN
+            TEXT "7 500 FCFA" 91x24 [Price/Default Inter 700 16/24] c#111827 «7 500 FCFA»
+      FRAM "Carte produit" 302x339 col gap14 pad0/0/0/0 MIN/MIN
+        FRAM "Visuel/notion" 302x227 bg#F3F4F6 r12
+        FRAM "Infos" 302x98 col gap6 pad0/0/0/0 MIN/MIN stretch
+          TEXT "PRODUCTIVITÉ" 93x16 [Overline Inter 700 11/16] c#9CA3AF «PRODUCTIVITÉ»
+          TEXT "Planner Notion de l’entrepreneur" 302x24 stretch [Body/Medium Inter 500 15/24] c#111827 «Planner Notion de l’entrepreneur»
+          FRAM "Note" 64x16 row gap4 pad0/0/0/0 MIN/CEN
+            FRAM "icon/star" 14x14
+            TEXT "4,6" 19x16 [Label/Small Inter 600 12/16] c#111827 «4,6»
+            TEXT "(41)" 23x16 [Caption Inter 500 12/16] c#9CA3AF «(41)»
+          FRAM "Prix" 93x24 row gap8 pad0/0/0/0 MIN/CEN
+            TEXT "6 000 FCFA" 93x24 [Price/Default Inter 700 16/24] c#111827 «6 000 FCFA»
+  FRAM "Footer" 1440x387 col gap48 pad64/80/40/80 MIN/MIN bg#0B0F1A
+    FRAM "Colonnes" 1280x180 row gap48 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Stack" 320x110 col gap16 pad0/0/0/0 MIN/MIN
+        FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+        TEXT "Le meilleur du digital, à portée de clic" 300x60 [Body/Small Inter 400 13/20] c#9CA3AF «Le meilleur du digital, à portée de clic. Des ressources professionnelles payables en Mobile Money et livrées instantanément.»
+      FRAM "Stack" 192x180 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Explorer" 57x20 [Label/Default Inter 600 14/20] c#FFFFFF «Explorer»
+        TEXT "Boutique" 55x20 [Body/Small Inter 400 13/20] c#9CA3AF «Boutique»
+        TEXT "Nouveautés" 74x20 [Body/Small Inter 400 13/20] c#9CA3AF «Nouveautés»
+        TEXT "Meilleures ventes" 108x20 [Body/Small Inter 400 13/20] c#9CA3AF «Meilleures ventes»
+        TEXT "Packs" 37x20 [Body/Small Inter 400 13/20] c#9CA3AF «Packs»
+        TEXT "Produits gratuits" 102x20 [Body/Small Inter 400 13/20] c#9CA3AF «Produits gratuits»
+      FRAM "Stack" 192x148 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Créateurs" 68x20 [Label/Default Inter 600 14/20] c#FFFFFF «Créateurs»
+        TEXT "Devenir créateur" 102x20 [Body/Small Inter 400 13/20] c#9CA3AF «Devenir créateur»
+        TEXT "Studio créateur" 95x20 [Body/Small Inter 400 13/20] c#9CA3AF «Studio créateur»
+        TEXT "Guide du vendeur" 110x20 [Body/Small Inter 400 13/20] c#9CA3AF «Guide du vendeur»
+        TEXT "Commissions" 82x20 [Body/Small Inter 400 13/20] c#9CA3AF «Commissions»
+      FRAM "Stack" 192x148 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Aide" 31x20 [Label/Default Inter 600 14/20] c#FFFFFF «Aide»
+        TEXT "Centre d’aide" 81x20 [Body/Small Inter 400 13/20] c#9CA3AF «Centre d’aide»
+        TEXT "Téléchargements" 106x20 [Body/Small Inter 400 13/20] c#9CA3AF «Téléchargements»
+        TEXT "Remboursements" 108x20 [Body/Small Inter 400 13/20] c#9CA3AF «Remboursements»
+        TEXT "Contact" 49x20 [Body/Small Inter 400 13/20] c#9CA3AF «Contact»
+      FRAM "Stack" 192x148 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Légal" 37x20 [Label/Default Inter 600 14/20] c#FFFFFF «Légal»
+        TEXT "CGU" 29x20 [Body/Small Inter 400 13/20] c#9CA3AF «CGU»
+        TEXT "CGV" 28x20 [Body/Small Inter 400 13/20] c#9CA3AF «CGV»
+        TEXT "Licences" 55x20 [Body/Small Inter 400 13/20] c#9CA3AF «Licences»
+        TEXT "Confidentialité" 90x20 [Body/Small Inter 400 13/20] c#9CA3AF «Confidentialité»
+    FRAM "Bas de page" 1280x55 row gap8 pad24/0/0/0 MIN/CEN stretch bd1#1F2937
+      TEXT "© 2026 DigiNova · Abidjan, Côte d’Ivoire" 707x20 grow [Body/Small Inter 400 13/20] c#6B7280 «© 2026 DigiNova · Abidjan, Côte d’Ivoire»
+      FRAM "Paiement/Orange Money" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#FF7900
+        TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#D1D5DB «Orange Money»
+      FRAM "Paiement/MTN MoMo" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#FFCC00
+        TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#D1D5DB «MTN MoMo»
+      FRAM "Paiement/Wave" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#1DC8F2
+        TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#D1D5DB «Wave»
+      FRAM "Paiement/Moov Money" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#0066B3
+        TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#D1D5DB «Moov Money»
+      FRAM "Paiement/Carte bancaire" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#635BFF
+        TEXT "Carte bancaire" 85x16 [Caption Inter 500 12/16] c#D1D5DB «Carte bancaire»

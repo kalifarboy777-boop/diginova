@@ -1,0 +1,87 @@
+FRAM "23 · Paiement réussi — téléchargement" 1440x1119 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Header checkout" 1440x76 row gap24 pad0/80/0/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Row" 184x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Étapes" 477x26 row gap12 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 80x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+          FRAM "icon/check" 14x14
+        TEXT "Panier" 46x24 [Body/Medium Inter 500 15/24] c#111827 «Panier»
+      FRAM "Row" 48x2 row gap0 pad0/0/0/0 MIN/MIN bg#16A34A r1
+      FRAM "Row" 102x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+          FRAM "icon/check" 14x14
+        TEXT "Paiement" 68x24 [Body/Medium Inter 500 15/24] c#111827 «Paiement»
+      FRAM "Row" 48x2 row gap0 pad0/0/0/0 MIN/MIN bg#16A34A r1
+      FRAM "Row" 151x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+          FRAM "icon/check" 14x14
+        TEXT "Téléchargement" 117x24 [Body/Medium Inter 500 15/24] c#111827 «Téléchargement»
+    FRAM "Row" 184x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 193x20 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "icon/lock" 16x16
+      TEXT "Paiement 100 % sécurisé" 169x20 [Label/Default Inter 600 14/20] c#16A34A «Paiement 100 % sécurisé»
+  FRAM "Contenu" 1440x956 col gap24 pad48/240/80/240 MIN/CEN
+    FRAM "Icône statut" 120x120 row gap0 pad0/0/0/0 CEN/CEN bg#DCFCE7 r999
+      FRAM "Row" 88x88 row gap0 pad0/0/0/0 CEN/CEN bg#DCFCE7 r999
+        FRAM "icon/check" 37x37
+    TEXT "Paiement confirmé, merci Aïcha !" 630x48 [Heading/H1 Manrope 800 40/48] align-center c#111827 «Paiement confirmé, merci Aïcha !»
+    TEXT "Commande DN-2026-004812 · 18 000 FCFA pa" 896x28 [Body/Large Inter 400 18/28] align-center c#4B5563 «Commande DN-2026-004812 · 18 000 FCFA payés avec Wave · facture envoyée à aicha.kone@gmail.com»
+    FRAM "Stack" 960x296 col gap16 pad16/0/0/0 MIN/MIN stretch
+      FRAM "Téléchargement/Business Plan Pro — modèle complet" 960x132 row gap20 pad20/20/20/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r20
+        FRAM "Visuel/chart" 120x90 bg#EEEDFF r12
+        FRAM "Stack" 599x56 col gap6 pad0/0/0/0 MIN/MIN grow
+          TEXT "Business Plan Pro — modèle complet" 316x26 [Heading/H4 Manrope 700 18/26] c#111827 «Business Plan Pro — modèle complet»
+          FRAM "Row" 290x24 row gap8 pad0/0/0/0 MIN/CEN
+            FRAM "Badge/5 fichiers · ZIP" 103x24 row gap0 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+              TEXT "5 fichiers · ZIP" 83x16 [Label/Small Inter 600 12/16] c#4B5563 «5 fichiers · ZIP»
+            TEXT "125 Mo · Licence personnelle" 179x20 [Body/Small Inter 400 13/20] c#4B5563 «125 Mo · Licence personnelle»
+        FRAM "Bouton/Télécharger" 159x52 row gap8 pad16/26/16/26 CEN/CEN bg#635BFF r10
+          FRAM "icon/download" 18x18
+          TEXT "Télécharger" 81x20 [Label/Default Inter 600 14/20] c#FFFFFF «Télécharger»
+      FRAM "Téléchargement/Dashboard Excel — gestion de stock" 960x132 row gap20 pad20/20/20/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r20
+        FRAM "Visuel/sheet" 120x90 bg#DCFCE7 r12
+        FRAM "Stack" 599x56 col gap6 pad0/0/0/0 MIN/MIN grow
+          TEXT "Dashboard Excel — gestion de stock" 310x26 [Heading/H4 Manrope 700 18/26] c#111827 «Dashboard Excel — gestion de stock»
+          FRAM "Row" 318x24 row gap8 pad0/0/0/0 MIN/CEN
+            FRAM "Badge/2 fichiers · XLSX, PDF" 145x24 row gap0 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+              TEXT "2 fichiers · XLSX, PDF" 125x16 [Label/Small Inter 600 12/16] c#4B5563 «2 fichiers · XLSX, PDF»
+            TEXT "8 Mo · Licence personnelle" 165x20 [Body/Small Inter 400 13/20] c#4B5563 «8 Mo · Licence personnelle»
+        FRAM "Bouton/Télécharger" 159x52 row gap8 pad16/26/16/26 CEN/CEN bg#635BFF r10
+          FRAM "icon/download" 18x18
+          TEXT "Télécharger" 81x20 [Label/Default Inter 600 14/20] c#FFFFFF «Télécharger»
+    FRAM "Row" 477x46 row gap12 pad0/0/0/0 MIN/MIN
+      FRAM "Bouton/Tout télécharger (133 Mo)" 242x44 row gap8 pad12/20/12/20 CEN/CEN bg#111827 r10
+        FRAM "icon/download" 18x18
+        TEXT "Tout télécharger (133 Mo)" 176x20 [Label/Default Inter 600 14/20] c#FFFFFF «Tout télécharger (133 Mo)»
+      FRAM "Bouton/Ouvrir ma bibliothèque" 223x46 row gap8 pad12/20/12/20 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+        FRAM "icon/book" 18x18
+        TEXT "Ouvrir ma bibliothèque" 155x20 [Label/Default Inter 600 14/20] c#111827 «Ouvrir ma bibliothèque»
+    FRAM "Row" 960x48 row gap10 pad14/16/14/16 MIN/CEN stretch bg#EEEDFF r12
+      FRAM "icon/shield" 18x18
+      TEXT "Liens sécurisés valables 15 minutes, rég" 900x20 grow [Body/Small Inter 400 13/20] c#635BFF «Liens sécurisés valables 15 minutes, régénérables à tout moment depuis votre bibliothèque (10 téléchargements par achat).»
+    FRAM "Sécuriser le compte" 960x98 row gap20 pad24/24/24/24 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r20
+      FRAM "Row" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#FEF3C7 r14
+        FRAM "icon/key" 22x22
+      FRAM "Stack" 619x44 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Votre compte a été créé" 162x20 [Label/Default Inter 600 14/20] c#111827 «Votre compte a été créé»
+        TEXT "Choisissez un mot de passe pour accéder " 530x20 [Body/Small Inter 400 13/20] c#4B5563 «Choisissez un mot de passe pour accéder à vos achats depuis n’importe quel appareil.»
+      FRAM "Bouton/Définir un mot de passe" 203x46 row gap8 pad12/20/12/20 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+        TEXT "Définir un mot de passe" 161x20 [Label/Default Inter 600 14/20] c#111827 «Définir un mot de passe»
+  FRAM "Footer simplifié" 1440x87 row gap16 pad28/80/28/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    TEXT "© 2026 DigiNova · CGV · Remboursements ·" 667x20 grow [Body/Small Inter 400 13/20] c#9CA3AF «© 2026 DigiNova · CGV · Remboursements · Aide : support@diginova.ci»
+    FRAM "Paiement/Orange Money" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#FF7900
+      TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#4B5563 «Orange Money»
+    FRAM "Paiement/MTN MoMo" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#FFCC00
+      TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#4B5563 «MTN MoMo»
+    FRAM "Paiement/Wave" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#1DC8F2
+      TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#4B5563 «Wave»
+    FRAM "Paiement/Moov Money" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#0066B3
+      TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#4B5563 «Moov Money»
+    FRAM "Paiement/Carte bancaire" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#635BFF
+      TEXT "Carte bancaire" 85x16 [Caption Inter 500 12/16] c#4B5563 «Carte bancaire»

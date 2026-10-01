@@ -1,0 +1,195 @@
+FRAM "06 · Centre d’aide & contact" 1440x2129 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Header" 1440x76 row gap40 pad0/80/0/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Navigation" 511x24 row gap28 pad0/0/0/0 MIN/CEN
+      TEXT "Boutique" 65x24 [Body/Medium Inter 500 15/24] c#4B5563 «Boutique»
+      TEXT "Catégories" 79x24 [Body/Medium Inter 500 15/24] c#4B5563 «Catégories»
+      TEXT "Nouveautés" 86x24 [Body/Medium Inter 500 15/24] c#4B5563 «Nouveautés»
+      TEXT "Meilleures ventes" 126x24 [Body/Medium Inter 500 15/24] c#4B5563 «Meilleures ventes»
+      TEXT "Packs" 43x24 [Body/Medium Inter 500 15/24] c#4B5563 «Packs»
+    FRAM "Spacer" 1x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Recherche" 280x44 row gap10 pad0/14/0/14 MIN/CEN bg#F3F4F6 r10
+      FRAM "icon/search" 18x18
+      TEXT "Rechercher un produit…" 170x24 [Body/Default Inter 400 15/24] c#9CA3AF «Rechercher un produit…»
+    FRAM "Actions" 92x44 row gap4 pad0/0/0/0 MIN/CEN
+      FRAM "Favoris" 44x44 row gap0 pad0/0/0/0 CEN/CEN r10
+        FRAM "icon/heart" 20x20
+      FRAM "Panier" 44x44 row gap0 pad0/0/0/0 CEN/CEN r10
+        FRAM "icon/bag" 20x20
+        FRAM "Compteur" 18x18 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+          TEXT "2" 8x16 [Caption Inter 500 12/16] c#FFFFFF «2»
+    FRAM "Bouton/Connexion" 113x44 row gap8 pad12/20/12/20 CEN/CEN bg#111827 r10
+      TEXT "Connexion" 73x20 [Label/Default Inter 600 14/20] c#FFFFFF «Connexion»
+  FRAM "Hero aide" 1440x320 col gap20 pad72/80/72/80 MIN/CEN bg#EEEDFF
+    TEXT "Comment pouvons-nous vous aider ?" 710x48 [Heading/H1 Manrope 800 40/48] align-center c#111827 «Comment pouvons-nous vous aider ?»
+    TEXT "Paiement, téléchargement, compte, rembou" 833x28 [Body/Large Inter 400 18/28] align-center c#4B5563 «Paiement, téléchargement, compte, remboursement : trouvez une réponse en quelques secondes.»
+    FRAM "Recherche aide" 640x60 row gap12 pad0/8/0/20 MIN/CEN bg#FFFFFF bd1#D1D5DB r14 shadow(0,4,16,-4,#121733/6%)
+      FRAM "icon/search" 20x20
+      TEXT "Ex. : je n’ai pas reçu mon fichier" 447x28 grow [Body/Large Inter 400 18/28] c#9CA3AF «Ex. : je n’ai pas reçu mon fichier»
+      FRAM "Bouton/Rechercher" 119x44 row gap8 pad12/20/12/20 CEN/CEN bg#635BFF r10
+        TEXT "Rechercher" 79x20 [Label/Default Inter 600 14/20] c#FFFFFF «Rechercher»
+  FRAM "Thèmes" 1440x480 col gap32 pad72/80/72/80 MIN/MIN
+    FRAM "En-tête de section" 302x40 col gap8 pad0/0/0/0 MIN/MIN
+      TEXT "Parcourir par thème" 302x40 [Heading/H2 Manrope 700 32/40] c#111827 «Parcourir par thème»
+    FRAM "Row" 1280x264 row gap24 pad0/0/0/0 MIN/MIN wrap
+      FRAM "Thème/Paiement & Mobile Money" 410x120 row gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+          FRAM "icon/phone" 22x22
+        FRAM "Stack" 296x70 col gap4 pad0/0/0/0 MIN/MIN grow
+          TEXT "Paiement & Mobile Money" 223x26 [Heading/H4 Manrope 700 18/26] c#111827 «Paiement & Mobile Money»
+          TEXT "Moyens acceptés, paiement en attente, éc" 284x20 [Body/Small Inter 400 13/20] c#4B5563 «Moyens acceptés, paiement en attente, échec»
+          TEXT "12 articles" 59x16 [Caption Inter 500 12/16] c#635BFF «12 articles»
+      FRAM "Thème/Téléchargements" 410x120 row gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+          FRAM "icon/download" 22x22
+        FRAM "Stack" 296x70 col gap4 pad0/0/0/0 MIN/MIN grow
+          TEXT "Téléchargements" 153x26 [Heading/H4 Manrope 700 18/26] c#111827 «Téléchargements»
+          TEXT "Retrouver un fichier, lien expiré, forma" 244x20 [Body/Small Inter 400 13/20] c#4B5563 «Retrouver un fichier, lien expiré, formats»
+          TEXT "9 articles" 54x16 [Caption Inter 500 12/16] c#635BFF «9 articles»
+      FRAM "Thème/Compte & connexion" 410x120 row gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+          FRAM "icon/user" 22x22
+        FRAM "Stack" 296x70 col gap4 pad0/0/0/0 MIN/MIN grow
+          TEXT "Compte & connexion" 181x26 [Heading/H4 Manrope 700 18/26] c#111827 «Compte & connexion»
+          TEXT "Code de connexion, email, sécurité" 216x20 [Body/Small Inter 400 13/20] c#4B5563 «Code de connexion, email, sécurité»
+          TEXT "8 articles" 54x16 [Caption Inter 500 12/16] c#635BFF «8 articles»
+      FRAM "Thème/Remboursements" 410x120 row gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+          FRAM "icon/refresh" 22x22
+        FRAM "Stack" 296x70 col gap4 pad0/0/0/0 MIN/MIN grow
+          TEXT "Remboursements" 155x26 [Heading/H4 Manrope 700 18/26] c#111827 «Remboursements»
+          TEXT "Conditions, délais, démarches" 185x20 [Body/Small Inter 400 13/20] c#4B5563 «Conditions, délais, démarches»
+          TEXT "6 articles" 54x16 [Caption Inter 500 12/16] c#635BFF «6 articles»
+      FRAM "Thème/Licences & usages" 410x120 row gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+          FRAM "icon/file" 22x22
+        FRAM "Stack" 296x70 col gap4 pad0/0/0/0 MIN/MIN grow
+          TEXT "Licences & usages" 160x26 [Heading/H4 Manrope 700 18/26] c#111827 «Licences & usages»
+          TEXT "Personnelle, commerciale, revente" 211x20 [Body/Small Inter 400 13/20] c#4B5563 «Personnelle, commerciale, revente»
+          TEXT "5 articles" 54x16 [Caption Inter 500 12/16] c#635BFF «5 articles»
+      FRAM "Thème/Créateurs" 410x120 row gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+          FRAM "icon/users" 22x22
+        FRAM "Stack" 296x70 col gap4 pad0/0/0/0 MIN/MIN grow
+          TEXT "Créateurs" 88x26 [Heading/H4 Manrope 700 18/26] c#111827 «Créateurs»
+          TEXT "Candidature, commissions, retraits" 214x20 [Body/Small Inter 400 13/20] c#4B5563 «Candidature, commissions, retraits»
+          TEXT "14 articles" 60x16 [Caption Inter 500 12/16] c#635BFF «14 articles»
+  FRAM "Articles & contact" 1440x866 row gap32 pad16/80/72/80 MIN/MIN
+    FRAM "Articles populaires" 620x452 col gap12 pad0/0/0/0 MIN/MIN
+      TEXT "Articles populaires" 217x32 [Heading/H3 Manrope 700 24/32] c#111827 «Articles populaires»
+      FRAM "Row" 620x58 row gap12 pad16/20/16/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/file" 18x18
+        TEXT "J’ai payé mais je n’ai pas reçu mon fich" 518x24 grow [Body/Medium Inter 500 15/24] c#111827 «J’ai payé mais je n’ai pas reçu mon fichier»
+        FRAM "icon/chevR" 18x18
+      FRAM "Row" 620x58 row gap12 pad16/20/16/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/file" 18x18
+        TEXT "Mon paiement Orange Money est « en atten" 518x24 grow [Body/Medium Inter 500 15/24] c#111827 «Mon paiement Orange Money est « en attente »»
+        FRAM "icon/chevR" 18x18
+      FRAM "Row" 620x58 row gap12 pad16/20/16/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/file" 18x18
+        TEXT "Comment retrouver mes achats dans ma bib" 518x24 grow [Body/Medium Inter 500 15/24] c#111827 «Comment retrouver mes achats dans ma bibliothèque ?»
+        FRAM "icon/chevR" 18x18
+      FRAM "Row" 620x58 row gap12 pad16/20/16/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/file" 18x18
+        TEXT "Puis-je utiliser un produit pour un clie" 518x24 grow [Body/Medium Inter 500 15/24] c#111827 «Puis-je utiliser un produit pour un client ?»
+        FRAM "icon/chevR" 18x18
+      FRAM "Row" 620x58 row gap12 pad16/20/16/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/file" 18x18
+        TEXT "Comment demander un remboursement ?" 518x24 grow [Body/Medium Inter 500 15/24] c#111827 «Comment demander un remboursement ?»
+        FRAM "icon/chevR" 18x18
+      FRAM "Row" 620x58 row gap12 pad16/20/16/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/file" 18x18
+        TEXT "Je n’ai pas reçu mon code de connexion" 518x24 grow [Body/Medium Inter 500 15/24] c#111827 «Je n’ai pas reçu mon code de connexion»
+        FRAM "icon/chevR" 18x18
+    FRAM "Stack" 628x778 col gap16 pad0/0/0/0 MIN/MIN grow
+      FRAM "Formulaire de contact" 628x644 col gap20 pad32/32/32/32 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r20
+        TEXT "Contacter le support" 241x32 [Heading/H3 Manrope 700 24/32] c#111827 «Contacter le support»
+        TEXT "Réponse sous 24 h ouvrées. Pour une comm" 511x24 [Body/Default Inter 400 15/24] c#4B5563 «Réponse sous 24 h ouvrées. Pour une commande, indiquez son numéro.»
+        FRAM "Row" 562x76 row gap16 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Champ/Nom complet" 273x76 col gap8 pad0/0/0/0 MIN/MIN grow
+            TEXT "Nom complet" 91x20 [Label/Default Inter 600 14/20] c#111827 «Nom complet»
+            FRAM "Input" 273x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+              TEXT "Aïcha Koné" 243x24 grow [Body/Default Inter 400 15/24] c#111827 «Aïcha Koné»
+          FRAM "Champ/Email" 273x76 col gap8 pad0/0/0/0 MIN/MIN grow
+            TEXT "Email" 37x20 [Label/Default Inter 600 14/20] c#111827 «Email»
+            FRAM "Input" 273x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+              TEXT "aicha@exemple.ci" 243x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha@exemple.ci»
+        FRAM "Row" 562x76 row gap16 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Champ/Sujet" 273x76 col gap8 pad0/0/0/0 MIN/MIN grow
+            TEXT "Sujet" 35x20 [Label/Default Inter 600 14/20] c#111827 «Sujet»
+            FRAM "Input" 273x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+              TEXT "Problème de téléchargement" 215x24 grow [Body/Default Inter 400 15/24] c#111827 «Problème de téléchargement»
+              FRAM "icon/chevD" 18x18
+          FRAM "Champ/N° de commande (facultatif)" 273x76 col gap8 pad0/0/0/0 MIN/MIN grow
+            TEXT "N° de commande (facultatif)" 192x20 [Label/Default Inter 600 14/20] c#111827 «N° de commande (facultatif)»
+            FRAM "Input" 273x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+              TEXT "DN-2026-004812" 243x24 grow [Body/Default Inter 400 15/24] c#111827 «DN-2026-004812»
+        FRAM "Champ/Message" 562x148 col gap8 pad0/0/0/0 MIN/MIN stretch
+          TEXT "Message" 62x20 [Label/Default Inter 600 14/20] c#111827 «Message»
+          FRAM "Input" 562x120 row gap10 pad14/14/0/14 MIN/MIN stretch bg#FFFFFF bd1#D1D5DB r10
+            TEXT "Décrivez votre problème…" 532x24 grow [Body/Default Inter 400 15/24] c#9CA3AF «Décrivez votre problème…»
+        FRAM "Row" 562x50 row gap10 pad14/16/14/16 MIN/CEN stretch bd1#D1D5DB r10
+          FRAM "icon/upload" 18x18
+          TEXT "Joindre une capture d’écran (facultatif)" 239x20 [Body/Small Inter 400 13/20] c#4B5563 «Joindre une capture d’écran (facultatif)»
+        FRAM "Bouton/Envoyer le message" 562x52 row gap8 pad16/26/16/26 CEN/CEN stretch bg#635BFF r10
+          TEXT "Envoyer le message" 135x20 [Label/Default Inter 600 14/20] c#FFFFFF «Envoyer le message»
+      FRAM "Row" 628x118 row gap16 pad0/0/0/0 MIN/MIN stretch
+        FRAM "Stack" 199x118 col gap8 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+          FRAM "icon/msg" 20x20
+          TEXT "WhatsApp" 72x20 [Label/Default Inter 600 14/20] c#111827 «WhatsApp»
+          TEXT "+225 07 00 00 00 00" 131x20 [Body/Small Inter 400 13/20] c#4B5563 «+225 07 00 00 00 00»
+        FRAM "Stack" 199x118 col gap8 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+          FRAM "icon/mail" 20x20
+          TEXT "Email" 37x20 [Label/Default Inter 600 14/20] c#111827 «Email»
+          TEXT "support@diginova.ci" 126x20 [Body/Small Inter 400 13/20] c#4B5563 «support@diginova.ci»
+        FRAM "Stack" 199x118 col gap8 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+          FRAM "icon/clock" 20x20
+          TEXT "Horaires" 58x20 [Label/Default Inter 600 14/20] c#111827 «Horaires»
+          TEXT "Lun–sam · 8 h–20 h" 119x20 [Body/Small Inter 400 13/20] c#4B5563 «Lun–sam · 8 h–20 h»
+  FRAM "Footer" 1440x387 col gap48 pad64/80/40/80 MIN/MIN bg#0B0F1A
+    FRAM "Colonnes" 1280x180 row gap48 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Stack" 320x110 col gap16 pad0/0/0/0 MIN/MIN
+        FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+        TEXT "Le meilleur du digital, à portée de clic" 300x60 [Body/Small Inter 400 13/20] c#9CA3AF «Le meilleur du digital, à portée de clic. Des ressources professionnelles payables en Mobile Money et livrées instantanément.»
+      FRAM "Stack" 192x180 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Explorer" 57x20 [Label/Default Inter 600 14/20] c#FFFFFF «Explorer»
+        TEXT "Boutique" 55x20 [Body/Small Inter 400 13/20] c#9CA3AF «Boutique»
+        TEXT "Nouveautés" 74x20 [Body/Small Inter 400 13/20] c#9CA3AF «Nouveautés»
+        TEXT "Meilleures ventes" 108x20 [Body/Small Inter 400 13/20] c#9CA3AF «Meilleures ventes»
+        TEXT "Packs" 37x20 [Body/Small Inter 400 13/20] c#9CA3AF «Packs»
+        TEXT "Produits gratuits" 102x20 [Body/Small Inter 400 13/20] c#9CA3AF «Produits gratuits»
+      FRAM "Stack" 192x148 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Créateurs" 68x20 [Label/Default Inter 600 14/20] c#FFFFFF «Créateurs»
+        TEXT "Devenir créateur" 102x20 [Body/Small Inter 400 13/20] c#9CA3AF «Devenir créateur»
+        TEXT "Studio créateur" 95x20 [Body/Small Inter 400 13/20] c#9CA3AF «Studio créateur»
+        TEXT "Guide du vendeur" 110x20 [Body/Small Inter 400 13/20] c#9CA3AF «Guide du vendeur»
+        TEXT "Commissions" 82x20 [Body/Small Inter 400 13/20] c#9CA3AF «Commissions»
+      FRAM "Stack" 192x148 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Aide" 31x20 [Label/Default Inter 600 14/20] c#FFFFFF «Aide»
+        TEXT "Centre d’aide" 81x20 [Body/Small Inter 400 13/20] c#9CA3AF «Centre d’aide»
+        TEXT "Téléchargements" 106x20 [Body/Small Inter 400 13/20] c#9CA3AF «Téléchargements»
+        TEXT "Remboursements" 108x20 [Body/Small Inter 400 13/20] c#9CA3AF «Remboursements»
+        TEXT "Contact" 49x20 [Body/Small Inter 400 13/20] c#9CA3AF «Contact»
+      FRAM "Stack" 192x148 col gap12 pad0/0/0/0 MIN/MIN grow
+        TEXT "Légal" 37x20 [Label/Default Inter 600 14/20] c#FFFFFF «Légal»
+        TEXT "CGU" 29x20 [Body/Small Inter 400 13/20] c#9CA3AF «CGU»
+        TEXT "CGV" 28x20 [Body/Small Inter 400 13/20] c#9CA3AF «CGV»
+        TEXT "Licences" 55x20 [Body/Small Inter 400 13/20] c#9CA3AF «Licences»
+        TEXT "Confidentialité" 90x20 [Body/Small Inter 400 13/20] c#9CA3AF «Confidentialité»
+    FRAM "Bas de page" 1280x55 row gap8 pad24/0/0/0 MIN/CEN stretch bd1#1F2937
+      TEXT "© 2026 DigiNova · Abidjan, Côte d’Ivoire" 707x20 grow [Body/Small Inter 400 13/20] c#6B7280 «© 2026 DigiNova · Abidjan, Côte d’Ivoire»
+      FRAM "Paiement/Orange Money" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#FF7900
+        TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#D1D5DB «Orange Money»
+      FRAM "Paiement/MTN MoMo" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#FFCC00
+        TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#D1D5DB «MTN MoMo»
+      FRAM "Paiement/Wave" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#1DC8F2
+        TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#D1D5DB «Wave»
+      FRAM "Paiement/Moov Money" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#0066B3
+        TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#D1D5DB «Moov Money»
+      FRAM "Paiement/Carte bancaire" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#111827 bd1#1F2937 r8
+        ELLI "Ellipse" 10x10 bg#635BFF
+        TEXT "Carte bancaire" 85x16 [Caption Inter 500 12/16] c#D1D5DB «Carte bancaire»

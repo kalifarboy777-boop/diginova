@@ -1,0 +1,249 @@
+FRAM "41 · Studio — tableau de bord" 1440x1186 row gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Sidebar studio" 264x1186 col gap4 pad24/16/24/16 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 227x54 row gap8 pad0/8/20/8 MIN/CEN
+      FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+      FRAM "Badge/Studio" 56x22 row gap0 pad3/9/3/9 MIN/CEN bg#F59E0B r999
+        TEXT "Studio" 38x16 [Label/Small Inter 600 12/16] c#FFFFFF «Studio»
+    FRAM "Boutique créateur" 231x60 row gap10 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+      FRAM "Avatar" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+        TEXT "JK" 15x16 [Caption Inter 500 12/16] c#FFFFFF «JK»
+      FRAM "Stack" 135x36 col gap0 pad0/0/0/0 MIN/MIN grow
+        TEXT "Jean Kouassi" 90x20 [Label/Default Inter 600 14/20] c#111827 «Jean Kouassi»
+        TEXT "Créateur vérifié · Pro" 119x16 [Caption Inter 500 12/16] c#635BFF «Créateur vérifié · Pro»
+      FRAM "icon/chevD" 16x16
+    FRAM "Stack" 100x12 col gap0 pad0/0/0/0 MIN/MIN
+    FRAM "Nav/Tableau de bord" 231x40 row gap12 pad10/12/10/12 MIN/CEN stretch bg#EEEDFF r10
+      FRAM "icon/home" 18x18
+      TEXT "Tableau de bord" 177x20 grow [Label/Default Inter 600 14/20] c#635BFF «Tableau de bord»
+    FRAM "Nav/Mes produits" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/package" 18x18
+      TEXT "Mes produits" 134x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Mes produits»
+      FRAM "Badge/17" 31x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "17" 13x16 [Label/Small Inter 600 12/16] c#4B5563 «17»
+    FRAM "Nav/Ajouter un produit" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/plus" 18x18
+      TEXT "Ajouter un produit" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ajouter un produit»
+    FRAM "Nav/Ventes" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/bag" 18x18
+      TEXT "Ventes" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ventes»
+    FRAM "Nav/Revenus & retraits" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/wallet" 18x18
+      TEXT "Revenus & retraits" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Revenus & retraits»
+    FRAM "Nav/Clients" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/users" 18x18
+      TEXT "Clients" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Clients»
+    FRAM "Nav/Statistiques" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/chart" 18x18
+      TEXT "Statistiques" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Statistiques»
+    FRAM "Nav/Coupons" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/tag" 18x18
+      TEXT "Coupons" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Coupons»
+    FRAM "Nav/Profil public" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/user" 18x18
+      TEXT "Profil public" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Profil public»
+    FRAM "Stack" 100x522 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 231x46 row gap12 pad10/12/10/12 MIN/CEN stretch bd1#E5E7EB r10
+      FRAM "icon/eye" 18x18
+      TEXT "Voir ma boutique publique" 188x24 [Body/Medium Inter 500 15/24] c#4B5563 «Voir ma boutique publique»
+  FRAM "Contenu" 1176x1186 col gap28 pad28/40/56/40 MIN/MIN grow
+    FRAM "Barre du haut" 1096x68 row gap16 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Stack" 837x68 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Bonjour Jean" 199x40 [Heading/H2 Manrope 700 32/40] c#111827 «Bonjour Jean»
+        TEXT "Voici les performances de votre boutique" 417x24 [Body/Default Inter 400 15/24] c#4B5563 «Voici les performances de votre boutique en octobre 2026.»
+      FRAM "Bouton/Ajouter un produit" 185x42 row gap8 pad11/18/11/18 CEN/CEN bg#635BFF r10
+        FRAM "icon/plus" 18x18
+        TEXT "Ajouter un produit" 123x20 [Label/Default Inter 600 14/20] c#FFFFFF «Ajouter un produit»
+      FRAM "Notifications" 42x42 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#E5E7EB r10
+        FRAM "icon/bell" 18x18
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#DC2626 r999
+    FRAM "Row" 1096x162 row gap20 pad0/0/0/0 MIN/MIN stretch
+      FRAM "KPI/Revenus nets (30 j)" 259x162 col gap14 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 217x36 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Revenus nets (30 j)" 181x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Revenus nets (30 j)»
+          FRAM "Row" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r10
+            FRAM "icon/wallet" 18x18
+        TEXT "420 000 F" 150x40 [Heading/H2 Manrope 700 32/40] c#111827 «420 000 F»
+        FRAM "Row" 134x16 row gap4 pad0/0/0/0 MIN/CEN
+          FRAM "icon/trendUp" 14x14
+          TEXT "+18 % vs septembre" 116x16 [Caption Inter 500 12/16] c#16A34A «+18 % vs septembre»
+      FRAM "KPI/Ventes (30 j)" 259x162 col gap14 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 217x36 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Ventes (30 j)" 181x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Ventes (30 j)»
+          FRAM "Row" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r10
+            FRAM "icon/bag" 18x18
+        TEXT "84" 39x40 [Heading/H2 Manrope 700 32/40] c#111827 «84»
+        FRAM "Row" 81x16 row gap4 pad0/0/0/0 MIN/CEN
+          FRAM "icon/trendUp" 14x14
+          TEXT "+12 ventes" 63x16 [Caption Inter 500 12/16] c#16A34A «+12 ventes»
+      FRAM "KPI/Taux de conversion" 259x162 col gap14 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 217x36 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Taux de conversion" 181x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Taux de conversion»
+          FRAM "Row" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r10
+            FRAM "icon/eye" 18x18
+        TEXT "3,4 %" 82x40 [Heading/H2 Manrope 700 32/40] c#111827 «3,4 %»
+        FRAM "Row" 60x16 row gap4 pad0/0/0/0 MIN/CEN
+          FRAM "icon/trendUp" 14x14
+          TEXT "+0,6 pt" 42x16 [Caption Inter 500 12/16] c#16A34A «+0,6 pt»
+      FRAM "KPI/Note moyenne" 259x162 col gap14 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 217x36 row gap0 pad0/0/0/0 MIN/CEN stretch
+          TEXT "Note moyenne" 181x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Note moyenne»
+          FRAM "Row" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r10
+            FRAM "icon/star" 18x18
+        TEXT "4,8 / 5" 92x40 [Heading/H2 Manrope 700 32/40] c#111827 «4,8 / 5»
+        FRAM "Row" 69x16 row gap4 pad0/0/0/0 MIN/CEN
+          TEXT "sur 312 avis" 69x16 [Caption Inter 500 12/16] c#9CA3AF «sur 312 avis»
+    FRAM "Row" 1096x816 row gap24 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Stack" 732x785 col gap24 pad0/0/0/0 MIN/MIN grow
+        FRAM "Revenus" 732x384 col gap20 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          FRAM "Row" 682x34 row gap12 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Revenus nets" 512x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Revenus nets»
+            FRAM "Row" 158x34 row gap0 pad3/3/3/3 MIN/MIN bg#F3F4F6 r10
+              FRAM "Row" 38x28 row gap0 pad6/12/6/12 MIN/MIN r8
+                TEXT "7 j" 14x16 [Label/Small Inter 600 12/16] c#4B5563 «7 j»
+              FRAM "Row" 46x28 row gap0 pad6/12/6/12 MIN/MIN bg#FFFFFF r8 shadow(0,4,16,-4,#121733/6%)
+                TEXT "30 j" 22x16 [Label/Small Inter 600 12/16] c#111827 «30 j»
+              FRAM "Row" 68x28 row gap0 pad6/12/6/12 MIN/MIN r8
+                TEXT "12 mois" 44x16 [Label/Small Inter 600 12/16] c#4B5563 «12 mois»
+          FRAM "Row" 274x40 row gap10 pad0/0/0/0 MIN/MAX
+            TEXT "420 000 FCFA" 211x40 [Heading/H2 Manrope 700 32/40] c#111827 «420 000 FCFA»
+            FRAM "Badge/+18 %" 53x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+              TEXT "+18 %" 35x16 [Label/Small Inter 600 12/16] c#16A34A «+18 %»
+          FRAM "Graphique revenus 30 j" 682x220 stretch
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 15x48 bg#EEEDFF r4
+            RECT "Rectangle" 15x72 bg#EEEDFF r4
+            RECT "Rectangle" 15x36 bg#EEEDFF r4
+            RECT "Rectangle" 15x84 bg#EEEDFF r4
+            RECT "Rectangle" 15x60 bg#EEEDFF r4
+            RECT "Rectangle" 15x108 bg#EEEDFF r4
+            RECT "Rectangle" 15x54 bg#EEEDFF r4
+            RECT "Rectangle" 15x66 bg#EEEDFF r4
+            RECT "Rectangle" 15x96 bg#EEEDFF r4
+            RECT "Rectangle" 15x78 bg#EEEDFF r4
+            RECT "Rectangle" 15x120 bg#EEEDFF r4
+            RECT "Rectangle" 15x90 bg#EEEDFF r4
+            RECT "Rectangle" 15x72 bg#EEEDFF r4
+            RECT "Rectangle" 15x132 bg#EEEDFF r4
+            RECT "Rectangle" 15x102 bg#EEEDFF r4
+            RECT "Rectangle" 15x84 bg#EEEDFF r4
+            RECT "Rectangle" 15x114 bg#EEEDFF r4
+            RECT "Rectangle" 15x144 bg#EEEDFF r4
+            RECT "Rectangle" 15x96 bg#EEEDFF r4
+            RECT "Rectangle" 15x126 bg#EEEDFF r4
+            RECT "Rectangle" 15x108 bg#EEEDFF r4
+            RECT "Rectangle" 15x156 bg#EEEDFF r4
+            RECT "Rectangle" 15x120 bg#EEEDFF r4
+            RECT "Rectangle" 15x102 bg#EEEDFF r4
+            RECT "Rectangle" 15x138 bg#EEEDFF r4
+            RECT "Rectangle" 15x168 bg#EEEDFF r4
+            RECT "Rectangle" 15x126 bg#EEEDFF r4
+            RECT "Rectangle" 15x150 bg#EEEDFF r4
+            RECT "Rectangle" 15x180 bg#EEEDFF r4
+            RECT "Rectangle" 15x156 bg#635BFF r4
+            TEXT "40k" 21x13 [ Inter 500 11/13.3125] c#9CA3AF «40k»
+            TEXT "30k" 21x13 [ Inter 500 11/13.3125] c#9CA3AF «30k»
+            TEXT "20k" 20x13 [ Inter 500 11/13.3125] c#9CA3AF «20k»
+            TEXT "10k" 19x13 [ Inter 500 11/13.3125] c#9CA3AF «10k»
+            TEXT "0" 8x13 [ Inter 500 11/13.3125] c#9CA3AF «0»
+        FRAM "Meilleurs produits" 732x377 col gap8 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          FRAM "Row" 682x26 row gap12 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Meilleurs produits" 620x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Meilleurs produits»
+            TEXT "Voir tout" 50x16 [Label/Small Inter 600 12/16] c#635BFF «Voir tout»
+          FRAM "Row" 682x37 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+            TEXT "Produit" 292x16 grow [Label/Small Inter 600 12/16] c#9CA3AF «Produit»
+            TEXT "Ventes" 90x16 [Label/Small Inter 600 12/16] c#9CA3AF «Ventes»
+            TEXT "Revenus" 120x16 [Label/Small Inter 600 12/16] c#9CA3AF «Revenus»
+            TEXT "Conversion" 110x16 [Label/Small Inter 600 12/16] c#9CA3AF «Conversion»
+            TEXT "Note" 70x16 [Label/Small Inter 600 12/16] c#9CA3AF «Note»
+          FRAM "Row" 682x56 row gap0 pad10/0/10/0 MIN/CEN stretch
+            FRAM "Row" 292x36 row gap12 pad0/0/0/0 MIN/CEN grow
+              FRAM "Visuel/doc" 48x36 bg#E0E7FF r8
+              TEXT "Template CV moderne" 152x20 [Label/Default Inter 600 14/20] c#111827 «Template CV moderne»
+            TEXT "28" 90x20 [Body/Small Inter 400 13/20] c#111827 «28»
+            TEXT "140 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «140 000 F»
+            TEXT "4,1 %" 110x20 [Body/Small Inter 400 13/20] c#111827 «4,1 %»
+            TEXT "4,9 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,9 ★»
+          FRAM "Row" 682x56 row gap0 pad10/0/10/0 MIN/CEN stretch
+            FRAM "Row" 292x36 row gap12 pad0/0/0/0 MIN/CEN grow
+              FRAM "Visuel/grid" 48x36 bg#FCE7F3 r8
+              TEXT "Pack Canva restaurant" 153x20 [Label/Default Inter 600 14/20] c#111827 «Pack Canva restaurant»
+            TEXT "21" 90x20 [Body/Small Inter 400 13/20] c#111827 «21»
+            TEXT "126 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «126 000 F»
+            TEXT "3,6 %" 110x20 [Body/Small Inter 400 13/20] c#111827 «3,6 %»
+            TEXT "4,8 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,8 ★»
+          FRAM "Row" 682x56 row gap0 pad10/0/10/0 MIN/CEN stretch
+            FRAM "Row" 292x36 row gap12 pad0/0/0/0 MIN/CEN grow
+              FRAM "Visuel/sheet" 48x36 bg#DCFCE7 r8
+              TEXT "Excel Business complet" 160x20 [Label/Default Inter 600 14/20] c#111827 «Excel Business complet»
+            TEXT "15" 90x20 [Body/Small Inter 400 13/20] c#111827 «15»
+            TEXT "90 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «90 000 F»
+            TEXT "2,9 %" 110x20 [Body/Small Inter 400 13/20] c#111827 «2,9 %»
+            TEXT "4,7 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,7 ★»
+          FRAM "Row" 682x56 row gap0 pad10/0/10/0 MIN/CEN stretch
+            FRAM "Row" 292x36 row gap12 pad0/0/0/0 MIN/CEN grow
+              FRAM "Visuel/book" 48x36 bg#FEF3C7 r8
+              TEXT "E-book : facturer ses clients" 190x20 [Label/Default Inter 600 14/20] c#111827 «E-book : facturer ses clients»
+            TEXT "12" 90x20 [Body/Small Inter 400 13/20] c#111827 «12»
+            TEXT "42 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «42 000 F»
+            TEXT "3,2 %" 110x20 [Body/Small Inter 400 13/20] c#111827 «3,2 %»
+            TEXT "4,6 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,6 ★»
+      FRAM "Stack" 340x816 col gap24 pad0/0/0/0 MIN/MIN
+        FRAM "Solde" 340x242 col gap16 pad24/24/24/24 MIN/MIN stretch bg#1E1B4B r16
+          TEXT "Solde disponible" 102x20 [Body/Small Inter 400 13/20] c#C7D2FE «Solde disponible»
+          TEXT "312 000 FCFA" 256x48 [Heading/H1 Manrope 800 40/48] c#FFFFFF «312 000 FCFA»
+          FRAM "Row" 292x36 row gap8 pad10/12/10/12 MIN/CEN stretch bg#FFFFFF/8% r10
+            FRAM "icon/clock" 16x16
+            TEXT "108 000 F en période de garantie (7 jour" 244x16 grow [Caption Inter 500 12/16] c#C7D2FE «108 000 F en période de garantie (7 jours)»
+          FRAM "Bouton/Demander un retrait" 292x42 row gap8 pad11/18/11/18 CEN/CEN stretch bg#FFFFFF r10
+            FRAM "icon/wallet" 18x18
+            TEXT "Demander un retrait" 136x20 [Label/Default Inter 600 14/20] c#111827 «Demander un retrait»
+        FRAM "À faire" 340x318 col gap12 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          TEXT "À faire" 56x26 [Heading/H4 Manrope 700 18/26] c#111827 «À faire»
+          FRAM "Row" 290x74 row gap12 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+            FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FEF3C7 r8
+              FRAM "icon/clock" 16x16
+            FRAM "Stack" 194x50 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "1 produit en modération" 138x16 [Label/Small Inter 600 12/16] c#111827 «1 produit en modération»
+              TEXT "« Pack Notion étudiant » · réponse sous " 194x32 stretch [Caption Inter 500 12/16] c#9CA3AF «« Pack Notion étudiant » · réponse sous 72 h»
+            FRAM "icon/chevR" 16x16
+          FRAM "Row" 290x58 row gap12 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+            FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r8
+              FRAM "icon/msg" 16x16
+            FRAM "Stack" 194x34 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "2 avis sans réponse" 115x16 [Label/Small Inter 600 12/16] c#111827 «2 avis sans réponse»
+              TEXT "Répondre améliore la confiance" 194x16 stretch [Caption Inter 500 12/16] c#9CA3AF «Répondre améliore la confiance»
+            FRAM "icon/chevR" 16x16
+          FRAM "Row" 290x74 row gap12 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+            FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FEE2E2 r8
+              FRAM "icon/alert" 16x16
+            FRAM "Stack" 194x50 col gap2 pad0/0/0/0 MIN/MIN grow
+              TEXT "1 produit refusé" 91x16 [Label/Small Inter 600 12/16] c#111827 «1 produit refusé»
+              TEXT "Aperçus non conformes · à corriger" 194x32 stretch [Caption Inter 500 12/16] c#9CA3AF «Aperçus non conformes · à corriger»
+            FRAM "icon/chevR" 16x16
+        FRAM "Ventes récentes" 340x208 col gap12 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          TEXT "Ventes récentes" 142x26 [Heading/H4 Manrope 700 18/26] c#111827 «Ventes récentes»
+          FRAM "Row" 290x32 row gap12 pad0/0/0/0 MIN/CEN stretch
+            FRAM "Avatar" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+              TEXT "FD" 16x16 [Caption Inter 500 12/16] c#635BFF «FD»
+            FRAM "Stack" 181x32 col gap0 pad0/0/0/0 MIN/MIN grow
+              TEXT "Template CV moderne" 130x16 [Label/Small Inter 600 12/16] c#111827 «Template CV moderne»
+              TEXT "Fatou D. · il y a 8 min" 118x16 [Caption Inter 500 12/16] c#9CA3AF «Fatou D. · il y a 8 min»
+            TEXT "+4 250 F" 53x16 [Label/Small Inter 600 12/16] c#16A34A «+4 250 F»
+          FRAM "Row" 290x32 row gap12 pad0/0/0/0 MIN/CEN stretch
+            FRAM "Avatar" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+              TEXT "KB" 16x16 [Caption Inter 500 12/16] c#635BFF «KB»
+            FRAM "Stack" 183x32 col gap0 pad0/0/0/0 MIN/MIN grow
+              TEXT "Pack Canva restaurant" 132x16 [Label/Small Inter 600 12/16] c#111827 «Pack Canva restaurant»
+              TEXT "Koffi B. · il y a 1 h" 96x16 [Caption Inter 500 12/16] c#9CA3AF «Koffi B. · il y a 1 h»
+            TEXT "+5 100 F" 51x16 [Label/Small Inter 600 12/16] c#16A34A «+5 100 F»
+          FRAM "Row" 290x32 row gap12 pad0/0/0/0 MIN/CEN stretch
+            FRAM "Avatar" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+              TEXT "AS" 17x16 [Caption Inter 500 12/16] c#635BFF «AS»
+            FRAM "Stack" 183x32 col gap0 pad0/0/0/0 MIN/MIN grow
+              TEXT "Excel Business" 87x16 [Label/Small Inter 600 12/16] c#111827 «Excel Business»
+              TEXT "Awa S. · il y a 3 h" 96x16 [Caption Inter 500 12/16] c#9CA3AF «Awa S. · il y a 3 h»
+            TEXT "+5 100 F" 51x16 [Label/Small Inter 600 12/16] c#16A34A «+5 100 F»

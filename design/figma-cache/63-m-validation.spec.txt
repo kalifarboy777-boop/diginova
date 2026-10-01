@@ -1,0 +1,41 @@
+FRAM "63 · Mobile — validation du paiement" 390x844 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC bd1#E5E7EB r40 shadow(0,24,60,-8,#121733/12%)
+  FRAM "Barre d’état" 388x48 row gap0 pad0/28/0/28 MIN/CEN stretch bg#FFFFFF
+    TEXT "9:41" 30x20 [Label/Default Inter 600 14/20] c#111827 «9:41»
+    FRAM "Row" 238x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 64x10 row gap5 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 16x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 14x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 24x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+  FRAM "Barre d’app" 388x56 row gap12 pad0/20/0/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 38x38 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r12
+      FRAM "icon/chevL" 20x20
+    TEXT "Validation" 298x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Validation»
+  FRAM "Contenu" 388x593 col gap20 pad32/24/24/24 MIN/CEN grow stretch
+    FRAM "Row" 120x120 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+      FRAM "Row" 84x84 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+        FRAM "icon/phone" 36x36
+    FRAM "Badge/En attente · 01:47" 118x22 row gap0 pad3/8/3/8 MIN/CEN bg#FEF3C7 r999
+      TEXT "En attente · 01:47" 102x16 [Label/Small Inter 600 12/16] c#D97706 «En attente · 01:47»
+    TEXT "Validez sur votre téléphone" 340x80 stretch [Heading/H2 Manrope 700 32/40] align-center c#111827 «Validez sur votre téléphone»
+    TEXT "Une demande de 18 000 FCFA a été envoyée" 340x48 stretch [Body/Default Inter 400 15/24] align-center c#4B5563 «Une demande de 18 000 FCFA a été envoyée à votre compte Wave (07 •• •• 18 55).»
+    FRAM "Stack" 340x164 col gap0 pad0/0/0/0 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Row" 338x54 row gap12 pad14/16/14/16 MIN/CEN stretch
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+          TEXT "1" 6x16 [Label/Small Inter 600 12/16] c#635BFF «1»
+        TEXT "Ouvrez l’app Wave" 132x24 [Body/Medium Inter 500 15/24] c#111827 «Ouvrez l’app Wave»
+      FRAM "Row" 338x54 row gap12 pad14/16/14/16 MIN/CEN stretch
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+          TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#635BFF «2»
+        TEXT "Vérifiez le montant : 18 000 F" 210x24 [Body/Medium Inter 500 15/24] c#111827 «Vérifiez le montant : 18 000 F»
+      FRAM "Row" 338x54 row gap12 pad14/16/14/16 MIN/CEN stretch
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r999
+          TEXT "3" 8x16 [Label/Small Inter 600 12/16] c#635BFF «3»
+        TEXT "Confirmez avec votre code" 193x24 [Body/Medium Inter 500 15/24] c#111827 «Confirmez avec votre code»
+    FRAM "Row" 340x6 row gap0 pad0/0/0/0 MIN/MIN stretch bg#F3F4F6 r3
+      FRAM "Row" 180x6 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF r3
+  FRAM "Barre d’action fixe" 388x145 col gap10 pad14/20/30/20 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB shadow(0,-8,24,0,#121733/8%)
+    FRAM "Bouton/Renvoyer la demande" 348x46 row gap8 pad12/16/12/16 CEN/CEN stretch bg#FFFFFF bd1#D1D5DB r12
+      FRAM "icon/refresh" 18x18
+      TEXT "Renvoyer la demande" 146x20 [Label/Default Inter 600 14/20] c#111827 «Renvoyer la demande»
+    FRAM "Bouton/Changer de moyen de paiement" 348x44 row gap8 pad12/16/12/16 CEN/CEN stretch bg#EEEDFF r12
+      TEXT "Changer de moyen de paiement" 216x20 [Label/Default Inter 600 14/20] c#635BFF «Changer de moyen de paiement»

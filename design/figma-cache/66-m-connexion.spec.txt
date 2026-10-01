@@ -1,0 +1,38 @@
+FRAM "66 · Mobile — connexion" 390x844 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r40 shadow(0,24,60,-8,#121733/12%)
+  FRAM "Barre d’état" 388x48 row gap0 pad0/28/0/28 MIN/CEN stretch bg#FFFFFF
+    TEXT "9:41" 30x20 [Label/Default Inter 600 14/20] c#111827 «9:41»
+    FRAM "Row" 238x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 64x10 row gap5 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 16x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 14x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 24x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+  FRAM "Contenu" 388x794 col gap18 pad24/24/24/24 MIN/MIN grow stretch
+    FRAM "Row" 56x56 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r16
+      FRAM "icon/sparkle" 28x28
+    TEXT "Bon retour parmi nous" 340x96 stretch [Heading/H1 Manrope 800 40/48] c#111827 «Bon retour parmi nous»
+    TEXT "Connectez-vous pour retrouver vos achats" 340x24 stretch [Body/Default Inter 400 15/24] c#4B5563 «Connectez-vous pour retrouver vos achats.»
+    FRAM "Row" 340x50 row gap10 pad14/16/14/16 CEN/CEN stretch bd1#D1D5DB r12
+      FRAM "Row" 20x20 row gap0 pad0/0/0/0 CEN/CEN bd1#D1D5DB r999
+        TEXT "G" 10x16 [Label/Small Inter 600 12/16] c#4285F4 «G»
+      TEXT "Continuer avec Google" 155x20 [Label/Default Inter 600 14/20] c#111827 «Continuer avec Google»
+    FRAM "Row" 340x16 row gap10 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Row" 152x1 row gap0 pad0/0/0/0 MIN/MIN grow bg#E5E7EB
+      TEXT "ou" 15x16 [Caption Inter 500 12/16] c#9CA3AF «ou»
+      FRAM "Row" 152x1 row gap0 pad0/0/0/0 MIN/MIN grow bg#E5E7EB
+    FRAM "Row" 340x48 row gap0 pad4/4/4/4 MIN/MIN stretch bg#F3F4F6 r12
+      FRAM "Row" 166x40 row gap0 pad10/0/10/0 CEN/MIN grow bg#FFFFFF r9
+        TEXT "Téléphone" 72x20 [Label/Default Inter 600 14/20] c#111827 «Téléphone»
+      FRAM "Row" 166x40 row gap0 pad10/0/10/0 CEN/MIN grow r9
+        TEXT "Email" 37x20 [Label/Default Inter 600 14/20] c#4B5563 «Email»
+    TEXT "Numéro de téléphone" 146x20 [Label/Default Inter 600 14/20] c#111827 «Numéro de téléphone»
+    FRAM "Row" 340x52 row gap10 pad0/14/0/14 MIN/CEN stretch bd2#635BFF r12
+      TEXT "CI +225" 54x20 [Label/Default Inter 600 14/20] c#111827 «CI +225»
+      FRAM "Stack" 1x24 col gap0 pad0/0/0/0 MIN/MIN bg#E5E7EB
+      TEXT "07 08 42 18 55" 233x28 grow [Body/Large Inter 400 18/28] c#111827 «07 08 42 18 55»
+    TEXT "Nous vous enverrons un code à 6 chiffres" 340x16 stretch [Caption Inter 500 12/16] c#9CA3AF «Nous vous enverrons un code à 6 chiffres par SMS.»
+    FRAM "Stack" 100x98 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Bouton/Recevoir le code" 340x52 row gap8 pad16/20/16/20 CEN/CEN stretch bg#635BFF r12
+      TEXT "Recevoir le code" 112x20 [Label/Default Inter 600 14/20] c#FFFFFF «Recevoir le code»
+    FRAM "Row" 340x20 row gap6 pad0/0/0/0 CEN/MIN stretch
+      TEXT "Pas de compte ?" 103x20 [Body/Small Inter 400 13/20] c#4B5563 «Pas de compte ?»
+      TEXT "Créer un compte" 98x16 [Label/Small Inter 600 12/16] c#635BFF «Créer un compte»

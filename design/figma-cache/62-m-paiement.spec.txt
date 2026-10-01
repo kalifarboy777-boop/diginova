@@ -1,0 +1,63 @@
+FRAM "62 · Mobile — paiement" 390x844 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC bd1#E5E7EB r40 shadow(0,24,60,-8,#121733/12%)
+  FRAM "Barre d’état" 388x48 row gap0 pad0/28/0/28 MIN/CEN stretch bg#FFFFFF
+    TEXT "9:41" 30x20 [Label/Default Inter 600 14/20] c#111827 «9:41»
+    FRAM "Row" 238x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 64x10 row gap5 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 16x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 14x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 24x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+  FRAM "Barre d’app" 388x56 row gap12 pad0/20/0/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 38x38 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r12
+      FRAM "icon/chevL" 20x20
+    TEXT "Paiement" 298x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Paiement»
+  FRAM "Contenu" 388x607 col gap16 pad20/20/24/20 MIN/MIN grow stretch
+    FRAM "Row" 348x72 row gap12 pad14/14/14/14 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/chart" 56x42 bg#EEEDFF r8
+      FRAM "Stack" 169x38 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Business Plan Pro" 121x20 [Label/Default Inter 600 14/20] c#111827 «Business Plan Pro»
+        TEXT "+ Dashboard Excel · 2 articles" 171x16 [Caption Inter 500 12/16] c#9CA3AF «+ Dashboard Excel · 2 articles»
+      TEXT "18 000 F" 69x24 [Price/Default Inter 700 16/24] c#111827 «18 000 F»
+    TEXT "Vos coordonnées" 119x20 [Label/Default Inter 600 14/20] c#111827 «Vos coordonnées»
+    FRAM "Row" 348x50 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r12
+      FRAM "icon/user" 18x18
+      TEXT "aicha.kone@gmail.com" 262x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha.kone@gmail.com»
+      FRAM "icon/check" 18x18
+    FRAM "Row" 348x50 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r12
+      FRAM "icon/phone" 18x18
+      TEXT "+225 07 08 42 18 55" 262x24 grow [Body/Default Inter 400 15/24] c#111827 «+225 07 08 42 18 55»
+      FRAM "icon/check" 18x18
+    TEXT "Moyen de paiement" 134x20 [Label/Default Inter 600 14/20] c#111827 «Moyen de paiement»
+    FRAM "Option/Wave" 348x60 row gap12 pad14/14/14/14 MIN/CEN stretch bg#EEEDFF bd2#635BFF r14
+      FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd6#635BFF r999
+      FRAM "Row" 40x28 row gap0 pad0/0/0/0 CEN/CEN bg#1DC8F2 r7
+        TEXT "W" 13x16 [Label/Small Inter 600 12/16] c#FFFFFF «W»
+      TEXT "Wave" 146x20 grow [Label/Default Inter 600 14/20] c#111827 «Wave»
+      FRAM "Badge/Sans frais" 74x22 row gap0 pad3/8/3/8 MIN/CEN bg#DCFCE7 r999
+        TEXT "Sans frais" 58x16 [Label/Small Inter 600 12/16] c#16A34A «Sans frais»
+    FRAM "Option/Orange Money" 348x58 row gap12 pad14/14/14/14 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r14
+      FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+      FRAM "Row" 40x28 row gap0 pad0/0/0/0 CEN/CEN bg#FF7900 r7
+        TEXT "OM" 21x16 [Label/Small Inter 600 12/16] c#FFFFFF «OM»
+      TEXT "Orange Money" 234x20 grow [Label/Default Inter 600 14/20] c#111827 «Orange Money»
+    FRAM "Option/MTN MoMo" 348x58 row gap12 pad14/14/14/14 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r14
+      FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+      FRAM "Row" 40x28 row gap0 pad0/0/0/0 CEN/CEN bg#FFCC00 r7
+        TEXT "MM" 22x16 [Label/Small Inter 600 12/16] c#111827 «MM»
+      TEXT "MTN MoMo" 234x20 grow [Label/Default Inter 600 14/20] c#111827 «MTN MoMo»
+    FRAM "Option/Moov Money" 348x58 row gap12 pad14/14/14/14 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r14
+      FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+      FRAM "Row" 40x28 row gap0 pad0/0/0/0 CEN/CEN bg#0066B3 r7
+        TEXT "MM" 22x16 [Label/Small Inter 600 12/16] c#FFFFFF «MM»
+      TEXT "Moov Money" 234x20 grow [Label/Default Inter 600 14/20] c#111827 «Moov Money»
+    FRAM "Option/Carte bancaire" 348x58 row gap12 pad14/14/14/14 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r14
+      FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+      FRAM "Row" 40x28 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r7
+        FRAM "icon/card" 16x16
+      TEXT "Carte bancaire" 234x20 grow [Label/Default Inter 600 14/20] c#111827 «Carte bancaire»
+  FRAM "Barre d’action fixe" 388x131 col gap10 pad14/20/30/20 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB shadow(0,-8,24,0,#121733/8%)
+    FRAM "Row" 348x24 row gap0 pad0/0/0/0 MIN/MIN stretch
+      TEXT "Total" 247x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Total»
+      TEXT "18 000 FCFA" 101x24 [Price/Default Inter 700 16/24] c#111827 «18 000 FCFA»
+    FRAM "Bouton/Payer avec Wave" 348x52 row gap8 pad16/20/16/20 CEN/CEN stretch bg#635BFF r12
+      FRAM "icon/lock" 18x18
+      TEXT "Payer avec Wave" 115x20 [Label/Default Inter 600 14/20] c#FFFFFF «Payer avec Wave»

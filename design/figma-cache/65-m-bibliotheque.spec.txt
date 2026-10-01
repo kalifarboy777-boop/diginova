@@ -1,0 +1,94 @@
+FRAM "65 · Mobile — ma bibliothèque" 390x844 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC bd1#E5E7EB r40 shadow(0,24,60,-8,#121733/12%)
+  FRAM "Barre d’état" 388x48 row gap0 pad0/28/0/28 MIN/CEN stretch bg#FFFFFF
+    TEXT "9:41" 30x20 [Label/Default Inter 600 14/20] c#111827 «9:41»
+    FRAM "Row" 238x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 64x10 row gap5 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 16x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 14x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 24x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+  FRAM "Barre d’app" 388x56 row gap12 pad0/20/0/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB
+    TEXT "Ma bibliothèque" 298x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Ma bibliothèque»
+    FRAM "Row" 38x38 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r12
+      FRAM "icon/search" 18x18
+  FRAM "Contenu" 388x659 col gap14 pad20/20/24/20 MIN/MIN grow stretch
+    FRAM "Row" 323x32 row gap8 pad0/0/0/0 MIN/MIN
+      FRAM "Row" 78x30 row gap0 pad7/12/7/12 MIN/MIN bg#111827 r999
+        TEXT "Tous (12)" 54x16 [Label/Small Inter 600 12/16] c#FFFFFF «Tous (12)»
+      FRAM "Row" 79x32 row gap0 pad7/12/7/12 MIN/MIN bg#FFFFFF bd1#E5E7EB r999
+        TEXT "Business" 53x16 [Label/Small Inter 600 12/16] c#4B5563 «Business»
+      FRAM "Row" 67x32 row gap0 pad7/12/7/12 MIN/MIN bg#FFFFFF bd1#E5E7EB r999
+        TEXT "Design" 41x16 [Label/Small Inter 600 12/16] c#4B5563 «Design»
+      FRAM "Row" 75x32 row gap0 pad7/12/7/12 MIN/MIN bg#FFFFFF bd1#E5E7EB r999
+        TEXT "E-books" 49x16 [Label/Small Inter 600 12/16] c#4B5563 «E-books»
+    FRAM "Row" 348x66 row gap12 pad14/14/14/14 MIN/CEN stretch bg#1E1B4B r16
+      FRAM "icon/sparkle" 20x20
+      FRAM "Stack" 258x38 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Mise à jour disponible" 148x20 [Label/Default Inter 600 14/20] c#FFFFFF «Mise à jour disponible»
+        TEXT "Pack Instagram v2.0 : 10 nouveaux modèle" 258x16 stretch [Caption Inter 500 12/16] c#C7D2FE «Pack Instagram v2.0 : 10 nouveaux modèles»
+      FRAM "icon/chevR" 18x18
+    FRAM "Row" 348x80 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/chart" 72x54 bg#EEEDFF r10
+      FRAM "Stack" 186x46 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Business Plan Pro" 186x20 stretch [Label/Default Inter 600 14/20] c#111827 «Business Plan Pro»
+        FRAM "Row" 133x22 row gap6 pad0/0/0/0 MIN/CEN
+          FRAM "Badge/v2.1" 39x22 row gap0 pad3/8/3/8 MIN/CEN bg#F3F4F6 r999
+            TEXT "v2.1" 23x16 [Label/Small Inter 600 12/16] c#4B5563 «v2.1»
+          TEXT "Acheté le 1 oct." 88x16 [Caption Inter 500 12/16] c#9CA3AF «Acheté le 1 oct.»
+      FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+        FRAM "icon/download" 18x18
+    FRAM "Row" 348x80 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/sheet" 72x54 bg#DCFCE7 r10
+      FRAM "Stack" 186x46 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Dashboard Excel — stock" 186x20 stretch [Label/Default Inter 600 14/20] c#111827 «Dashboard Excel — stock»
+        FRAM "Row" 134x22 row gap6 pad0/0/0/0 MIN/CEN
+          FRAM "Badge/v1.4" 40x22 row gap0 pad3/8/3/8 MIN/CEN bg#F3F4F6 r999
+            TEXT "v1.4" 24x16 [Label/Small Inter 600 12/16] c#4B5563 «v1.4»
+          TEXT "Acheté le 1 oct." 88x16 [Caption Inter 500 12/16] c#9CA3AF «Acheté le 1 oct.»
+      FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+        FRAM "icon/download" 18x18
+    FRAM "Row" 348x92 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/grid" 72x54 bg#FCE7F3 r10
+      FRAM "Stack" 186x66 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Pack 30 templates Instagram" 186x40 stretch [Label/Default Inter 600 14/20] c#111827 «Pack 30 templates Instagram»
+        FRAM "Row" 151x22 row gap6 pad0/0/0/0 MIN/CEN
+          FRAM "Badge/v2.0" 42x22 row gap0 pad3/8/3/8 MIN/CEN bg#DCFCE7 r999
+            TEXT "v2.0" 26x16 [Label/Small Inter 600 12/16] c#16A34A «v2.0»
+          TEXT "Acheté le 14 sept." 103x16 [Caption Inter 500 12/16] c#9CA3AF «Acheté le 14 sept.»
+      FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+        FRAM "icon/download" 18x18
+    FRAM "Row" 348x80 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/doc" 72x54 bg#E0E7FF r10
+      FRAM "Stack" 186x46 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Kit CV & lettre" 186x20 stretch [Label/Default Inter 600 14/20] c#111827 «Kit CV & lettre»
+        FRAM "Row" 147x22 row gap6 pad0/0/0/0 MIN/CEN
+          FRAM "Badge/v1.0" 40x22 row gap0 pad3/8/3/8 MIN/CEN bg#F3F4F6 r999
+            TEXT "v1.0" 24x16 [Label/Small Inter 600 12/16] c#4B5563 «v1.0»
+          TEXT "Acheté le 28 août" 101x16 [Caption Inter 500 12/16] c#9CA3AF «Acheté le 28 août»
+      FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+        FRAM "icon/download" 18x18
+    FRAM "Row" 348x80 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/chat" 72x54 bg#E0F2FE r10
+      FRAM "Stack" 186x46 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Pack 500 prompts IA" 186x20 stretch [Label/Default Inter 600 14/20] c#111827 «Pack 500 prompts IA»
+        FRAM "Row" 142x22 row gap6 pad0/0/0/0 MIN/CEN
+          FRAM "Badge/v3.2" 42x22 row gap0 pad3/8/3/8 MIN/CEN bg#F3F4F6 r999
+            TEXT "v3.2" 26x16 [Label/Small Inter 600 12/16] c#4B5563 «v3.2»
+          TEXT "Acheté le 2 août" 94x16 [Caption Inter 500 12/16] c#9CA3AF «Acheté le 2 août»
+      FRAM "Row" 40x40 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r12
+        FRAM "icon/download" 18x18
+  FRAM "Barre d’onglets" 388x79 row gap0 pad10/8/26/8 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/home" 22x22
+      TEXT "Accueil" 43x16 [Caption Inter 500 12/16] c#9CA3AF «Accueil»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/grid" 22x22
+      TEXT "Boutique" 52x16 [Caption Inter 500 12/16] c#9CA3AF «Boutique»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/search" 22x22
+      TEXT "Recherche" 62x16 [Caption Inter 500 12/16] c#9CA3AF «Recherche»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/heart" 22x22
+      TEXT "Favoris" 42x16 [Caption Inter 500 12/16] c#9CA3AF «Favoris»
+    FRAM "Stack" 74x42 col gap4 pad0/0/0/0 MIN/CEN grow
+      FRAM "icon/user" 22x22
+      TEXT "Compte" 46x16 [Caption Inter 500 12/16] c#635BFF «Compte»

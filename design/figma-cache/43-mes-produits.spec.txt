@@ -1,0 +1,201 @@
+FRAM "43 · Studio — mes produits" 1440x967 row gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Sidebar studio" 264x967 col gap4 pad24/16/24/16 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 227x54 row gap8 pad0/8/20/8 MIN/CEN
+      FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+      FRAM "Badge/Studio" 56x22 row gap0 pad3/9/3/9 MIN/CEN bg#F59E0B r999
+        TEXT "Studio" 38x16 [Label/Small Inter 600 12/16] c#FFFFFF «Studio»
+    FRAM "Boutique créateur" 231x60 row gap10 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+      FRAM "Avatar" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+        TEXT "JK" 15x16 [Caption Inter 500 12/16] c#FFFFFF «JK»
+      FRAM "Stack" 135x36 col gap0 pad0/0/0/0 MIN/MIN grow
+        TEXT "Jean Kouassi" 90x20 [Label/Default Inter 600 14/20] c#111827 «Jean Kouassi»
+        TEXT "Créateur vérifié · Pro" 119x16 [Caption Inter 500 12/16] c#635BFF «Créateur vérifié · Pro»
+      FRAM "icon/chevD" 16x16
+    FRAM "Stack" 100x12 col gap0 pad0/0/0/0 MIN/MIN
+    FRAM "Nav/Tableau de bord" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/home" 18x18
+      TEXT "Tableau de bord" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Tableau de bord»
+    FRAM "Nav/Mes produits" 231x42 row gap12 pad10/12/10/12 MIN/CEN stretch bg#EEEDFF r10
+      FRAM "icon/package" 18x18
+      TEXT "Mes produits" 134x20 grow [Label/Default Inter 600 14/20] c#635BFF «Mes produits»
+      FRAM "Badge/17" 31x22 row gap0 pad3/9/3/9 MIN/CEN bg#EEEDFF r999
+        TEXT "17" 13x16 [Label/Small Inter 600 12/16] c#635BFF «17»
+    FRAM "Nav/Ajouter un produit" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/plus" 18x18
+      TEXT "Ajouter un produit" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ajouter un produit»
+    FRAM "Nav/Ventes" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/bag" 18x18
+      TEXT "Ventes" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ventes»
+    FRAM "Nav/Revenus & retraits" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/wallet" 18x18
+      TEXT "Revenus & retraits" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Revenus & retraits»
+    FRAM "Nav/Clients" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/users" 18x18
+      TEXT "Clients" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Clients»
+    FRAM "Nav/Statistiques" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/chart" 18x18
+      TEXT "Statistiques" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Statistiques»
+    FRAM "Nav/Coupons" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/tag" 18x18
+      TEXT "Coupons" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Coupons»
+    FRAM "Nav/Profil public" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/user" 18x18
+      TEXT "Profil public" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Profil public»
+    FRAM "Stack" 100x301 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 231x46 row gap12 pad10/12/10/12 MIN/CEN stretch bd1#E5E7EB r10
+      FRAM "icon/eye" 18x18
+      TEXT "Voir ma boutique publique" 188x24 [Body/Medium Inter 500 15/24] c#4B5563 «Voir ma boutique publique»
+  FRAM "Contenu" 1176x967 col gap28 pad28/40/56/40 MIN/MIN grow
+    FRAM "Barre du haut" 1096x68 row gap16 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Stack" 837x68 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Mes produits" 199x40 [Heading/H2 Manrope 700 32/40] c#111827 «Mes produits»
+        TEXT "17 produits · 14 publiés, 1 en modératio" 434x24 [Body/Default Inter 400 15/24] c#4B5563 «17 produits · 14 publiés, 1 en modération, 1 brouillon, 1 refusé.»
+      FRAM "Bouton/Ajouter un produit" 185x42 row gap8 pad11/18/11/18 CEN/CEN bg#635BFF r10
+        FRAM "icon/plus" 18x18
+        TEXT "Ajouter un produit" 123x20 [Label/Default Inter 600 14/20] c#FFFFFF «Ajouter un produit»
+      FRAM "Notifications" 42x42 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#E5E7EB r10
+        FRAM "icon/bell" 18x18
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#DC2626 r999
+    FRAM "Row" 1096x100 row gap8 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Row" 82x32 row gap0 pad8/14/8/14 MIN/MIN bg#111827 r999
+        TEXT "Tous (17)" 54x16 [Label/Small Inter 600 12/16] c#FFFFFF «Tous (17)»
+      FRAM "Row" 99x34 row gap0 pad8/14/8/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r999
+        TEXT "Publiés (14)" 69x16 [Label/Small Inter 600 12/16] c#4B5563 «Publiés (14)»
+      FRAM "Row" 133x34 row gap0 pad8/14/8/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r999
+        TEXT "En modération (1)" 103x16 [Label/Small Inter 600 12/16] c#4B5563 «En modération (1)»
+      FRAM "Row" 106x34 row gap0 pad8/14/8/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r999
+        TEXT "Brouillons (1)" 76x16 [Label/Small Inter 600 12/16] c#4B5563 «Brouillons (1)»
+      FRAM "Row" 96x34 row gap0 pad8/14/8/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r999
+        TEXT "Refusés (1)" 66x16 [Label/Small Inter 600 12/16] c#4B5563 «Refusés (1)»
+      FRAM "Row" 272x100 row gap0 pad0/0/0/0 MIN/MIN grow
+      FRAM "Row" 260x40 row gap8 pad0/12/0/12 MIN/CEN bg#FFFFFF bd1#D1D5DB r10
+        FRAM "icon/search" 16x16
+        TEXT "Rechercher un produit" 137x20 [Body/Small Inter 400 13/20] c#9CA3AF «Rechercher un produit»
+    FRAM "Tableau produits" 1096x557 col gap0 pad0/0/0/0 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Row" 1094x44 row gap0 pad14/20/14/20 MIN/CEN stretch bg#F8F9FC
+        TEXT "PRODUIT" 444x16 grow [Overline Inter 700 11/16] c#9CA3AF «PRODUIT»
+        TEXT "STATUT" 150x16 [Overline Inter 700 11/16] c#9CA3AF «STATUT»
+        TEXT "PRIX" 110x16 [Overline Inter 700 11/16] c#9CA3AF «PRIX»
+        TEXT "VENTES" 80x16 [Overline Inter 700 11/16] c#9CA3AF «VENTES»
+        TEXT "REVENUS" 120x16 [Overline Inter 700 11/16] c#9CA3AF «REVENUS»
+        TEXT "NOTE" 70x16 [Overline Inter 700 11/16] c#9CA3AF «NOTE»
+        TEXT "Text" 80x16 [Overline Inter 700 11/16] c#9CA3AF «»
+      FRAM "Row" 1094x73 row gap0 pad12/20/12/20 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Row" 444x48 row gap14 pad0/0/0/0 MIN/CEN grow
+          FRAM "Visuel/doc" 64x48 bg#E0E7FF r8
+          FRAM "Stack" 152x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Template CV moderne" 152x20 [Label/Default Inter 600 14/20] c#111827 «Template CV moderne»
+            TEXT "Carrière" 47x16 [Caption Inter 500 12/16] c#9CA3AF «Carrière»
+        FRAM "Row" 150x22 row gap0 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Publié" 54x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+            TEXT "Publié" 36x16 [Label/Small Inter 600 12/16] c#16A34A «Publié»
+        TEXT "5 000 F" 110x20 [Body/Small Inter 400 13/20] c#111827 «5 000 F»
+        TEXT "28" 80x20 [Body/Small Inter 400 13/20] c#111827 «28»
+        TEXT "140 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «140 000 F»
+        TEXT "4,9 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,9 ★»
+        FRAM "Row" 80x16 row gap12 pad0/0/0/0 MAX/MIN
+          FRAM "icon/pen" 16x16
+          FRAM "icon/more" 16x16
+      FRAM "Row" 1094x73 row gap0 pad12/20/12/20 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Row" 444x48 row gap14 pad0/0/0/0 MIN/CEN grow
+          FRAM "Visuel/grid" 64x48 bg#FCE7F3 r8
+          FRAM "Stack" 153x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Pack Canva restaurant" 153x20 [Label/Default Inter 600 14/20] c#111827 «Pack Canva restaurant»
+            TEXT "Design" 40x16 [Caption Inter 500 12/16] c#9CA3AF «Design»
+        FRAM "Row" 150x22 row gap0 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Publié" 54x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+            TEXT "Publié" 36x16 [Label/Small Inter 600 12/16] c#16A34A «Publié»
+        TEXT "6 000 F" 110x20 [Body/Small Inter 400 13/20] c#111827 «6 000 F»
+        TEXT "21" 80x20 [Body/Small Inter 400 13/20] c#111827 «21»
+        TEXT "126 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «126 000 F»
+        TEXT "4,8 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,8 ★»
+        FRAM "Row" 80x16 row gap12 pad0/0/0/0 MAX/MIN
+          FRAM "icon/pen" 16x16
+          FRAM "icon/more" 16x16
+      FRAM "Row" 1094x73 row gap0 pad12/20/12/20 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Row" 444x48 row gap14 pad0/0/0/0 MIN/CEN grow
+          FRAM "Visuel/sheet" 64x48 bg#DCFCE7 r8
+          FRAM "Stack" 160x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Excel Business complet" 160x20 [Label/Default Inter 600 14/20] c#111827 «Excel Business complet»
+            TEXT "Business" 52x16 [Caption Inter 500 12/16] c#9CA3AF «Business»
+        FRAM "Row" 150x22 row gap0 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Publié" 54x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+            TEXT "Publié" 36x16 [Label/Small Inter 600 12/16] c#16A34A «Publié»
+        TEXT "6 000 F" 110x20 [Body/Small Inter 400 13/20] c#111827 «6 000 F»
+        TEXT "15" 80x20 [Body/Small Inter 400 13/20] c#111827 «15»
+        TEXT "90 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «90 000 F»
+        TEXT "4,7 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,7 ★»
+        FRAM "Row" 80x16 row gap12 pad0/0/0/0 MAX/MIN
+          FRAM "icon/pen" 16x16
+          FRAM "icon/more" 16x16
+      FRAM "Row" 1094x73 row gap0 pad12/20/12/20 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Row" 444x48 row gap14 pad0/0/0/0 MIN/CEN grow
+          FRAM "Visuel/notion" 64x48 bg#F3F4F6 r8
+          FRAM "Stack" 142x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Pack Notion étudiant" 142x20 [Label/Default Inter 600 14/20] c#111827 «Pack Notion étudiant»
+            TEXT "Productivité" 70x16 [Caption Inter 500 12/16] c#9CA3AF «Productivité»
+        FRAM "Row" 150x22 row gap0 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/En modération" 103x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEF3C7 r999
+            TEXT "En modération" 85x16 [Label/Small Inter 600 12/16] c#D97706 «En modération»
+        TEXT "6 000 F" 110x20 [Body/Small Inter 400 13/20] c#111827 «6 000 F»
+        TEXT "—" 80x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        TEXT "—" 120x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        TEXT "—" 70x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        FRAM "Row" 80x16 row gap12 pad0/0/0/0 MAX/MIN
+          FRAM "icon/pen" 16x16
+          FRAM "icon/more" 16x16
+      FRAM "Row" 1094x73 row gap0 pad12/20/12/20 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Row" 444x48 row gap14 pad0/0/0/0 MIN/CEN grow
+          FRAM "Visuel/book" 64x48 bg#FEF3C7 r8
+          FRAM "Stack" 190x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "E-book : facturer ses clients" 190x20 [Label/Default Inter 600 14/20] c#111827 «E-book : facturer ses clients»
+            TEXT "E-books" 48x16 [Caption Inter 500 12/16] c#9CA3AF «E-books»
+        FRAM "Row" 150x22 row gap0 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Publié" 54x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+            TEXT "Publié" 36x16 [Label/Small Inter 600 12/16] c#16A34A «Publié»
+        TEXT "3 500 F" 110x20 [Body/Small Inter 400 13/20] c#111827 «3 500 F»
+        TEXT "12" 80x20 [Body/Small Inter 400 13/20] c#111827 «12»
+        TEXT "42 000 F" 120x20 [Body/Small Inter 400 13/20] c#111827 «42 000 F»
+        TEXT "4,6 ★" 70x20 [Body/Small Inter 400 13/20] c#111827 «4,6 ★»
+        FRAM "Row" 80x16 row gap12 pad0/0/0/0 MAX/MIN
+          FRAM "icon/pen" 16x16
+          FRAM "icon/more" 16x16
+      FRAM "Row" 1094x73 row gap0 pad12/20/12/20 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Row" 444x48 row gap14 pad0/0/0/0 MIN/CEN grow
+          FRAM "Visuel/chart" 64x48 bg#EEEDFF r8
+          FRAM "Stack" 144x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Tableau de trésorerie" 144x20 [Label/Default Inter 600 14/20] c#111827 «Tableau de trésorerie»
+            TEXT "Business" 52x16 [Caption Inter 500 12/16] c#9CA3AF «Business»
+        FRAM "Row" 150x22 row gap0 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Refusé" 59x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEE2E2 r999
+            TEXT "Refusé" 41x16 [Label/Small Inter 600 12/16] c#DC2626 «Refusé»
+        TEXT "4 000 F" 110x20 [Body/Small Inter 400 13/20] c#111827 «4 000 F»
+        TEXT "—" 80x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        TEXT "—" 120x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        TEXT "—" 70x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        FRAM "Row" 80x16 row gap12 pad0/0/0/0 MAX/MIN
+          FRAM "icon/pen" 16x16
+          FRAM "icon/more" 16x16
+      FRAM "Row" 1094x73 row gap0 pad12/20/12/20 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Row" 444x48 row gap14 pad0/0/0/0 MIN/CEN grow
+          FRAM "Visuel/grid" 64x48 bg#FCE7F3 r8
+          FRAM "Stack" 155x38 col gap2 pad0/0/0/0 MIN/MIN
+            TEXT "Pack stories Instagram" 155x20 [Label/Default Inter 600 14/20] c#111827 «Pack stories Instagram»
+            TEXT "Réseaux sociaux" 96x16 [Caption Inter 500 12/16] c#9CA3AF «Réseaux sociaux»
+        FRAM "Row" 150x22 row gap0 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Brouillon" 69x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "Brouillon" 51x16 [Label/Small Inter 600 12/16] c#4B5563 «Brouillon»
+        TEXT "3 000 F" 110x20 [Body/Small Inter 400 13/20] c#111827 «3 000 F»
+        TEXT "—" 80x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        TEXT "—" 120x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        TEXT "—" 70x20 [Body/Small Inter 400 13/20] c#111827 «—»
+        FRAM "Row" 80x16 row gap12 pad0/0/0/0 MAX/MIN
+          FRAM "icon/pen" 16x16
+          FRAM "icon/more" 16x16
+    FRAM "Motif de refus" 1096x74 row gap14 pad16/20/16/20 MIN/CEN stretch bg#FEE2E2 r14
+      FRAM "icon/info" 18x18
+      FRAM "Stack" 935x42 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "« Tableau de trésorerie » a été refusé" 252x20 [Label/Default Inter 600 14/20] c#DC2626 «« Tableau de trésorerie » a été refusé»
+        TEXT "Motif : les aperçus ne montrent pas le c" 935x20 stretch [Body/Small Inter 400 13/20] c#4B5563 «Motif : les aperçus ne montrent pas le contenu réel du fichier. Ajoutez 3 captures du tableau puis soumettez à nouveau.»
+      FRAM "Bouton/Corriger" 75x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+        TEXT "Corriger" 49x16 [Label/Small Inter 600 12/16] c#111827 «Corriger»

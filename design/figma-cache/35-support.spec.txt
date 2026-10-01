@@ -1,0 +1,133 @@
+FRAM "35 · Support — tickets" 1440x778 row gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Sidebar" 264x778 col gap4 pad24/16/24/16 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 163x54 row gap8 pad0/8/20/8 MIN/CEN
+      FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Row" 110x30 row gap0 pad8/12/6/12 MIN/MIN
+      TEXT "MON COMPTE" 86x16 [Overline Inter 700 11/16] c#9CA3AF «MON COMPTE»
+    FRAM "Nav/Tableau de bord" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/home" 18x18
+      TEXT "Tableau de bord" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Tableau de bord»
+    FRAM "Nav/Ma bibliothèque" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/book" 18x18
+      TEXT "Ma bibliothèque" 133x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ma bibliothèque»
+      FRAM "Badge/12" 32x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "12" 14x16 [Label/Small Inter 600 12/16] c#4B5563 «12»
+    FRAM "Nav/Commandes & factures" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/file" 18x18
+      TEXT "Commandes & factures" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Commandes & factures»
+    FRAM "Nav/Favoris" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/heart" 18x18
+      TEXT "Favoris" 139x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Favoris»
+      FRAM "Badge/6" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "6" 8x16 [Label/Small Inter 600 12/16] c#4B5563 «6»
+    FRAM "Nav/Coupons" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/tag" 18x18
+      TEXT "Coupons" 139x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Coupons»
+      FRAM "Badge/2" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#4B5563 «2»
+    FRAM "Nav/Profil & sécurité" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/user" 18x18
+      TEXT "Profil & sécurité" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Profil & sécurité»
+    FRAM "Nav/Support" 231x40 row gap12 pad10/12/10/12 MIN/CEN stretch bg#EEEDFF r10
+      FRAM "icon/msg" 18x18
+      TEXT "Support" 177x20 grow [Label/Default Inter 600 14/20] c#635BFF «Support»
+    FRAM "Nav/Boutique" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/bag" 18x18
+      TEXT "Retour à la boutique" 144x24 [Body/Medium Inter 500 15/24] c#4B5563 «Retour à la boutique»
+    FRAM "Stack" 100x30 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Carte aide" 231x166 col gap10 pad16/16/16/16 MIN/MIN stretch bg#1E1B4B r14
+      FRAM "icon/help" 20x20
+      TEXT "Besoin d’aide ?" 101x20 [Label/Default Inter 600 14/20] c#FFFFFF «Besoin d’aide ?»
+      TEXT "Support WhatsApp 7j/7, réponse en moins " 199x32 stretch [Caption Inter 500 12/16] c#C7D2FE «Support WhatsApp 7j/7, réponse en moins de 2 h.»
+      FRAM "Bouton/Contacter" 83x32 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF r10
+        TEXT "Contacter" 59x16 [Label/Small Inter 600 12/16] c#111827 «Contacter»
+    FRAM "Row" 231x54 row gap10 pad16/8/0/8 MIN/CEN stretch
+      FRAM "Avatar" 38x38 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+        TEXT "AK" 17x16 [Caption Inter 500 12/16] c#FFFFFF «AK»
+      FRAM "Stack" 139x36 col gap0 pad0/0/0/0 MIN/MIN grow
+        TEXT "Aïcha Koné" 77x20 [Label/Default Inter 600 14/20] c#111827 «Aïcha Koné»
+        TEXT "aicha.kone@gmail.com" 133x16 [Caption Inter 500 12/16] c#9CA3AF «aicha.kone@gmail.com»
+      FRAM "icon/logout" 18x18
+  FRAM "Contenu" 1176x778 col gap28 pad28/40/56/40 MIN/MIN grow
+    FRAM "Barre du haut" 1096x68 row gap16 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Stack" 858x68 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Support" 125x40 [Heading/H2 Manrope 700 32/40] c#111827 «Support»
+        TEXT "Suivez vos demandes et échangez avec not" 382x24 [Body/Default Inter 400 15/24] c#4B5563 «Suivez vos demandes et échangez avec notre équipe.»
+      FRAM "Bouton/Nouveau ticket" 164x42 row gap8 pad11/18/11/18 CEN/CEN bg#635BFF r10
+        FRAM "icon/plus" 18x18
+        TEXT "Nouveau ticket" 102x20 [Label/Default Inter 600 14/20] c#FFFFFF «Nouveau ticket»
+      FRAM "Notifications" 42x42 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#E5E7EB r10
+        FRAM "icon/bell" 18x18
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#DC2626 r999
+    FRAM "Messagerie" 1096x598 row gap0 pad0/0/0/0 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Liste tickets" 360x596 col gap0 pad0/0/0/0 MIN/MIN stretch bd1#E5E7EB
+        FRAM "Row" 359x60 row gap8 pad16/16/16/16 MIN/CEN stretch
+          FRAM "Row" 89x28 row gap0 pad6/12/6/12 MIN/MIN bg#111827 r999
+            TEXT "Ouverts (1)" 65x16 [Label/Small Inter 600 12/16] c#FFFFFF «Ouverts (1)»
+          FRAM "Row" 90x28 row gap0 pad6/12/6/12 MIN/MIN bg#F8F9FC r999
+            TEXT "Résolus (3)" 66x16 [Label/Small Inter 600 12/16] c#4B5563 «Résolus (3)»
+        FRAM "Stack" 359x99 col gap6 pad14/16/14/16 MIN/MIN stretch bg#EEEDFF bd1#E5E7EB
+          FRAM "Row" 327x22 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "#1048" 258x16 grow [Caption Inter 500 12/16] c#9CA3AF «#1048»
+            FRAM "Badge/En cours" 69x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEF3C7 r999
+              TEXT "En cours" 51x16 [Label/Small Inter 600 12/16] c#D97706 «En cours»
+          TEXT "Lien de téléchargement expiré" 206x20 [Label/Default Inter 600 14/20] c#111827 «Lien de téléchargement expiré»
+          TEXT "Il y a 12 min" 67x16 [Caption Inter 500 12/16] c#9CA3AF «Il y a 12 min»
+        FRAM "Stack" 359x99 col gap6 pad14/16/14/16 MIN/MIN stretch bd1#E5E7EB
+          FRAM "Row" 327x22 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "#1012" 269x16 grow [Caption Inter 500 12/16] c#9CA3AF «#1012»
+            FRAM "Badge/Résolu" 58x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+              TEXT "Résolu" 40x16 [Label/Small Inter 600 12/16] c#16A34A «Résolu»
+          TEXT "Facture au nom de mon entreprise" 232x20 [Label/Default Inter 600 14/20] c#111827 «Facture au nom de mon entreprise»
+          TEXT "12 sept." 45x16 [Caption Inter 500 12/16] c#9CA3AF «12 sept.»
+        FRAM "Stack" 359x99 col gap6 pad14/16/14/16 MIN/MIN stretch bd1#E5E7EB
+          FRAM "Row" 327x22 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "#0987" 269x16 grow [Caption Inter 500 12/16] c#9CA3AF «#0987»
+            FRAM "Badge/Résolu" 58x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+              TEXT "Résolu" 40x16 [Label/Small Inter 600 12/16] c#16A34A «Résolu»
+          TEXT "Paiement Orange Money en attente" 240x20 [Label/Default Inter 600 14/20] c#111827 «Paiement Orange Money en attente»
+          TEXT "28 août" 44x16 [Caption Inter 500 12/16] c#9CA3AF «28 août»
+        FRAM "Stack" 359x99 col gap6 pad14/16/14/16 MIN/MIN stretch bd1#E5E7EB
+          FRAM "Row" 327x22 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "#0950" 269x16 grow [Caption Inter 500 12/16] c#9CA3AF «#0950»
+            FRAM "Badge/Résolu" 58x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+              TEXT "Résolu" 40x16 [Label/Small Inter 600 12/16] c#16A34A «Résolu»
+          TEXT "Question sur la licence commerciale" 245x20 [Label/Default Inter 600 14/20] c#111827 «Question sur la licence commerciale»
+          TEXT "2 août" 37x16 [Caption Inter 500 12/16] c#9CA3AF «2 août»
+      FRAM "Conversation" 734x596 col gap0 pad0/0/0/0 MIN/MIN grow
+        FRAM "Row" 734x71 row gap12 pad16/24/16/24 MIN/CEN stretch bd1#E5E7EB
+          FRAM "Stack" 456x38 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "#1048 · Lien de téléchargement expiré" 260x20 [Label/Default Inter 600 14/20] c#111827 «#1048 · Lien de téléchargement expiré»
+            TEXT "Commande DN-2026-004812 · Business Plan " 283x16 [Caption Inter 500 12/16] c#9CA3AF «Commande DN-2026-004812 · Business Plan Pro»
+          FRAM "Badge/En cours" 69x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEF3C7 r999
+            TEXT "En cours" 51x16 [Label/Small Inter 600 12/16] c#D97706 «En cours»
+          FRAM "Bouton/Marquer résolu" 137x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/check" 15x15
+            TEXT "Marquer résolu" 88x16 [Label/Small Inter 600 12/16] c#111827 «Marquer résolu»
+        FRAM "Messages" 734x448 col gap20 pad24/24/24/24 MIN/MIN stretch bg#F8F9FC
+          FRAM "Row" 686x136 row gap12 pad0/0/0/0 MAX/MAX stretch
+            FRAM "Stack" 460x136 col gap6 pad14/16/14/16 MIN/MIN bg#635BFF r16
+              TEXT "Bonjour, le lien reçu par email ne fonct" 428x48 stretch [Body/Default Inter 400 15/24] c#FFFFFF «Bonjour, le lien reçu par email ne fonctionne plus, il affiche « lien expiré ».»
+              FRAM "Row" 153x32 row gap8 pad8/10/8/10 MIN/CEN bg#FFFFFF/15% r10
+                FRAM "icon/paperclip" 14x14
+                TEXT "capture-erreur.png" 111x16 [Label/Small Inter 600 12/16] c#FFFFFF «capture-erreur.png»
+              TEXT "Vous · 14:02" 71x16 [Caption Inter 500 12/16] c#C7D2FE «Vous · 14:02»
+          FRAM "Row" 686x124 row gap12 pad0/0/0/0 MIN/MAX stretch
+            FRAM "Avatar" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+              TEXT "DN" 18x16 [Caption Inter 500 12/16] c#FFFFFF «DN»
+            FRAM "Stack" 460x124 col gap6 pad14/16/14/16 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+              TEXT "Bonjour Aïcha, les liens email expirent " 426x72 stretch [Body/Default Inter 400 15/24] c#111827 «Bonjour Aïcha, les liens email expirent après 15 minutes pour protéger vos fichiers. Vous pouvez en générer un nouveau à tout moment depuis Ma bibliothèque.»
+              TEXT "Mariam · Support DigiNova · 14:09" 196x16 [Caption Inter 500 12/16] c#9CA3AF «Mariam · Support DigiNova · 14:09»
+          FRAM "Row" 686x100 row gap12 pad0/0/0/0 MIN/MAX stretch
+            FRAM "Avatar" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+              TEXT "DN" 18x16 [Caption Inter 500 12/16] c#FFFFFF «DN»
+            FRAM "Stack" 460x100 col gap6 pad14/16/14/16 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+              TEXT "J’ai réinitialisé votre compteur de télé" 426x48 stretch [Body/Default Inter 400 15/24] c#111827 «J’ai réinitialisé votre compteur de téléchargements (0/10). Le bouton « Télécharger » fonctionne à nouveau.»
+              TEXT "Mariam · Support DigiNova · 14:10" 194x16 [Caption Inter 500 12/16] c#9CA3AF «Mariam · Support DigiNova · 14:10»
+        FRAM "Row" 734x77 row gap12 pad16/24/16/24 MIN/CEN stretch bd1#E5E7EB
+          FRAM "icon/paperclip" 18x18
+          FRAM "Row" 527x44 row gap0 pad0/14/0/14 MIN/CEN grow bg#F8F9FC r10
+            TEXT "Écrire une réponse…" 146x24 [Body/Default Inter 400 15/24] c#9CA3AF «Écrire une réponse…»
+          FRAM "Bouton/Envoyer" 117x42 row gap8 pad11/18/11/18 CEN/CEN bg#635BFF r10
+            FRAM "icon/send" 18x18
+            TEXT "Envoyer" 55x20 [Label/Default Inter 600 14/20] c#FFFFFF «Envoyer»

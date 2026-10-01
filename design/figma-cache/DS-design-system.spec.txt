@@ -1,0 +1,499 @@
+FRAM "DigiNova — Design System v1.0" 1600x4724 col gap72 pad80/80/80/80 MIN/MIN bg#F8F9FC
+  FRAM "Row" 1440x102 row gap24 pad0/0/0/0 MIN/CEN stretch
+    FRAM "Row" 64x64 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r18
+      FRAM "icon/sparkle" 32x32
+    FRAM "Stack" 703x102 col gap6 pad0/0/0/0 MIN/MIN
+      TEXT "DigiNova Design System" 690x68 [Display/Hero Manrope 800 60/68] c#111827 «DigiNova Design System»
+      TEXT "Version 1.0 · octobre 2026 · tokens liés" 703x28 [Body/Large Inter 400 18/28] c#4B5563 «Version 1.0 · octobre 2026 · tokens liés aux variables Figma (modes Clair / Sombre)»
+  FRAM "Section/Couleurs" 1440x845 col gap28 pad0/0/0/0 MIN/MIN stretch
+    FRAM "Stack" 1440x95 col gap6 pad0/0/16/0 MIN/MIN stretch bd1#E5E7EB
+      TEXT "Couleurs" 176x48 [Heading/H1 Manrope 800 40/48] c#111827 «Couleurs»
+      TEXT "Chaque couleur est une variable. Les écr" 865x24 [Body/Default Inter 400 15/24] c#4B5563 «Chaque couleur est une variable. Les écrans utilisent ces variables : passer en mode Sombre met à jour toute la maquette.»
+    FRAM "Row" 1440x664 row gap20 pad0/0/0/0 MIN/MIN wrap
+      FRAM "Couleur/brand/primary" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#635BFF
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "brand/primary" 84x16 [Label/Small Inter 600 12/16] c#111827 «brand/primary»
+          TEXT "#635BFF · sombre #7C75FF" 161x16 [Caption Inter 500 12/16] c#9CA3AF «#635BFF · sombre #7C75FF»
+      FRAM "Couleur/brand/primary-hover" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#4F46E5
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "brand/primary-hover" 123x16 [Label/Small Inter 600 12/16] c#111827 «brand/primary-hover»
+          TEXT "#4F46E5 · sombre #635BFF" 162x16 [Caption Inter 500 12/16] c#9CA3AF «#4F46E5 · sombre #635BFF»
+      FRAM "Couleur/brand/subtle" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#EEEDFF
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "brand/subtle" 75x16 [Label/Small Inter 600 12/16] c#111827 «brand/subtle»
+          TEXT "#EEEDFF · sombre #1E1B4B" 158x16 [Caption Inter 500 12/16] c#9CA3AF «#EEEDFF · sombre #1E1B4B»
+      FRAM "Couleur/brand/deep" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#1E1B4B
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "brand/deep" 68x16 [Label/Small Inter 600 12/16] c#111827 «brand/deep»
+          TEXT "#1E1B4B · sombre #0B0F1A" 158x16 [Caption Inter 500 12/16] c#9CA3AF «#1E1B4B · sombre #0B0F1A»
+      FRAM "Couleur/text/primary" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#111827
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "text/primary" 73x16 [Label/Small Inter 600 12/16] c#111827 «text/primary»
+          TEXT "#111827 · sombre #F9FAFB" 155x16 [Caption Inter 500 12/16] c#9CA3AF «#111827 · sombre #F9FAFB»
+      FRAM "Couleur/text/secondary" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#4B5563
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "text/secondary" 89x16 [Label/Small Inter 600 12/16] c#111827 «text/secondary»
+          TEXT "#4B5563 · sombre #9CA3AF" 166x16 [Caption Inter 500 12/16] c#9CA3AF «#4B5563 · sombre #9CA3AF»
+      FRAM "Couleur/text/tertiary" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#9CA3AF
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "text/tertiary" 71x16 [Label/Small Inter 600 12/16] c#111827 «text/tertiary»
+          TEXT "#9CA3AF · sombre #6B7280" 165x16 [Caption Inter 500 12/16] c#9CA3AF «#9CA3AF · sombre #6B7280»
+      FRAM "Couleur/text/on-brand" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#FFFFFF
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "text/on-brand" 82x16 [Label/Small Inter 600 12/16] c#111827 «text/on-brand»
+          TEXT "#FFFFFF · sombre #FFFFFF" 156x16 [Caption Inter 500 12/16] c#9CA3AF «#FFFFFF · sombre #FFFFFF»
+      FRAM "Couleur/bg/page" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#F8F9FC
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "bg/page" 49x16 [Label/Small Inter 600 12/16] c#111827 «bg/page»
+          TEXT "#F8F9FC · sombre #0B0F1A" 161x16 [Caption Inter 500 12/16] c#9CA3AF «#F8F9FC · sombre #0B0F1A»
+      FRAM "Couleur/bg/surface" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#FFFFFF
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "bg/surface" 64x16 [Label/Small Inter 600 12/16] c#111827 «bg/surface»
+          TEXT "#FFFFFF · sombre #111827" 153x16 [Caption Inter 500 12/16] c#9CA3AF «#FFFFFF · sombre #111827»
+      FRAM "Couleur/bg/subtle" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#F3F4F6
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "bg/subtle" 56x16 [Label/Small Inter 600 12/16] c#111827 «bg/subtle»
+          TEXT "#F3F4F6 · sombre #1F2937" 159x16 [Caption Inter 500 12/16] c#9CA3AF «#F3F4F6 · sombre #1F2937»
+      FRAM "Couleur/bg/inverse" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#0B0F1A
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "bg/inverse" 63x16 [Label/Small Inter 600 12/16] c#111827 «bg/inverse»
+          TEXT "#0B0F1A · sombre #000000" 163x16 [Caption Inter 500 12/16] c#9CA3AF «#0B0F1A · sombre #000000»
+      FRAM "Couleur/border/default" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#E5E7EB
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "border/default" 84x16 [Label/Small Inter 600 12/16] c#111827 «border/default»
+          TEXT "#E5E7EB · sombre #1F2937" 158x16 [Caption Inter 500 12/16] c#9CA3AF «#E5E7EB · sombre #1F2937»
+      FRAM "Couleur/border/strong" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#D1D5DB
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "border/strong" 81x16 [Label/Small Inter 600 12/16] c#111827 «border/strong»
+          TEXT "#D1D5DB · sombre #374151" 159x16 [Caption Inter 500 12/16] c#9CA3AF «#D1D5DB · sombre #374151»
+      FRAM "Couleur/status/success" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#16A34A
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "status/success" 90x16 [Label/Small Inter 600 12/16] c#111827 «status/success»
+          TEXT "#16A34A · sombre #22C55E" 163x16 [Caption Inter 500 12/16] c#9CA3AF «#16A34A · sombre #22C55E»
+      FRAM "Couleur/status/success-subtle" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#DCFCE7
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "status/success-subtle" 132x16 [Label/Small Inter 600 12/16] c#111827 «status/success-subtle»
+          TEXT "#DCFCE7 · sombre #052E16" 162x16 [Caption Inter 500 12/16] c#9CA3AF «#DCFCE7 · sombre #052E16»
+      FRAM "Couleur/status/warning" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#D97706
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "status/warning" 88x16 [Label/Small Inter 600 12/16] c#111827 «status/warning»
+          TEXT "#D97706 · sombre #F59E0B" 162x16 [Caption Inter 500 12/16] c#9CA3AF «#D97706 · sombre #F59E0B»
+      FRAM "Couleur/status/warning-subtle" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#FEF3C7
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "status/warning-subtle" 130x16 [Label/Small Inter 600 12/16] c#111827 «status/warning-subtle»
+          TEXT "#FEF3C7 · sombre #451A03" 162x16 [Caption Inter 500 12/16] c#9CA3AF «#FEF3C7 · sombre #451A03»
+      FRAM "Couleur/status/danger" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#DC2626
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "status/danger" 83x16 [Label/Small Inter 600 12/16] c#111827 «status/danger»
+          TEXT "#DC2626 · sombre #EF4444" 165x16 [Caption Inter 500 12/16] c#9CA3AF «#DC2626 · sombre #EF4444»
+      FRAM "Couleur/status/danger-subtle" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#FEE2E2
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "status/danger-subtle" 124x16 [Label/Small Inter 600 12/16] c#111827 «status/danger-subtle»
+          TEXT "#FEE2E2 · sombre #450A0A" 163x16 [Caption Inter 500 12/16] c#9CA3AF «#FEE2E2 · sombre #450A0A»
+      FRAM "Couleur/accent/amber" 200x148 col gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1#E5E7EB r14
+        FRAM "Row" 198x88 row gap0 pad0/0/0/0 MIN/MIN stretch bg#F59E0B
+        FRAM "Stack" 198x58 col gap2 pad12/12/12/12 MIN/MIN stretch
+          TEXT "accent/amber" 82x16 [Label/Small Inter 600 12/16] c#111827 «accent/amber»
+          TEXT "#F59E0B · sombre #FBBF24" 162x16 [Caption Inter 500 12/16] c#9CA3AF «#F59E0B · sombre #FBBF24»
+    FRAM "Row" 874x30 row gap12 pad0/0/0/0 MIN/CEN
+      TEXT "Moyens de paiement (couleurs de marque, " 416x20 [Label/Default Inter 600 14/20] c#4B5563 «Moyens de paiement (couleurs de marque, usage informatif) :»
+      FRAM "Row" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+        ELLI "Ellipse" 10x10 bg#FF7900
+        TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#4B5563 «Orange Money»
+      FRAM "Row" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+        ELLI "Ellipse" 10x10 bg#FFCC00
+        TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#4B5563 «MTN MoMo»
+      FRAM "Row" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+        ELLI "Ellipse" 10x10 bg#1DC8F2
+        TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#4B5563 «Wave»
+      FRAM "Row" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+        ELLI "Ellipse" 10x10 bg#0066B3
+        TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#4B5563 «Moov Money»
+  FRAM "Section/Typographie" 1440x1292 col gap28 pad0/0/0/0 MIN/MIN stretch
+    FRAM "Stack" 1440x95 col gap6 pad0/0/16/0 MIN/MIN stretch bd1#E5E7EB
+      TEXT "Typographie" 240x48 [Heading/H1 Manrope 800 40/48] c#111827 «Typographie»
+      TEXT "Manrope pour les titres, Inter pour le t" 404x24 [Body/Default Inter 400 15/24] c#4B5563 «Manrope pour les titres, Inter pour le texte et les chiffres.»
+    FRAM "Stack" 1440x1169 col gap0 pad0/0/0/0 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Row" 1438x105 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Display/Hero" 87x20 [Label/Default Inter 600 14/20] c#635BFF «Display/Hero»
+          TEXT "Manrope ExtraBold · 60/68" 155x16 [Caption Inter 500 12/16] c#9CA3AF «Manrope ExtraBold · 60/68»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x68 grow [Display/Hero Manrope 800 60/68] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x85 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Heading/H1" 79x20 [Label/Default Inter 600 14/20] c#635BFF «Heading/H1»
+          TEXT "Manrope ExtraBold · 40/48" 155x16 [Caption Inter 500 12/16] c#9CA3AF «Manrope ExtraBold · 40/48»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x48 grow [Heading/H1 Manrope 800 40/48] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x77 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Heading/H2" 81x20 [Label/Default Inter 600 14/20] c#635BFF «Heading/H2»
+          TEXT "Manrope Bold · 32/40" 125x16 [Caption Inter 500 12/16] c#9CA3AF «Manrope Bold · 32/40»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x40 grow [Heading/H2 Manrope 700 32/40] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Heading/H3" 82x20 [Label/Default Inter 600 14/20] c#635BFF «Heading/H3»
+          TEXT "Manrope Bold · 24/32" 124x16 [Caption Inter 500 12/16] c#9CA3AF «Manrope Bold · 24/32»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x32 grow [Heading/H3 Manrope 700 24/32] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Heading/H4" 82x20 [Label/Default Inter 600 14/20] c#635BFF «Heading/H4»
+          TEXT "Manrope Bold · 18/26" 122x16 [Caption Inter 500 12/16] c#9CA3AF «Manrope Bold · 18/26»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Body/Large" 78x20 [Label/Default Inter 600 14/20] c#635BFF «Body/Large»
+          TEXT "Inter Regular · 18/28" 116x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Regular · 18/28»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x28 grow [Body/Large Inter 400 18/28] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Body/Default" 89x20 [Label/Default Inter 600 14/20] c#635BFF «Body/Default»
+          TEXT "Inter Regular · 15/24" 116x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Regular · 15/24»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x24 grow [Body/Default Inter 400 15/24] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Body/Medium" 94x20 [Label/Default Inter 600 14/20] c#635BFF «Body/Medium»
+          TEXT "Inter Medium · 15/24" 118x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Medium · 15/24»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x24 grow [Body/Medium Inter 500 15/24] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Body/Small" 77x20 [Label/Default Inter 600 14/20] c#635BFF «Body/Small»
+          TEXT "Inter Regular · 13/20" 116x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Regular · 13/20»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x20 grow [Body/Small Inter 400 13/20] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Label/Default" 92x20 [Label/Default Inter 600 14/20] c#635BFF «Label/Default»
+          TEXT "Inter Semi Bold · 14/20" 130x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Semi Bold · 14/20»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x20 grow [Label/Default Inter 600 14/20] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Label/Small" 80x20 [Label/Default Inter 600 14/20] c#635BFF «Label/Small»
+          TEXT "Inter Semi Bold · 12/16" 128x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Semi Bold · 12/16»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x16 grow [Label/Small Inter 600 12/16] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Caption" 54x20 [Label/Default Inter 600 14/20] c#635BFF «Caption»
+          TEXT "Inter Medium · 12/16" 117x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Medium · 12/16»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x16 grow [Caption Inter 500 12/16] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Overline" 57x20 [Label/Default Inter 600 14/20] c#635BFF «Overline»
+          TEXT "Inter Bold · 11/16" 95x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Bold · 11/16»
+        TEXT "Le meilleur du digital, à portée de clic" 1098x16 grow [Overline Inter 700 11/16] c#111827 «Le meilleur du digital, à portée de clic.»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Price/Large" 79x20 [Label/Default Inter 600 14/20] c#635BFF «Price/Large»
+          TEXT "Inter Bold · 30/36" 101x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Bold · 30/36»
+        TEXT "12 000 FCFA" 1098x36 grow [Price/Large Inter 700 30/36] c#111827 «12 000 FCFA»
+      FRAM "Row" 1438x75 row gap32 pad18/24/18/24 MIN/CEN stretch bd1#E5E7EB
+        FRAM "Stack" 260x38 col gap2 pad0/0/0/0 MIN/MIN
+          TEXT "Price/Default" 89x20 [Label/Default Inter 600 14/20] c#635BFF «Price/Default»
+          TEXT "Inter Bold · 16/24" 98x16 [Caption Inter 500 12/16] c#9CA3AF «Inter Bold · 16/24»
+        TEXT "12 000 FCFA" 1098x24 grow [Price/Default Inter 700 16/24] c#111827 «12 000 FCFA»
+  FRAM "Section/Espacements, rayons & ombres" 1440x367 col gap28 pad0/0/0/0 MIN/MIN stretch
+    FRAM "Stack" 1440x95 col gap6 pad0/0/16/0 MIN/MIN stretch bd1#E5E7EB
+      TEXT "Espacements, rayons & ombres" 595x48 [Heading/H1 Manrope 800 40/48] c#111827 «Espacements, rayons & ombres»
+      TEXT "Grille de 8 px · conteneur 1280 px · 12 " 459x24 [Body/Default Inter 400 15/24] c#4B5563 «Grille de 8 px · conteneur 1280 px · 12 colonnes · gouttière 24 px.»
+    FRAM "Row" 768x120 row gap48 pad0/0/0/0 MIN/MAX
+      FRAM "Stack" 25x28 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 4x4 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "4 px" 25x16 [Caption Inter 500 12/16] c#4B5563 «4 px»
+      FRAM "Stack" 25x32 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "8 px" 25x16 [Caption Inter 500 12/16] c#4B5563 «8 px»
+      FRAM "Stack" 30x36 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 12x12 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "12 px" 30x16 [Caption Inter 500 12/16] c#4B5563 «12 px»
+      FRAM "Stack" 31x40 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 16x16 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "16 px" 31x16 [Caption Inter 500 12/16] c#4B5563 «16 px»
+      FRAM "Stack" 32x48 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 24x24 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "24 px" 32x16 [Caption Inter 500 12/16] c#4B5563 «24 px»
+      FRAM "Stack" 33x56 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "32 px" 33x16 [Caption Inter 500 12/16] c#4B5563 «32 px»
+      FRAM "Stack" 48x72 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 48x48 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "48 px" 33x16 [Caption Inter 500 12/16] c#4B5563 «48 px»
+      FRAM "Stack" 64x88 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 64x64 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "64 px" 33x16 [Caption Inter 500 12/16] c#4B5563 «64 px»
+      FRAM "Stack" 96x120 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 96x96 row gap0 pad0/0/0/0 MIN/MIN bg#635BFF
+        TEXT "96 px" 33x16 [Caption Inter 500 12/16] c#4B5563 «96 px»
+    FRAM "Row" 952x96 row gap32 pad0/0/0/0 MIN/MAX
+      FRAM "Stack" 96x96 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 96x72 row gap0 pad0/0/0/0 MIN/MIN bg#EEEDFF bd1#635BFF r8
+        TEXT "radius/sm · 8" 75x16 [Caption Inter 500 12/16] c#4B5563 «radius/sm · 8»
+      FRAM "Stack" 96x96 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 96x72 row gap0 pad0/0/0/0 MIN/MIN bg#EEEDFF bd1#635BFF r12
+        TEXT "radius/md · 12" 81x16 [Caption Inter 500 12/16] c#4B5563 «radius/md · 12»
+      FRAM "Stack" 96x96 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 96x72 row gap0 pad0/0/0/0 MIN/MIN bg#EEEDFF bd1#635BFF r16
+        TEXT "radius/lg · 16" 74x16 [Caption Inter 500 12/16] c#4B5563 «radius/lg · 16»
+      FRAM "Stack" 96x96 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 96x72 row gap0 pad0/0/0/0 MIN/MIN bg#EEEDFF bd1#635BFF r24
+        TEXT "radius/xl · 24" 75x16 [Caption Inter 500 12/16] c#4B5563 «radius/xl · 24»
+      FRAM "Stack" 96x96 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 96x72 row gap0 pad0/0/0/0 MIN/MIN bg#EEEDFF bd1#635BFF r999
+        TEXT "radius/full · ∞" 79x16 [Caption Inter 500 12/16] c#4B5563 «radius/full · ∞»
+      FRAM "Stack" 140x96 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 140x72 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r16 shadow(0,4,16,-4,#121733/6%)
+        TEXT "Ombre douce" 78x16 [Caption Inter 500 12/16] c#4B5563 «Ombre douce»
+      FRAM "Stack" 140x96 col gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 140x72 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF r16 shadow(0,16,40,-4,#121733/14%)
+        TEXT "Ombre flottante" 91x16 [Caption Inter 500 12/16] c#4B5563 «Ombre flottante»
+  FRAM "Section/Icônes" 1440x393 col gap28 pad0/0/0/0 MIN/MIN stretch
+    FRAM "Stack" 1440x95 col gap6 pad0/0/16/0 MIN/MIN stretch bd1#E5E7EB
+      TEXT "Icônes" 128x48 [Heading/H1 Manrope 800 40/48] c#111827 «Icônes»
+      TEXT "Style trait 2 px, coins arrondis (famill" 465x24 [Body/Default Inter 400 15/24] c#4B5563 «Style trait 2 px, coins arrondis (famille Lucide). Tailles 16 / 20 / 24.»
+    FRAM "Row" 1440x270 row gap12 pad0/0/0/0 MIN/MIN wrap
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/search" 24x24
+        TEXT "search" 39x16 [Caption Inter 500 12/16] c#9CA3AF «search»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/heart" 24x24
+        TEXT "heart" 31x16 [Caption Inter 500 12/16] c#9CA3AF «heart»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/bag" 24x24
+        TEXT "bag" 22x16 [Caption Inter 500 12/16] c#9CA3AF «bag»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/user" 24x24
+        TEXT "user" 26x16 [Caption Inter 500 12/16] c#9CA3AF «user»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/download" 24x24
+        TEXT "download" 57x16 [Caption Inter 500 12/16] c#9CA3AF «download»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/check" 24x24
+        TEXT "check" 35x16 [Caption Inter 500 12/16] c#9CA3AF «check»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/lock" 24x24
+        TEXT "lock" 24x16 [Caption Inter 500 12/16] c#9CA3AF «lock»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/star" 24x24
+        TEXT "star" 23x16 [Caption Inter 500 12/16] c#9CA3AF «star»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/arrow" 24x24
+        TEXT "arrow" 33x16 [Caption Inter 500 12/16] c#9CA3AF «arrow»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/home" 24x24
+        TEXT "home" 33x16 [Caption Inter 500 12/16] c#9CA3AF «home»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/grid" 24x24
+        TEXT "grid" 23x16 [Caption Inter 500 12/16] c#9CA3AF «grid»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/book" 24x24
+        TEXT "book" 29x16 [Caption Inter 500 12/16] c#9CA3AF «book»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/file" 24x24
+        TEXT "file" 18x16 [Caption Inter 500 12/16] c#9CA3AF «file»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/chart" 24x24
+        TEXT "chart" 31x16 [Caption Inter 500 12/16] c#9CA3AF «chart»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/wallet" 24x24
+        TEXT "wallet" 35x16 [Caption Inter 500 12/16] c#9CA3AF «wallet»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/bell" 24x24
+        TEXT "bell" 21x16 [Caption Inter 500 12/16] c#9CA3AF «bell»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/upload" 24x24
+        TEXT "upload" 40x16 [Caption Inter 500 12/16] c#9CA3AF «upload»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/shield" 24x24
+        TEXT "shield" 35x16 [Caption Inter 500 12/16] c#9CA3AF «shield»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/zap" 24x24
+        TEXT "zap" 21x16 [Caption Inter 500 12/16] c#9CA3AF «zap»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/package" 24x24
+        TEXT "package" 50x16 [Caption Inter 500 12/16] c#9CA3AF «package»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/card" 24x24
+        TEXT "card" 26x16 [Caption Inter 500 12/16] c#9CA3AF «card»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/phone" 24x24
+        TEXT "phone" 37x16 [Caption Inter 500 12/16] c#9CA3AF «phone»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/mail" 24x24
+        TEXT "mail" 24x16 [Caption Inter 500 12/16] c#9CA3AF «mail»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/tag" 24x24
+        TEXT "tag" 19x16 [Caption Inter 500 12/16] c#9CA3AF «tag»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/users" 24x24
+        TEXT "users" 32x16 [Caption Inter 500 12/16] c#9CA3AF «users»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/msg" 24x24
+        TEXT "msg" 25x16 [Caption Inter 500 12/16] c#9CA3AF «msg»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/sparkle" 24x24
+        TEXT "sparkle" 42x16 [Caption Inter 500 12/16] c#9CA3AF «sparkle»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/refresh" 24x24
+        TEXT "refresh" 41x16 [Caption Inter 500 12/16] c#9CA3AF «refresh»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/eye" 24x24
+        TEXT "eye" 21x16 [Caption Inter 500 12/16] c#9CA3AF «eye»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/x" 24x24
+        TEXT "x" 7x16 [Caption Inter 500 12/16] c#9CA3AF «x»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/plus" 24x24
+        TEXT "plus" 24x16 [Caption Inter 500 12/16] c#9CA3AF «plus»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/clock" 24x24
+        TEXT "clock" 31x16 [Caption Inter 500 12/16] c#9CA3AF «clock»
+      FRAM "Stack" 104x82 col gap8 pad16/8/16/8 MIN/CEN bg#FFFFFF bd1#E5E7EB r12
+        FRAM "icon/trash" 24x24
+        TEXT "trash" 30x16 [Caption Inter 500 12/16] c#9CA3AF «trash»
+  FRAM "Section/Composants" 1440x1205 col gap28 pad0/0/0/0 MIN/MIN stretch
+    FRAM "Stack" 1440x95 col gap6 pad0/0/16/0 MIN/MIN stretch bd1#E5E7EB
+      TEXT "Composants" 246x48 [Heading/H1 Manrope 800 40/48] c#111827 «Composants»
+      TEXT "Composants Figma réutilisables avec vari" 685x24 [Body/Default Inter 400 15/24] c#4B5563 «Composants Figma réutilisables avec variantes. Toutes les maquettes en reprennent la structure.»
+    TEXT "Bouton" 64x26 [Heading/H4 Manrope 700 18/26] c#111827 «Bouton»
+    FRAM "Boutons" 1000x308 row gap24 pad0/0/0/0 MIN/MIN
+      COMP "Bouton" 1000x308 row gap16 pad24/24/24/24 MIN/MIN wrap bg#FFFFFF bd1#9747FF r16
+        COMP "Type=Primaire, Taille=Grand" 213x52 row gap8 pad16/26/16/26 CEN/CEN bg#635BFF r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#FFFFFF «Acheter maintenant»
+        COMP "Type=Primaire, Taille=Moyen" 201x44 row gap8 pad12/20/12/20 CEN/CEN bg#635BFF r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#FFFFFF «Acheter maintenant»
+        COMP "Type=Primaire, Taille=Petit" 167x32 row gap8 pad8/14/8/14 CEN/CEN bg#635BFF r10
+          FRAM "icon/zap" 16x16
+          TEXT "Acheter maintenant" 115x16 [Label/Small Inter 600 12/16] c#FFFFFF «Acheter maintenant»
+        COMP "Type=Secondaire, Taille=Grand" 215x54 row gap8 pad16/26/16/26 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#111827 «Acheter maintenant»
+        COMP "Type=Secondaire, Taille=Moyen" 203x46 row gap8 pad12/20/12/20 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#111827 «Acheter maintenant»
+        COMP "Type=Secondaire, Taille=Petit" 169x34 row gap8 pad8/14/8/14 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+          FRAM "icon/zap" 16x16
+          TEXT "Acheter maintenant" 115x16 [Label/Small Inter 600 12/16] c#111827 «Acheter maintenant»
+        COMP "Type=Sombre, Taille=Grand" 213x52 row gap8 pad16/26/16/26 CEN/CEN bg#111827 r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#FFFFFF «Acheter maintenant»
+        COMP "Type=Sombre, Taille=Moyen" 201x44 row gap8 pad12/20/12/20 CEN/CEN bg#111827 r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#FFFFFF «Acheter maintenant»
+        COMP "Type=Sombre, Taille=Petit" 167x32 row gap8 pad8/14/8/14 CEN/CEN bg#111827 r10
+          FRAM "icon/zap" 16x16
+          TEXT "Acheter maintenant" 115x16 [Label/Small Inter 600 12/16] c#FFFFFF «Acheter maintenant»
+        COMP "Type=Doux, Taille=Grand" 213x52 row gap8 pad16/26/16/26 CEN/CEN bg#EEEDFF r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#635BFF «Acheter maintenant»
+        COMP "Type=Doux, Taille=Moyen" 201x44 row gap8 pad12/20/12/20 CEN/CEN bg#EEEDFF r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#635BFF «Acheter maintenant»
+        COMP "Type=Doux, Taille=Petit" 167x32 row gap8 pad8/14/8/14 CEN/CEN bg#EEEDFF r10
+          FRAM "icon/zap" 16x16
+          TEXT "Acheter maintenant" 115x16 [Label/Small Inter 600 12/16] c#635BFF «Acheter maintenant»
+        COMP "Type=Fantôme, Taille=Grand" 213x52 row gap8 pad16/26/16/26 CEN/CEN r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#635BFF «Acheter maintenant»
+        COMP "Type=Fantôme, Taille=Moyen" 201x44 row gap8 pad12/20/12/20 CEN/CEN r10
+          FRAM "icon/zap" 18x18
+          TEXT "Acheter maintenant" 135x20 [Label/Default Inter 600 14/20] c#635BFF «Acheter maintenant»
+        COMP "Type=Fantôme, Taille=Petit" 167x32 row gap8 pad8/14/8/14 CEN/CEN r10
+          FRAM "icon/zap" 16x16
+          TEXT "Acheter maintenant" 115x16 [Label/Small Inter 600 12/16] c#635BFF «Acheter maintenant»
+    TEXT "Badge" 55x26 [Heading/H4 Manrope 700 18/26] c#111827 «Badge»
+    FRAM "Row" 501x50 row gap24 pad0/0/0/0 MIN/MIN
+      COMP "Badge" 501x50 row gap12 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#9747FF r16
+        COMP "Ton=Marque" 65x24 row gap0 pad4/10/4/10 MIN/CEN bg#EEEDFF r999
+          TEXT "Marque" 45x16 [Label/Small Inter 600 12/16] c#635BFF «Marque»
+        COMP "Ton=Succès" 63x24 row gap0 pad4/10/4/10 MIN/CEN bg#DCFCE7 r999
+          TEXT "Succès" 43x16 [Label/Small Inter 600 12/16] c#16A34A «Succès»
+        COMP "Ton=Alerte" 56x24 row gap0 pad4/10/4/10 MIN/CEN bg#FEF3C7 r999
+          TEXT "Alerte" 36x16 [Label/Small Inter 600 12/16] c#D97706 «Alerte»
+        COMP "Ton=Danger" 63x24 row gap0 pad4/10/4/10 MIN/CEN bg#FEE2E2 r999
+          TEXT "Danger" 43x16 [Label/Small Inter 600 12/16] c#DC2626 «Danger»
+        COMP "Ton=Neutre" 60x24 row gap0 pad4/10/4/10 MIN/CEN bg#F3F4F6 r999
+          TEXT "Neutre" 40x16 [Label/Small Inter 600 12/16] c#4B5563 «Neutre»
+        COMP "Ton=Promo" 84x24 row gap0 pad4/10/4/10 MIN/CEN bg#F59E0B r999
+          TEXT "Best-seller" 64x16 [Label/Small Inter 600 12/16] c#FFFFFF «Best-seller»
+    TEXT "Champ de saisie" 143x26 [Heading/H4 Manrope 700 18/26] c#111827 «Champ de saisie»
+    FRAM "Row" 1402x100 row gap24 pad0/0/0/0 MIN/MIN
+      COMP "Champ" 1402x100 row gap24 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#9747FF r16
+        COMP "État=Défaut" 320x100 col gap8 pad0/0/0/0 MIN/MIN
+          TEXT "Adresse email" 96x20 [Label/Default Inter 600 14/20] c#111827 «Adresse email»
+          FRAM "Row" 320x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/mail" 18x18
+            TEXT "aicha.kone@gmail.com" 262x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha.kone@gmail.com»
+          TEXT "Texte d’aide" 69x16 [Caption Inter 500 12/16] c#9CA3AF «Texte d’aide»
+        COMP "État=Focus" 320x100 col gap8 pad0/0/0/0 MIN/MIN
+          TEXT "Adresse email" 96x20 [Label/Default Inter 600 14/20] c#111827 «Adresse email»
+          FRAM "Row" 320x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd2#635BFF r10
+            FRAM "icon/mail" 18x18
+            TEXT "aicha.kone@gmail.com" 260x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha.kone@gmail.com»
+          TEXT "Texte d’aide" 69x16 [Caption Inter 500 12/16] c#9CA3AF «Texte d’aide»
+        COMP "État=Erreur" 320x100 col gap8 pad0/0/0/0 MIN/MIN
+          TEXT "Adresse email" 96x20 [Label/Default Inter 600 14/20] c#111827 «Adresse email»
+          FRAM "Row" 320x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd2#DC2626 r10
+            FRAM "icon/mail" 18x18
+            TEXT "aicha.kone@gmail.com" 260x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha.kone@gmail.com»
+          TEXT "Cette adresse email semble incomplète." 230x16 [Caption Inter 500 12/16] c#DC2626 «Cette adresse email semble incomplète.»
+        COMP "État=Désactivé" 320x100 col gap8 pad0/0/0/0 MIN/MIN
+          TEXT "Adresse email" 96x20 [Label/Default Inter 600 14/20] c#111827 «Adresse email»
+          FRAM "Row" 320x48 row gap10 pad0/14/0/14 MIN/CEN stretch bg#F3F4F6 bd1#E5E7EB r10
+            FRAM "icon/mail" 18x18
+            TEXT "aicha.kone@gmail.com" 262x24 grow [Body/Default Inter 400 15/24] c#9CA3AF «aicha.kone@gmail.com»
+          TEXT "Champ non modifiable" 129x16 [Caption Inter 500 12/16] c#9CA3AF «Champ non modifiable»
+    TEXT "Carte produit & option de paiement" 306x26 [Heading/H4 Manrope 700 18/26] c#111827 «Carte produit & option de paiement»
+    FRAM "Row" 726x324 row gap24 pad0/0/0/0 MIN/MIN
+      COMP "Carte produit" 282x324 col gap14 pad0/0/0/0 MIN/MIN
+        FRAM "Visuel produit" 282x212 bg#EEEDFF r12
+          FRAM "Frame" 151x177 bg#FFFFFF r8.05714
+            RECT "Rectangle" 70x8 bg#635BFF r4.02857
+            RECT "Rectangle" 19x55 bg#635BFF/35% r3.02143
+            RECT "Rectangle" 19x86 bg#635BFF/48% r3.02143
+            RECT "Rectangle" 19x68 bg#635BFF/61% r3.02143
+            RECT "Rectangle" 19x117 bg#635BFF/74% r3.02143
+            RECT "Rectangle" 19x98 bg#635BFF/87% r3.02143
+        FRAM "Stack" 282x98 col gap6 pad0/0/0/0 MIN/MIN stretch
+          TEXT "BUSINESS" 61x16 [Overline Inter 700 11/16] c#9CA3AF «BUSINESS»
+          TEXT "Business Plan Pro — modèle complet" 282x24 stretch [Body/Medium Inter 500 15/24] c#111827 «Business Plan Pro — modèle complet»
+          FRAM "Row" 71x16 row gap4 pad0/0/0/0 MIN/CEN
+            FRAM "icon/star" 14x14
+            TEXT "4,9" 19x16 [Label/Small Inter 600 12/16] c#111827 «4,9»
+            TEXT "(127)" 30x16 [Caption Inter 500 12/16] c#9CA3AF «(127)»
+          FRAM "Row" 151x24 row gap8 pad0/0/0/0 MIN/CEN
+            TEXT "12 000 FCFA" 100x24 [Price/Default Inter 700 16/24] c#111827 «12 000 FCFA»
+            TEXT "18 000" 43x20 [Body/Small Inter 400 13/20] c#9CA3AF «18 000»
+      COMP "Option de paiement" 420x208 col gap12 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#9747FF r16
+        COMP "État=Sélectionné" 420x74 row gap14 pad16/16/16/16 MIN/CEN bg#EEEDFF bd2#635BFF r14
+          FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd6#635BFF r999
+          FRAM "Row" 44x32 row gap0 pad0/0/0/0 CEN/CEN bg#1DC8F2 r8
+            TEXT "W" 13x16 [Label/Small Inter 600 12/16] c#FFFFFF «W»
+          FRAM "Stack" 292x38 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Wave" 38x20 [Label/Default Inter 600 14/20] c#111827 «Wave»
+            TEXT "Sans frais · validation dans l’app" 183x16 [Caption Inter 500 12/16] c#4B5563 «Sans frais · validation dans l’app»
+        COMP "État=Défaut" 420x72 row gap14 pad16/16/16/16 MIN/CEN bg#FFFFFF bd1#E5E7EB r14
+          FRAM "Row" 20x20 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+          FRAM "Row" 44x32 row gap0 pad0/0/0/0 CEN/CEN bg#1DC8F2 r8
+            TEXT "W" 13x16 [Label/Small Inter 600 12/16] c#FFFFFF «W»
+          FRAM "Stack" 294x38 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Wave" 38x20 [Label/Default Inter 600 14/20] c#111827 «Wave»
+            TEXT "Sans frais · validation dans l’app" 183x16 [Caption Inter 500 12/16] c#4B5563 «Sans frais · validation dans l’app»

@@ -1,0 +1,82 @@
+FRAM "24 · Paiement échoué" 1440x1079 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Header checkout" 1440x76 row gap24 pad0/80/0/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Row" 186x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Étapes" 473x26 row gap12 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 80x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+          FRAM "icon/check" 14x14
+        TEXT "Panier" 46x24 [Body/Medium Inter 500 15/24] c#111827 «Panier»
+      FRAM "Row" 48x2 row gap0 pad0/0/0/0 MIN/MIN bg#E5E7EB r1
+      FRAM "Row" 98x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+          TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#FFFFFF «2»
+        TEXT "Paiement" 64x20 [Label/Default Inter 600 14/20] c#111827 «Paiement»
+      FRAM "Row" 48x2 row gap0 pad0/0/0/0 MIN/MIN bg#E5E7EB r1
+      FRAM "Row" 151x26 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 26x26 row gap0 pad0/0/0/0 CEN/CEN bg#F3F4F6 r999
+          TEXT "3" 8x16 [Label/Small Inter 600 12/16] c#9CA3AF «3»
+        TEXT "Téléchargement" 117x24 [Body/Medium Inter 500 15/24] c#9CA3AF «Téléchargement»
+    FRAM "Row" 186x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 193x20 row gap8 pad0/0/0/0 MIN/CEN
+      FRAM "icon/lock" 16x16
+      TEXT "Paiement 100 % sécurisé" 169x20 [Label/Default Inter 600 14/20] c#16A34A «Paiement 100 % sécurisé»
+  FRAM "Centre" 1440x916 col gap0 pad56/0/80/0 MIN/CEN
+    FRAM "Carte" 640x780 col gap24 pad48/48/48/48 MIN/CEN bg#FFFFFF bd1#E5E7EB r28 shadow(0,4,16,-4,#121733/6%)
+      FRAM "Icône statut" 128x128 row gap0 pad0/0/0/0 CEN/CEN bg#FEE2E2 r999
+        FRAM "Row" 96x96 row gap0 pad0/0/0/0 CEN/CEN bg#FEE2E2 r999
+          FRAM "icon/x" 40x40
+      TEXT "Le paiement n’a pas abouti" 403x40 [Heading/H2 Manrope 700 32/40] align-center c#111827 «Le paiement n’a pas abouti»
+      TEXT "Aucun montant n’a été débité. Votre pani" 542x28 stretch [Body/Large Inter 400 18/28] align-center c#4B5563 «Aucun montant n’a été débité. Votre panier est conservé.»
+      FRAM "Causes possibles" 542x162 col gap10 pad20/20/20/20 MIN/MIN stretch bg#F8F9FC r16
+        TEXT "Causes fréquentes" 129x20 [Label/Default Inter 600 14/20] c#111827 «Causes fréquentes»
+        FRAM "Row" 248x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "icon/alert" 16x16
+          TEXT "Solde Mobile Money insuffisant" 222x24 [Body/Default Inter 400 15/24] c#4B5563 «Solde Mobile Money insuffisant»
+        FRAM "Row" 316x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "icon/alert" 16x16
+          TEXT "Demande non validée dans les 5 minutes" 290x24 [Body/Default Inter 400 15/24] c#4B5563 «Demande non validée dans les 5 minutes»
+        FRAM "Row" 334x24 row gap10 pad0/0/0/0 MIN/CEN
+          FRAM "icon/alert" 16x16
+          TEXT "Code secret incorrect ou opération annul" 308x24 [Body/Default Inter 400 15/24] c#4B5563 «Code secret incorrect ou opération annulée»
+      FRAM "Bouton/Réessayer avec Wave" 542x52 row gap8 pad16/26/16/26 CEN/CEN stretch bg#635BFF r10
+        FRAM "icon/refresh" 18x18
+        TEXT "Réessayer avec Wave" 147x20 [Label/Default Inter 600 14/20] c#FFFFFF «Réessayer avec Wave»
+      FRAM "Bouton/Choisir un autre moyen de paiement" 542x54 row gap8 pad16/26/16/26 CEN/CEN stretch bg#FFFFFF bd1#D1D5DB r10
+        TEXT "Choisir un autre moyen de paiement" 244x20 [Label/Default Inter 600 14/20] c#111827 «Choisir un autre moyen de paiement»
+      FRAM "Row" 557x30 row gap6 pad0/0/0/0 CEN/MIN
+        FRAM "Paiement/Orange Money" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#FF7900
+          TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#4B5563 «Orange Money»
+        FRAM "Paiement/MTN MoMo" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#FFCC00
+          TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#4B5563 «MTN MoMo»
+        FRAM "Paiement/Wave" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#1DC8F2
+          TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#4B5563 «Wave»
+        FRAM "Paiement/Moov Money" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#0066B3
+          TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#4B5563 «Moov Money»
+        FRAM "Paiement/Carte bancaire" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+          ELLI "Ellipse" 10x10 bg#635BFF
+          TEXT "Carte bancaire" 85x16 [Caption Inter 500 12/16] c#4B5563 «Carte bancaire»
+      FRAM "Row" 318x20 row gap8 pad0/0/0/0 MIN/CEN
+        FRAM "icon/msg" 16x16
+        TEXT "Besoin d’aide ? Écrivez-nous sur WhatsAp" 294x20 [Label/Default Inter 600 14/20] c#635BFF «Besoin d’aide ? Écrivez-nous sur WhatsApp»
+  FRAM "Footer simplifié" 1440x87 row gap16 pad28/80/28/80 MIN/CEN bg#FFFFFF bd1#E5E7EB
+    TEXT "© 2026 DigiNova · CGV · Remboursements ·" 667x20 grow [Body/Small Inter 400 13/20] c#9CA3AF «© 2026 DigiNova · CGV · Remboursements · Aide : support@diginova.ci»
+    FRAM "Paiement/Orange Money" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#FF7900
+      TEXT "Orange Money" 85x16 [Caption Inter 500 12/16] c#4B5563 «Orange Money»
+    FRAM "Paiement/MTN MoMo" 105x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#FFCC00
+      TEXT "MTN MoMo" 67x16 [Caption Inter 500 12/16] c#4B5563 «MTN MoMo»
+    FRAM "Paiement/Wave" 70x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#1DC8F2
+      TEXT "Wave" 32x16 [Caption Inter 500 12/16] c#4B5563 «Wave»
+    FRAM "Paiement/Moov Money" 112x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#0066B3
+      TEXT "Moov Money" 74x16 [Caption Inter 500 12/16] c#4B5563 «Moov Money»
+    FRAM "Paiement/Carte bancaire" 123x30 row gap6 pad6/10/6/10 MIN/CEN bg#FFFFFF bd1#E5E7EB r8
+      ELLI "Ellipse" 10x10 bg#635BFF
+      TEXT "Carte bancaire" 85x16 [Caption Inter 500 12/16] c#4B5563 «Carte bancaire»

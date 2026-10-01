@@ -1,0 +1,44 @@
+FRAM "14 · Lien envoyé" 1440x980 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF
+  FRAM "Panneau marque" 620x980 col gap32 pad56/56/56/56 MIN/MIN stretch bg#1E1B4B
+    ELLI "Ellipse" 600x600 bg#635BFF/40%
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Stack" 100x236 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Collage produits" 508x250
+      FRAM "Visuel/grid" 204x162 bg#FCE7F3 bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+      FRAM "Visuel/sheet" 193x153 bg#DCFCE7 bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+      FRAM "Visuel/chart" 230x173 bg#EEEDFF bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+    TEXT "Le meilleur du digital, à portée de clic" 508x96 [Heading/H1 Manrope 800 40/48] c#FFFFFF «Le meilleur du digital, à portée de clic.»
+    FRAM "Stack" 419x124 col gap14 pad0/0/0/0 MIN/MIN
+      FRAM "Row" 419x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/phone" 16x16
+        TEXT "Payez en Orange Money, MTN, Wave, Moov o" 375x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Payez en Orange Money, MTN, Wave, Moov ou carte»
+      FRAM "Row" 346x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/zap" 16x16
+        TEXT "Téléchargement immédiat après paiement" 302x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Téléchargement immédiat après paiement»
+      FRAM "Row" 334x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/book" 16x16
+        TEXT "Vos achats à vie dans votre bibliothèque" 290x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Vos achats à vie dans votre bibliothèque»
+  FRAM "Zone formulaire" 820x980 col gap0 pad40/80/40/80 MIN/CEN grow stretch
+    FRAM "Barre haut" 660x100 row gap0 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Row" 158x20 row gap6 pad0/0/0/0 MIN/CEN
+        FRAM "icon/chevL" 16x16
+        TEXT "Retour à la boutique" 136x20 [Label/Default Inter 600 14/20] c#4B5563 «Retour à la boutique»
+      FRAM "Row" 453x100 row gap0 pad0/0/0/0 MIN/MIN grow
+      TEXT "FR · XOF" 49x16 [Label/Small Inter 600 12/16] c#9CA3AF «FR · XOF»
+    FRAM "Centre" 660x784 col gap0 pad0/0/0/0 CEN/CEN grow stretch
+      FRAM "Formulaire" 440x446 col gap24 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 80x80 row gap0 pad0/0/0/0 CEN/CEN bg#DCFCE7 r999
+          FRAM "icon/mail" 34x34
+        TEXT "Vérifiez votre boîte mail" 453x48 [Heading/H1 Manrope 800 40/48] align-center c#111827 «Vérifiez votre boîte mail»
+        TEXT "Un lien de réinitialisation a été envoyé" 440x56 stretch [Body/Large Inter 400 18/28] align-center c#4B5563 «Un lien de réinitialisation a été envoyé à aicha.kone@gmail.com. Il est valable 30 minutes.»
+        FRAM "Bouton/Ouvrir ma messagerie" 440x50 row gap10 pad15/24/15/24 CEN/CEN stretch bg#635BFF r10
+          TEXT "Ouvrir ma messagerie" 149x20 [Label/Default Inter 600 14/20] c#FFFFFF «Ouvrir ma messagerie»
+        FRAM "Row" 440x72 row gap10 pad16/16/16/16 MIN/MIN stretch bg#F3F4F6 r12
+          FRAM "icon/alert" 18x18
+          TEXT "Rien reçu ? Vérifiez vos spams ou renvoy" 380x40 grow [Body/Small Inter 400 13/20] c#4B5563 «Rien reçu ? Vérifiez vos spams ou renvoyez le lien dans 60 secondes.»
+        TEXT "Renvoyer le lien" 107x20 [Label/Default Inter 600 14/20] c#635BFF «Renvoyer le lien»
+    FRAM "Row" 660x16 row gap0 pad0/0/0/0 CEN/MIN stretch
+      TEXT "Connexion chiffrée · CGU · Confidentiali" 240x16 [Caption Inter 500 12/16] c#9CA3AF «Connexion chiffrée · CGU · Confidentialité»

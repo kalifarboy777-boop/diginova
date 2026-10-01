@@ -1,0 +1,192 @@
+FRAM "44 · Studio — revenus & retraits" 1440x1058 row gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Sidebar studio" 264x1058 col gap4 pad24/16/24/16 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 227x54 row gap8 pad0/8/20/8 MIN/CEN
+      FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+      FRAM "Badge/Studio" 56x22 row gap0 pad3/9/3/9 MIN/CEN bg#F59E0B r999
+        TEXT "Studio" 38x16 [Label/Small Inter 600 12/16] c#FFFFFF «Studio»
+    FRAM "Boutique créateur" 231x60 row gap10 pad12/12/12/12 MIN/CEN stretch bg#F8F9FC r12
+      FRAM "Avatar" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+        TEXT "JK" 15x16 [Caption Inter 500 12/16] c#FFFFFF «JK»
+      FRAM "Stack" 135x36 col gap0 pad0/0/0/0 MIN/MIN grow
+        TEXT "Jean Kouassi" 90x20 [Label/Default Inter 600 14/20] c#111827 «Jean Kouassi»
+        TEXT "Créateur vérifié · Pro" 119x16 [Caption Inter 500 12/16] c#635BFF «Créateur vérifié · Pro»
+      FRAM "icon/chevD" 16x16
+    FRAM "Stack" 100x12 col gap0 pad0/0/0/0 MIN/MIN
+    FRAM "Nav/Tableau de bord" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/home" 18x18
+      TEXT "Tableau de bord" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Tableau de bord»
+    FRAM "Nav/Mes produits" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/package" 18x18
+      TEXT "Mes produits" 134x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Mes produits»
+      FRAM "Badge/17" 31x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "17" 13x16 [Label/Small Inter 600 12/16] c#4B5563 «17»
+    FRAM "Nav/Ajouter un produit" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/plus" 18x18
+      TEXT "Ajouter un produit" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ajouter un produit»
+    FRAM "Nav/Ventes" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/bag" 18x18
+      TEXT "Ventes" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ventes»
+    FRAM "Nav/Revenus & retraits" 231x40 row gap12 pad10/12/10/12 MIN/CEN stretch bg#EEEDFF r10
+      FRAM "icon/wallet" 18x18
+      TEXT "Revenus & retraits" 177x20 grow [Label/Default Inter 600 14/20] c#635BFF «Revenus & retraits»
+    FRAM "Nav/Clients" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/users" 18x18
+      TEXT "Clients" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Clients»
+    FRAM "Nav/Statistiques" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/chart" 18x18
+      TEXT "Statistiques" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Statistiques»
+    FRAM "Nav/Coupons" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/tag" 18x18
+      TEXT "Coupons" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Coupons»
+    FRAM "Nav/Profil public" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/user" 18x18
+      TEXT "Profil public" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Profil public»
+    FRAM "Stack" 100x394 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 231x46 row gap12 pad10/12/10/12 MIN/CEN stretch bd1#E5E7EB r10
+      FRAM "icon/eye" 18x18
+      TEXT "Voir ma boutique publique" 188x24 [Body/Medium Inter 500 15/24] c#4B5563 «Voir ma boutique publique»
+  FRAM "Contenu" 1176x1058 col gap28 pad28/40/56/40 MIN/MIN grow
+    FRAM "Barre du haut" 1096x68 row gap16 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Stack" 839x68 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Revenus & retraits" 279x40 [Heading/H2 Manrope 700 32/40] c#111827 «Revenus & retraits»
+        TEXT "Retraits vers Mobile Money ou banque, ve" 466x24 [Body/Default Inter 400 15/24] c#4B5563 «Retraits vers Mobile Money ou banque, versés sous 48 h ouvrées.»
+      FRAM "Bouton/Exporter le relevé" 183x44 row gap8 pad11/18/11/18 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+        FRAM "icon/download" 18x18
+        TEXT "Exporter le relevé" 119x20 [Label/Default Inter 600 14/20] c#111827 «Exporter le relevé»
+      FRAM "Notifications" 42x42 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#E5E7EB r10
+        FRAM "icon/bell" 18x18
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#DC2626 r999
+    FRAM "Row" 1096x138 row gap20 pad0/0/0/0 MIN/MIN stretch
+      FRAM "KPI/Solde disponible" 258x136 col gap10 pad20/20/20/20 MIN/MIN grow bg#1E1B4B r16
+        TEXT "Solde disponible" 102x20 [Body/Small Inter 400 13/20] c#C7D2FE «Solde disponible»
+        TEXT "312 000 FCFA" 203x40 [Heading/H2 Manrope 700 32/40] c#FFFFFF «312 000 FCFA»
+        TEXT "Retirable maintenant" 119x16 [Caption Inter 500 12/16] c#A5B4FC «Retirable maintenant»
+      FRAM "KPI/En période de garantie" 260x138 col gap10 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "En période de garantie" 140x20 [Body/Small Inter 400 13/20] c#4B5563 «En période de garantie»
+        TEXT "108 000 FCFA" 206x40 [Heading/H2 Manrope 700 32/40] c#111827 «108 000 FCFA»
+        TEXT "Disponible sous 7 jours" 133x16 [Caption Inter 500 12/16] c#9CA3AF «Disponible sous 7 jours»
+      FRAM "KPI/Total retiré en 2026" 260x138 col gap10 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Total retiré en 2026" 121x20 [Body/Small Inter 400 13/20] c#4B5563 «Total retiré en 2026»
+        TEXT "1 840 000 FCFA" 231x40 [Heading/H2 Manrope 700 32/40] c#111827 «1 840 000 FCFA»
+        TEXT "12 retraits" 58x16 [Caption Inter 500 12/16] c#9CA3AF «12 retraits»
+      FRAM "KPI/Commission DigiNova" 260x138 col gap10 pad20/20/20/20 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Commission DigiNova" 134x20 [Body/Small Inter 400 13/20] c#4B5563 «Commission DigiNova»
+        TEXT "10 %" 70x40 [Heading/H2 Manrope 700 32/40] c#111827 «10 %»
+        TEXT "Plan Pro · 15 % en plan standard" 183x16 [Caption Inter 500 12/16] c#9CA3AF «Plan Pro · 15 % en plan standard»
+    FRAM "Row" 1096x712 row gap24 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Stack" 692x677 col gap24 pad0/0/0/0 MIN/MIN grow
+        FRAM "Revenus mensuels" 692x316 col gap20 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          FRAM "Row" 642x26 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Revenus nets par mois (2026)" 541x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Revenus nets par mois (2026)»
+            FRAM "Badge/+18 % ce mois" 101x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+              TEXT "+18 % ce mois" 83x16 [Label/Small Inter 600 12/16] c#16A34A «+18 % ce mois»
+          FRAM "Graphique mensuel" 642x220 stretch
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 642x1 bg#E5E7EB
+            RECT "Rectangle" 42x50 bg#EEEDFF r6
+            TEXT "Jan" 19x13 [ Inter 500 11/13.3125] c#9CA3AF «Jan»
+            RECT "Rectangle" 42x63 bg#EEEDFF r6
+            TEXT "Fév" 19x13 [ Inter 500 11/13.3125] c#9CA3AF «Fév»
+            RECT "Rectangle" 42x76 bg#EEEDFF r6
+            TEXT "Mar" 21x13 [ Inter 500 11/13.3125] c#9CA3AF «Mar»
+            RECT "Rectangle" 42x71 bg#EEEDFF r6
+            TEXT "Avr" 18x13 [ Inter 500 11/13.3125] c#9CA3AF «Avr»
+            RECT "Rectangle" 42x88 bg#EEEDFF r6
+            TEXT "Mai" 19x13 [ Inter 500 11/13.3125] c#9CA3AF «Mai»
+            RECT "Rectangle" 42x101 bg#EEEDFF r6
+            TEXT "Juin" 22x13 [ Inter 500 11/13.3125] c#9CA3AF «Juin»
+            RECT "Rectangle" 42x97 bg#EEEDFF r6
+            TEXT "Juil" 19x13 [ Inter 500 11/13.3125] c#9CA3AF «Juil»
+            RECT "Rectangle" 42x118 bg#EEEDFF r6
+            TEXT "Août" 25x13 [ Inter 500 11/13.3125] c#9CA3AF «Août»
+            RECT "Rectangle" 42x149 bg#EEEDFF r6
+            TEXT "Sep" 21x13 [ Inter 500 11/13.3125] c#9CA3AF «Sep»
+            RECT "Rectangle" 42x176 bg#635BFF r6
+            TEXT "Oct" 19x13 [ Inter 500 11/13.3125] c#9CA3AF «Oct»
+        FRAM "Historique des retraits" 692x337 col gap8 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB r16
+          TEXT "Historique des retraits" 197x26 [Heading/H4 Manrope 700 18/26] c#111827 «Historique des retraits»
+          FRAM "Row" 642x37 row gap0 pad10/0/10/0 MIN/MIN stretch bd1#E5E7EB
+            TEXT "Date" 130x16 [Label/Small Inter 600 12/16] c#9CA3AF «Date»
+            TEXT "Référence" 170x16 [Label/Small Inter 600 12/16] c#9CA3AF «Référence»
+            TEXT "Méthode" 170x16 [Label/Small Inter 600 12/16] c#9CA3AF «Méthode»
+            TEXT "Montant" 130x16 [Label/Small Inter 600 12/16] c#9CA3AF «Montant»
+            TEXT "Statut" 42x16 grow [Label/Small Inter 600 12/16] c#9CA3AF «Statut»
+          FRAM "Row" 642x46 row gap0 pad12/0/12/0 MIN/CEN stretch
+            TEXT "30 sept. 2026" 130x20 [Body/Small Inter 400 13/20] c#4B5563 «30 sept. 2026»
+            TEXT "PO-2026-0112" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «PO-2026-0112»
+            TEXT "Wave · 07 •• 42 18" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «Wave · 07 •• 42 18»
+            TEXT "250 000 F" 130x20 [Label/Default Inter 600 14/20] c#111827 «250 000 F»
+            FRAM "Row" 26x22 row gap0 pad0/0/0/0 MIN/MIN grow
+              FRAM "Badge/En cours" 69x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEF3C7 r999
+                TEXT "En cours" 51x16 [Label/Small Inter 600 12/16] c#D97706 «En cours»
+            FRAM "icon/download" 16x16
+          FRAM "Row" 642x46 row gap0 pad12/0/12/0 MIN/CEN stretch
+            TEXT "15 sept. 2026" 130x20 [Body/Small Inter 400 13/20] c#4B5563 «15 sept. 2026»
+            TEXT "PO-2026-0098" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «PO-2026-0098»
+            TEXT "Wave · 07 •• 42 18" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «Wave · 07 •• 42 18»
+            TEXT "180 000 F" 130x20 [Label/Default Inter 600 14/20] c#111827 «180 000 F»
+            FRAM "Row" 26x22 row gap0 pad0/0/0/0 MIN/MIN grow
+              FRAM "Badge/Versé" 52x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "Versé" 34x16 [Label/Small Inter 600 12/16] c#16A34A «Versé»
+            FRAM "icon/download" 16x16
+          FRAM "Row" 642x46 row gap0 pad12/0/12/0 MIN/CEN stretch
+            TEXT "31 août 2026" 130x20 [Body/Small Inter 400 13/20] c#4B5563 «31 août 2026»
+            TEXT "PO-2026-0081" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «PO-2026-0081»
+            TEXT "Orange Money · 07 •• 11" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «Orange Money · 07 •• 11»
+            TEXT "210 000 F" 130x20 [Label/Default Inter 600 14/20] c#111827 «210 000 F»
+            FRAM "Row" 26x22 row gap0 pad0/0/0/0 MIN/MIN grow
+              FRAM "Badge/Versé" 52x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "Versé" 34x16 [Label/Small Inter 600 12/16] c#16A34A «Versé»
+            FRAM "icon/download" 16x16
+          FRAM "Row" 642x46 row gap0 pad12/0/12/0 MIN/CEN stretch
+            TEXT "14 août 2026" 130x20 [Body/Small Inter 400 13/20] c#4B5563 «14 août 2026»
+            TEXT "PO-2026-0067" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «PO-2026-0067»
+            TEXT "Banque · SGCI ••4410" 170x20 [Body/Small Inter 400 13/20] c#4B5563 «Banque · SGCI ••4410»
+            TEXT "300 000 F" 130x20 [Label/Default Inter 600 14/20] c#111827 «300 000 F»
+            FRAM "Row" 26x22 row gap0 pad0/0/0/0 MIN/MIN grow
+              FRAM "Badge/Versé" 52x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "Versé" 34x16 [Label/Small Inter 600 12/16] c#16A34A «Versé»
+            FRAM "icon/download" 16x16
+      FRAM "Stack" 380x712 col gap24 pad0/0/0/0 MIN/MIN
+        FRAM "Demander un retrait" 380x712 col gap18 pad24/24/24/24 MIN/MIN stretch bg#FFFFFF bd2#635BFF r16
+          TEXT "Demander un retrait" 176x26 [Heading/H4 Manrope 700 18/26] c#111827 «Demander un retrait»
+          FRAM "Champ/Montant" 328x98 col gap8 pad0/0/0/0 MIN/MIN stretch
+            TEXT "Montant" 57x20 [Label/Default Inter 600 14/20] c#111827 «Montant»
+            FRAM "Row" 328x46 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd2#635BFF r10
+              TEXT "312 000" 250x24 grow [Body/Default Inter 400 15/24] c#111827 «312 000»
+              TEXT "FCFA" 36x20 [Label/Default Inter 600 14/20] c#9CA3AF «FCFA»
+            TEXT "Minimum 5 000 FCFA · maximum 312 000 FCF" 272x16 [Caption Inter 500 12/16] c#9CA3AF «Minimum 5 000 FCFA · maximum 312 000 FCFA»
+          TEXT "Recevoir sur" 85x20 [Label/Default Inter 600 14/20] c#111827 «Recevoir sur»
+          FRAM "Row" 328x68 row gap12 pad14/14/14/14 MIN/CEN stretch bg#EEEDFF bd2#635BFF r12
+            FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd5#635BFF r999
+            FRAM "icon/phone" 18x18
+            FRAM "Stack" 236x36 col gap0 pad0/0/0/0 MIN/MIN grow
+              TEXT "Wave" 38x20 [Label/Default Inter 600 14/20] c#111827 «Wave»
+              TEXT "07 08 42 18 55" 86x16 [Caption Inter 500 12/16] c#9CA3AF «07 08 42 18 55»
+          FRAM "Row" 328x66 row gap12 pad14/14/14/14 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+            FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+            FRAM "icon/phone" 18x18
+            FRAM "Stack" 238x36 col gap0 pad0/0/0/0 MIN/MIN grow
+              TEXT "Orange Money" 100x20 [Label/Default Inter 600 14/20] c#111827 «Orange Money»
+              TEXT "07 11 •• •• 90" 80x16 [Caption Inter 500 12/16] c#9CA3AF «07 11 •• •• 90»
+          FRAM "Row" 328x66 row gap12 pad14/14/14/14 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r12
+            FRAM "Row" 18x18 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF bd1.5#D1D5DB r999
+            FRAM "icon/bank" 18x18
+            FRAM "Stack" 238x36 col gap0 pad0/0/0/0 MIN/MIN grow
+              TEXT "Compte bancaire" 116x20 [Label/Default Inter 600 14/20] c#111827 «Compte bancaire»
+              TEXT "SGCI ••4410" 74x16 [Caption Inter 500 12/16] c#9CA3AF «SGCI ••4410»
+          FRAM "Stack" 328x104 col gap8 pad14/14/14/14 MIN/MIN stretch bg#F8F9FC r12
+            FRAM "Row" 300x20 row gap0 pad0/0/0/0 MIN/MIN stretch
+              TEXT "Frais de retrait" 251x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Frais de retrait»
+              TEXT "0 FCFA" 49x20 [Label/Default Inter 600 14/20] c#111827 «0 FCFA»
+            FRAM "Row" 300x20 row gap0 pad0/0/0/0 MIN/MIN stretch
+              TEXT "Délai estimé" 211x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Délai estimé»
+              TEXT "48 h ouvrées" 89x20 [Label/Default Inter 600 14/20] c#111827 «48 h ouvrées»
+            FRAM "Row" 300x20 row gap0 pad0/0/0/0 MIN/MIN stretch
+              TEXT "Vous recevrez" 204x20 grow [Body/Small Inter 400 13/20] c#4B5563 «Vous recevrez»
+              TEXT "312 000 FCFA" 96x20 [Label/Default Inter 600 14/20] c#111827 «312 000 FCFA»
+          FRAM "Bouton/Confirmer le retrait" 328x52 row gap8 pad16/26/16/26 CEN/CEN stretch bg#635BFF r10
+            TEXT "Confirmer le retrait" 129x20 [Label/Default Inter 600 14/20] c#FFFFFF «Confirmer le retrait»
+          TEXT "Un code de confirmation vous sera envoyé" 299x16 [Caption Inter 500 12/16] c#9CA3AF «Un code de confirmation vous sera envoyé par SMS.»

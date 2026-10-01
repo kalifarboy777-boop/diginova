@@ -1,0 +1,278 @@
+FRAM "53 · Admin — candidatures créateurs" 1440x1283 row gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Sidebar admin" 264x1283 col gap2 pad24/16/24/16 MIN/MIN stretch bg#0B0F1A
+    FRAM "Row" 227x50 row gap8 pad0/8/16/8 MIN/CEN
+      FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+      FRAM "Badge/Admin" 56x22 row gap0 pad3/9/3/9 MIN/CEN bg#1F2937 r999
+        TEXT "Admin" 38x16 [Label/Small Inter 600 12/16] c#D1D5DB «Admin»
+    FRAM "Row" 84x36 row gap0 pad14/12/6/12 MIN/MIN
+      TEXT "PILOTAGE" 60x16 [Overline Inter 700 11/16] c#6B7280 «PILOTAGE»
+    FRAM "Nav/Tableau de bord" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/home" 17x17
+      TEXT "Tableau de bord" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Tableau de bord»
+    FRAM "Row" 99x36 row gap0 pad14/12/6/12 MIN/MIN
+      TEXT "CATALOGUE" 75x16 [Overline Inter 700 11/16] c#6B7280 «CATALOGUE»
+    FRAM "Nav/Produits" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/package" 17x17
+      TEXT "Produits" 141x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Produits»
+      FRAM "Badge/6" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#DC2626 r999
+        TEXT "6" 8x16 [Label/Small Inter 600 12/16] c#FFFFFF «6»
+    FRAM "Nav/Catégories" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/grid" 17x17
+      TEXT "Catégories" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Catégories»
+    FRAM "Row" 73x36 row gap0 pad14/12/6/12 MIN/MIN
+      TEXT "VENTES" 49x16 [Overline Inter 700 11/16] c#6B7280 «VENTES»
+    FRAM "Nav/Commandes" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/bag" 17x17
+      TEXT "Commandes" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Commandes»
+    FRAM "Nav/Paiements" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/card" 17x17
+      TEXT "Paiements" 141x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Paiements»
+      FRAM "Badge/3" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#DC2626 r999
+        TEXT "3" 8x16 [Label/Small Inter 600 12/16] c#FFFFFF «3»
+    FRAM "Nav/Remboursements" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/refresh" 17x17
+      TEXT "Remboursements" 141x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Remboursements»
+      FRAM "Badge/2" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#DC2626 r999
+        TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#FFFFFF «2»
+    FRAM "Nav/Coupons" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/tag" 17x17
+      TEXT "Coupons" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Coupons»
+    FRAM "Row" 116x36 row gap0 pad14/12/6/12 MIN/MIN
+      TEXT "COMMUNAUTÉ" 92x16 [Overline Inter 700 11/16] c#6B7280 «COMMUNAUTÉ»
+    FRAM "Nav/Utilisateurs" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/users" 17x17
+      TEXT "Utilisateurs" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Utilisateurs»
+    FRAM "Nav/Créateurs" 232x40 row gap12 pad9/12/9/12 MIN/CEN stretch bg#1F2937 r10
+      FRAM "icon/star" 17x17
+      TEXT "Créateurs" 141x20 grow [Label/Default Inter 600 14/20] c#FFFFFF «Créateurs»
+      FRAM "Badge/4" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#EEEDFF r999
+        TEXT "4" 8x16 [Label/Small Inter 600 12/16] c#635BFF «4»
+    FRAM "Nav/Avis & signalements" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/msg" 17x17
+      TEXT "Avis & signalements" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Avis & signalements»
+    FRAM "Nav/Tickets support" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/msg" 17x17
+      TEXT "Tickets support" 141x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Tickets support»
+      FRAM "Badge/9" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#DC2626 r999
+        TEXT "9" 8x16 [Label/Small Inter 600 12/16] c#FFFFFF «9»
+    FRAM "Row" 83x36 row gap0 pad14/12/6/12 MIN/MIN
+      TEXT "SYSTÈME" 59x16 [Overline Inter 700 11/16] c#6B7280 «SYSTÈME»
+    FRAM "Nav/Commissions" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/percent" 17x17
+      TEXT "Commissions" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Commissions»
+    FRAM "Nav/Paramètres" 232x42 row gap12 pad9/12/9/12 MIN/CEN stretch r10
+      FRAM "icon/sliders" 17x17
+      TEXT "Paramètres" 179x24 grow [Body/Medium Inter 500 15/24] c#9CA3AF «Paramètres»
+    FRAM "Stack" 100x369 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 232x52 row gap10 pad16/8/0/8 MIN/CEN stretch
+      FRAM "Avatar" 36x36 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+        TEXT "BK" 16x16 [Caption Inter 500 12/16] c#FFFFFF «BK»
+      FRAM "Stack" 86x36 col gap0 pad0/0/0/0 MIN/MIN
+        TEXT "Bakayoko K." 83x20 [Label/Default Inter 600 14/20] c#FFFFFF «Bakayoko K.»
+        TEXT "Administrateur" 86x16 [Caption Inter 500 12/16] c#6B7280 «Administrateur»
+  FRAM "Contenu" 1176x1283 col gap24 pad28/40/56/40 MIN/MIN grow
+    FRAM "Barre du haut" 1096x68 row gap16 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Stack" 899x68 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Créateurs" 153x40 [Heading/H2 Manrope 700 32/40] c#111827 «Créateurs»
+        TEXT "128 créateurs actifs · 4 candidatures à " 318x24 [Body/Default Inter 400 15/24] c#4B5563 «128 créateurs actifs · 4 candidatures à traiter»
+      FRAM "Bouton/Exporter" 123x44 row gap8 pad11/18/11/18 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+        FRAM "icon/download" 18x18
+        TEXT "Exporter" 59x20 [Label/Default Inter 600 14/20] c#111827 «Exporter»
+      FRAM "Notifications" 42x42 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#E5E7EB r10
+        FRAM "icon/bell" 18x18
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#DC2626 r999
+    FRAM "Row" 1096x122 row gap16 pad0/0/0/0 MIN/MIN stretch
+      FRAM "Stack" 262x122 col gap8 pad18/18/18/18 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Créateurs actifs" 98x20 [Body/Small Inter 400 13/20] c#4B5563 «Créateurs actifs»
+        TEXT "128" 40x32 [Heading/H3 Manrope 700 24/32] c#111827 «128»
+        TEXT "+11 ce mois" 67x16 [Caption Inter 500 12/16] c#9CA3AF «+11 ce mois»
+      FRAM "Stack" 262x122 col gap8 pad18/18/18/18 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Candidatures en attente" 149x20 [Body/Small Inter 400 13/20] c#4B5563 «Candidatures en attente»
+        TEXT "4" 15x32 [Heading/H3 Manrope 700 24/32] c#111827 «4»
+        TEXT "plus ancienne : 52 h" 115x16 [Caption Inter 500 12/16] c#9CA3AF «plus ancienne : 52 h»
+      FRAM "Stack" 262x122 col gap8 pad18/18/18/18 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Taux d’acceptation" 116x20 [Body/Small Inter 400 13/20] c#4B5563 «Taux d’acceptation»
+        TEXT "68 %" 56x32 [Heading/H3 Manrope 700 24/32] c#111827 «68 %»
+        TEXT "sur 90 jours" 69x16 [Caption Inter 500 12/16] c#9CA3AF «sur 90 jours»
+      FRAM "Stack" 262x122 col gap8 pad18/18/18/18 MIN/MIN grow bg#FFFFFF bd1#E5E7EB r16
+        TEXT "Reversé aux créateurs" 137x20 [Body/Small Inter 400 13/20] c#4B5563 «Reversé aux créateurs»
+        TEXT "4 120 000 F" 129x32 [Heading/H3 Manrope 700 24/32] c#111827 «4 120 000 F»
+        TEXT "30 derniers jours" 98x16 [Caption Inter 500 12/16] c#9CA3AF «30 derniers jours»
+    FRAM "Row" 1096x37 row gap28 pad0/0/0/0 MIN/MIN stretch bd1#E5E7EB
+      FRAM "Stack" 116x34 col gap0 pad0/0/12/0 MIN/MIN bd1#635BFF
+        TEXT "Candidatures (4)" 116x20 [Label/Default Inter 600 14/20] c#635BFF «Candidatures (4)»
+      FRAM "Stack" 156x36 col gap0 pad0/0/12/0 MIN/MIN
+        TEXT "Créateurs actifs (128)" 156x24 [Body/Medium Inter 500 15/24] c#4B5563 «Créateurs actifs (128)»
+      FRAM "Stack" 105x36 col gap0 pad0/0/12/0 MIN/MIN
+        TEXT "Suspendus (3)" 105x24 [Body/Medium Inter 500 15/24] c#4B5563 «Suspendus (3)»
+      FRAM "Stack" 145x36 col gap0 pad0/0/12/0 MIN/MIN
+        TEXT "Retraits à valider (5)" 145x24 [Body/Medium Inter 500 15/24] c#4B5563 «Retraits à valider (5)»
+    FRAM "Row" 1096x900 row gap20 pad0/0/0/0 MIN/MIN wrap
+      FRAM "Candidature/Jean Kouassi Design" 538x440 col gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 488x48 row gap14 pad0/0/0/0 MIN/CEN stretch
+          FRAM "Avatar" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#16A34A r999
+            TEXT "JK" 18x20 [Label/Default Inter 600 14/20] c#FFFFFF «JK»
+          FRAM "Stack" 394x44 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Jean Kouassi Design" 178x26 [Heading/H4 Manrope 700 18/26] c#111827 «Jean Kouassi Design»
+            TEXT "Abidjan, CI · soumise il y a 52 h" 178x16 [Caption Inter 500 12/16] c#9CA3AF «Abidjan, CI · soumise il y a 52 h»
+          FRAM "icon/eye" 18x18
+        TEXT "Formateur Excel et designer depuis 8 ans" 488x20 stretch [Body/Small Inter 400 13/20] c#4B5563 «Formateur Excel et designer depuis 8 ans.»
+        FRAM "Row" 209x22 row gap6 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Business" 71x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "Business" 53x16 [Label/Small Inter 600 12/16] c#4B5563 «Business»
+          FRAM "Badge/Design" 59x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "Design" 41x16 [Label/Small Inter 600 12/16] c#4B5563 «Design»
+          FRAM "Badge/E-books" 67x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "E-books" 49x16 [Label/Small Inter 600 12/16] c#4B5563 «E-books»
+        FRAM "Row" 488x66 row gap12 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/idcard" 18x18
+            FRAM "Stack" 97x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Identité" 44x16 [Caption Inter 500 12/16] c#9CA3AF «Identité»
+              FRAM "Badge/Pièce vérifiée" 97x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "Pièce vérifiée" 79x16 [Label/Small Inter 600 12/16] c#16A34A «Pièce vérifiée»
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/phone" 18x18
+            FRAM "Stack" 96x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Revenus" 49x16 [Caption Inter 500 12/16] c#9CA3AF «Revenus»
+              FRAM "Badge/Wave · vérifié" 96x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "Wave · vérifié" 78x16 [Label/Small Inter 600 12/16] c#16A34A «Wave · vérifié»
+        FRAM "Row" 227x54 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "Exemples :" 63x16 [Label/Small Inter 600 12/16] c#4B5563 «Exemples :»
+          FRAM "Visuel/sheet" 72x54 bg#DCFCE7 r8
+          FRAM "Visuel/doc" 72x54 bg#E0E7FF r8
+        FRAM "Row" 488x100 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Refuser" 93x32 row gap8 pad8/12/8/12 CEN/CEN bg#FEE2E2 r10
+            FRAM "icon/x" 15x15
+            TEXT "Refuser" 46x16 [Label/Small Inter 600 12/16] c#DC2626 «Refuser»
+          FRAM "Bouton/Demander un document" 189x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/mail" 15x15
+            TEXT "Demander un document" 140x16 [Label/Small Inter 600 12/16] c#111827 «Demander un document»
+          FRAM "Row" 73x100 row gap0 pad0/0/0/0 MIN/MIN grow
+          FRAM "Bouton/Approuver" 109x32 row gap8 pad8/12/8/12 CEN/CEN bg#16A34A r10
+            FRAM "icon/check" 15x15
+            TEXT "Approuver" 62x16 [Label/Small Inter 600 12/16] c#FFFFFF «Approuver»
+      FRAM "Candidature/Mariam Sylla Studio" 538x440 col gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 488x48 row gap14 pad0/0/0/0 MIN/CEN stretch
+          FRAM "Avatar" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#DB2777 r999
+            TEXT "MS" 22x20 [Label/Default Inter 600 14/20] c#FFFFFF «MS»
+          FRAM "Stack" 394x44 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Mariam Sylla Studio" 173x26 [Heading/H4 Manrope 700 18/26] c#111827 «Mariam Sylla Studio»
+            TEXT "Dakar, SN · soumise il y a 30 h" 172x16 [Caption Inter 500 12/16] c#9CA3AF «Dakar, SN · soumise il y a 30 h»
+          FRAM "icon/eye" 18x18
+        TEXT "Community manager, 40 marques accompagné" 488x20 stretch [Body/Small Inter 400 13/20] c#4B5563 «Community manager, 40 marques accompagnées.»
+        FRAM "Row" 181x22 row gap6 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Réseaux sociaux" 116x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "Réseaux sociaux" 98x16 [Label/Small Inter 600 12/16] c#4B5563 «Réseaux sociaux»
+          FRAM "Badge/Design" 59x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "Design" 41x16 [Label/Small Inter 600 12/16] c#4B5563 «Design»
+        FRAM "Row" 488x66 row gap12 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/idcard" 18x18
+            FRAM "Stack" 97x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Identité" 44x16 [Caption Inter 500 12/16] c#9CA3AF «Identité»
+              FRAM "Badge/Pièce vérifiée" 97x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "Pièce vérifiée" 79x16 [Label/Small Inter 600 12/16] c#16A34A «Pièce vérifiée»
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/phone" 18x18
+            FRAM "Stack" 149x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Revenus" 49x16 [Caption Inter 500 12/16] c#9CA3AF «Revenus»
+              FRAM "Badge/Orange Money · vérifié" 149x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "Orange Money · vérifié" 131x16 [Label/Small Inter 600 12/16] c#16A34A «Orange Money · vérifié»
+        FRAM "Row" 227x54 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "Exemples :" 63x16 [Label/Small Inter 600 12/16] c#4B5563 «Exemples :»
+          FRAM "Visuel/grid" 72x54 bg#FCE7F3 r8
+          FRAM "Visuel/grid" 72x54 bg#FCE7F3 r8
+        FRAM "Row" 488x100 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Refuser" 93x32 row gap8 pad8/12/8/12 CEN/CEN bg#FEE2E2 r10
+            FRAM "icon/x" 15x15
+            TEXT "Refuser" 46x16 [Label/Small Inter 600 12/16] c#DC2626 «Refuser»
+          FRAM "Bouton/Demander un document" 189x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/mail" 15x15
+            TEXT "Demander un document" 140x16 [Label/Small Inter 600 12/16] c#111827 «Demander un document»
+          FRAM "Row" 73x100 row gap0 pad0/0/0/0 MIN/MIN grow
+          FRAM "Bouton/Approuver" 109x32 row gap8 pad8/12/8/12 CEN/CEN bg#16A34A r10
+            FRAM "icon/check" 15x15
+            TEXT "Approuver" 62x16 [Label/Small Inter 600 12/16] c#FFFFFF «Approuver»
+      FRAM "Candidature/Compta Express" 538x440 col gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 488x48 row gap14 pad0/0/0/0 MIN/CEN stretch
+          FRAM "Avatar" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#D97706 r999
+            TEXT "CE" 19x20 [Label/Default Inter 600 14/20] c#FFFFFF «CE»
+          FRAM "Stack" 394x44 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Compta Express" 143x26 [Heading/H4 Manrope 700 18/26] c#111827 «Compta Express»
+            TEXT "Bouaké, CI · soumise il y a 12 h" 175x16 [Caption Inter 500 12/16] c#9CA3AF «Bouaké, CI · soumise il y a 12 h»
+          FRAM "icon/eye" 18x18
+        TEXT "Cabinet comptable, modèles de paie et fi" 488x20 stretch [Body/Small Inter 400 13/20] c#4B5563 «Cabinet comptable, modèles de paie et fiscalité.»
+        FRAM "Row" 141x22 row gap6 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/Business" 71x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "Business" 53x16 [Label/Small Inter 600 12/16] c#4B5563 «Business»
+          FRAM "Badge/Finance" 64x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "Finance" 46x16 [Label/Small Inter 600 12/16] c#4B5563 «Finance»
+        FRAM "Row" 488x66 row gap12 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/idcard" 18x18
+            FRAM "Stack" 173x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Identité" 44x16 [Caption Inter 500 12/16] c#9CA3AF «Identité»
+              FRAM "Badge/Pièce floue · à redemander" 173x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEF3C7 r999
+                TEXT "Pièce floue · à redemander" 155x16 [Label/Small Inter 600 12/16] c#D97706 «Pièce floue · à redemander»
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/phone" 18x18
+            FRAM "Stack" 131x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Revenus" 49x16 [Caption Inter 500 12/16] c#9CA3AF «Revenus»
+              FRAM "Badge/Banque · en attente" 131x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEF3C7 r999
+                TEXT "Banque · en attente" 113x16 [Label/Small Inter 600 12/16] c#D97706 «Banque · en attente»
+        FRAM "Row" 227x54 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "Exemples :" 63x16 [Label/Small Inter 600 12/16] c#4B5563 «Exemples :»
+          FRAM "Visuel/sheet" 72x54 bg#DCFCE7 r8
+          FRAM "Visuel/chart" 72x54 bg#EEEDFF r8
+        FRAM "Row" 488x100 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Refuser" 93x32 row gap8 pad8/12/8/12 CEN/CEN bg#FEE2E2 r10
+            FRAM "icon/x" 15x15
+            TEXT "Refuser" 46x16 [Label/Small Inter 600 12/16] c#DC2626 «Refuser»
+          FRAM "Bouton/Demander un document" 189x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/mail" 15x15
+            TEXT "Demander un document" 140x16 [Label/Small Inter 600 12/16] c#111827 «Demander un document»
+          FRAM "Row" 73x100 row gap0 pad0/0/0/0 MIN/MIN grow
+          FRAM "Bouton/Approuver" 109x32 row gap8 pad8/12/8/12 CEN/CEN bg#16A34A r10 op0.40
+            FRAM "icon/check" 15x15
+            TEXT "Approuver" 62x16 [Label/Small Inter 600 12/16] c#FFFFFF «Approuver»
+      FRAM "Candidature/Ibrahim Koné" 538x440 col gap16 pad24/24/24/24 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Row" 488x48 row gap14 pad0/0/0/0 MIN/CEN stretch
+          FRAM "Avatar" 48x48 row gap0 pad0/0/0/0 CEN/CEN bg#0284C7 r999
+            TEXT "IK" 14x20 [Label/Default Inter 600 14/20] c#FFFFFF «IK»
+          FRAM "Stack" 394x44 col gap2 pad0/0/0/0 MIN/MIN grow
+            TEXT "Ibrahim Koné" 114x26 [Heading/H4 Manrope 700 18/26] c#111827 «Ibrahim Koné»
+            TEXT "Lomé, TG · soumise il y a 3 h" 163x16 [Caption Inter 500 12/16] c#9CA3AF «Lomé, TG · soumise il y a 3 h»
+          FRAM "icon/eye" 18x18
+        TEXT "Guides pratiques sur l’élevage et l’agri" 488x20 stretch [Body/Small Inter 400 13/20] c#4B5563 «Guides pratiques sur l’élevage et l’agriculture.»
+        FRAM "Row" 67x22 row gap6 pad0/0/0/0 MIN/MIN
+          FRAM "Badge/E-books" 67x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+            TEXT "E-books" 49x16 [Label/Small Inter 600 12/16] c#4B5563 «E-books»
+        FRAM "Row" 488x66 row gap12 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/idcard" 18x18
+            FRAM "Stack" 86x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Identité" 44x16 [Caption Inter 500 12/16] c#9CA3AF «Identité»
+              FRAM "Badge/Non fournie" 86x22 row gap0 pad3/9/3/9 MIN/CEN bg#FEE2E2 r999
+                TEXT "Non fournie" 68x16 [Label/Small Inter 600 12/16] c#DC2626 «Non fournie»
+          FRAM "Row" 238x66 row gap10 pad12/12/12/12 MIN/CEN grow bg#F8F9FC r12
+            FRAM "icon/phone" 18x18
+            FRAM "Stack" 131x42 col gap4 pad0/0/0/0 MIN/MIN
+              TEXT "Revenus" 49x16 [Caption Inter 500 12/16] c#9CA3AF «Revenus»
+              FRAM "Badge/MTN MoMo · vérifié" 131x22 row gap0 pad3/9/3/9 MIN/CEN bg#DCFCE7 r999
+                TEXT "MTN MoMo · vérifié" 113x16 [Label/Small Inter 600 12/16] c#16A34A «MTN MoMo · vérifié»
+        FRAM "Row" 227x54 row gap10 pad0/0/0/0 MIN/CEN
+          TEXT "Exemples :" 63x16 [Label/Small Inter 600 12/16] c#4B5563 «Exemples :»
+          FRAM "Visuel/book" 72x54 bg#FEF3C7 r8
+          FRAM "Visuel/doc" 72x54 bg#E0E7FF r8
+        FRAM "Row" 488x100 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Refuser" 93x32 row gap8 pad8/12/8/12 CEN/CEN bg#FEE2E2 r10
+            FRAM "icon/x" 15x15
+            TEXT "Refuser" 46x16 [Label/Small Inter 600 12/16] c#DC2626 «Refuser»
+          FRAM "Bouton/Demander un document" 189x34 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/mail" 15x15
+            TEXT "Demander un document" 140x16 [Label/Small Inter 600 12/16] c#111827 «Demander un document»
+          FRAM "Row" 73x100 row gap0 pad0/0/0/0 MIN/MIN grow
+          FRAM "Bouton/Approuver" 109x32 row gap8 pad8/12/8/12 CEN/CEN bg#16A34A r10 op0.40
+            FRAM "icon/check" 15x15
+            TEXT "Approuver" 62x16 [Label/Small Inter 600 12/16] c#FFFFFF «Approuver»

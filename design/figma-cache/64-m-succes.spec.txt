@@ -1,0 +1,39 @@
+FRAM "64 · Mobile — paiement réussi" 390x844 col gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC bd1#E5E7EB r40 shadow(0,24,60,-8,#121733/12%)
+  FRAM "Barre d’état" 388x48 row gap0 pad0/28/0/28 MIN/CEN stretch bg#FFFFFF
+    TEXT "9:41" 30x20 [Label/Default Inter 600 14/20] c#111827 «9:41»
+    FRAM "Row" 238x100 row gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Row" 64x10 row gap5 pad0/0/0/0 MIN/CEN
+      FRAM "Row" 16x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 14x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+      FRAM "Row" 24x10 row gap0 pad0/0/0/0 MIN/MIN bg#111827 r3
+  FRAM "Barre d’app" 388x56 row gap12 pad0/20/0/20 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB
+    TEXT "Commande confirmée" 348x26 grow [Heading/H4 Manrope 700 18/26] c#111827 «Commande confirmée»
+  FRAM "Contenu" 388x585 col gap16 pad28/20/20/20 MIN/CEN grow stretch
+    FRAM "Row" 96x96 row gap0 pad0/0/0/0 CEN/CEN bg#DCFCE7 r999
+      FRAM "icon/check" 44x44
+    TEXT "Paiement confirmé !" 348x40 stretch [Heading/H2 Manrope 700 32/40] align-center c#111827 «Paiement confirmé !»
+    TEXT "DN-2026-004812 · 18 000 FCFA via Wave. F" 348x40 stretch [Body/Small Inter 400 13/20] align-center c#4B5563 «DN-2026-004812 · 18 000 FCFA via Wave. Facture envoyée par email.»
+    FRAM "Row" 348x74 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/chart" 64x48 bg#EEEDFF r8
+      FRAM "Stack" 190x38 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Business Plan Pro" 121x20 [Label/Default Inter 600 14/20] c#111827 «Business Plan Pro»
+        TEXT "125 Mo · ZIP" 70x16 [Caption Inter 500 12/16] c#9CA3AF «125 Mo · ZIP»
+      FRAM "Row" 44x44 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r12
+        FRAM "icon/download" 20x20
+    FRAM "Row" 348x74 row gap12 pad12/12/12/12 MIN/CEN stretch bg#FFFFFF bd1#E5E7EB r16
+      FRAM "Visuel/sheet" 64x48 bg#DCFCE7 r8
+      FRAM "Stack" 190x38 col gap2 pad0/0/0/0 MIN/MIN grow
+        TEXT "Dashboard Excel — stock" 172x20 [Label/Default Inter 600 14/20] c#111827 «Dashboard Excel — stock»
+        TEXT "8 Mo · XLSX" 69x16 [Caption Inter 500 12/16] c#9CA3AF «8 Mo · XLSX»
+      FRAM "Row" 44x44 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r12
+        FRAM "icon/download" 20x20
+    FRAM "Row" 348x68 row gap10 pad14/14/14/14 MIN/CEN stretch bg#EEEDFF r14
+      FRAM "icon/shield" 16x16
+      TEXT "Retrouvez vos fichiers à vie dans Ma bib" 294x40 grow [Body/Small Inter 400 13/20] c#635BFF «Retrouvez vos fichiers à vie dans Ma bibliothèque.»
+  FRAM "Barre d’action fixe" 388x153 col gap10 pad14/20/30/20 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Bouton/Tout télécharger" 348x52 row gap8 pad16/20/16/20 CEN/CEN stretch bg#635BFF r12
+      FRAM "icon/download" 18x18
+      TEXT "Tout télécharger" 112x20 [Label/Default Inter 600 14/20] c#FFFFFF «Tout télécharger»
+    FRAM "Bouton/Ouvrir ma bibliothèque" 348x46 row gap8 pad12/16/12/16 CEN/CEN stretch bg#FFFFFF bd1#D1D5DB r12
+      FRAM "icon/book" 18x18
+      TEXT "Ouvrir ma bibliothèque" 155x20 [Label/Default Inter 600 14/20] c#111827 «Ouvrir ma bibliothèque»

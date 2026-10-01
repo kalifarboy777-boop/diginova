@@ -1,0 +1,50 @@
+FRAM "13 · Mot de passe oublié" 1440x980 row gap0 pad0/0/0/0 MIN/MIN bg#FFFFFF
+  FRAM "Panneau marque" 620x980 col gap32 pad56/56/56/56 MIN/MIN stretch bg#1E1B4B
+    ELLI "Ellipse" 600x600 bg#635BFF/40%
+    FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Stack" 100x236 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Collage produits" 508x250
+      FRAM "Visuel/grid" 204x162 bg#FCE7F3 bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+      FRAM "Visuel/sheet" 193x153 bg#DCFCE7 bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+      FRAM "Visuel/chart" 230x173 bg#EEEDFF bd3#FFFFFF/25% r14 shadow(0,18,36,0,#000000/35%)
+    TEXT "Le meilleur du digital, à portée de clic" 508x96 [Heading/H1 Manrope 800 40/48] c#FFFFFF «Le meilleur du digital, à portée de clic.»
+    FRAM "Stack" 419x124 col gap14 pad0/0/0/0 MIN/MIN
+      FRAM "Row" 419x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/phone" 16x16
+        TEXT "Payez en Orange Money, MTN, Wave, Moov o" 375x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Payez en Orange Money, MTN, Wave, Moov ou carte»
+      FRAM "Row" 346x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/zap" 16x16
+        TEXT "Téléchargement immédiat après paiement" 302x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Téléchargement immédiat après paiement»
+      FRAM "Row" 334x32 row gap12 pad0/0/0/0 MIN/CEN
+        FRAM "Row" 32x32 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF/10% r8
+          FRAM "icon/book" 16x16
+        TEXT "Vos achats à vie dans votre bibliothèque" 290x24 [Body/Medium Inter 500 15/24] c#E0E7FF «Vos achats à vie dans votre bibliothèque»
+  FRAM "Zone formulaire" 820x980 col gap0 pad40/80/40/80 MIN/CEN grow stretch
+    FRAM "Barre haut" 660x100 row gap0 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Row" 158x20 row gap6 pad0/0/0/0 MIN/CEN
+        FRAM "icon/chevL" 16x16
+        TEXT "Retour à la boutique" 136x20 [Label/Default Inter 600 14/20] c#4B5563 «Retour à la boutique»
+      FRAM "Row" 453x100 row gap0 pad0/0/0/0 MIN/MIN grow
+      TEXT "FR · XOF" 49x16 [Label/Small Inter 600 12/16] c#9CA3AF «FR · XOF»
+    FRAM "Centre" 660x784 col gap0 pad0/0/0/0 CEN/CEN grow stretch
+      FRAM "Formulaire" 440x460 col gap24 pad0/0/0/0 MIN/MIN
+        FRAM "Row" 64x64 row gap0 pad0/0/0/0 CEN/CEN bg#EEEDFF r18
+          FRAM "icon/key" 28x28
+        TEXT "Mot de passe oublié ?" 410x48 [Heading/H1 Manrope 800 40/48] c#111827 «Mot de passe oublié ?»
+        TEXT "Indiquez l’email de votre compte : nous " 440x56 stretch [Body/Large Inter 400 18/28] c#4B5563 «Indiquez l’email de votre compte : nous vous enverrons un lien pour en choisir un nouveau.»
+        FRAM "Champ/Adresse email" 440x102 col gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Row" 440x20 row gap0 pad0/0/0/0 MIN/CEN stretch
+            TEXT "Adresse email" 440x20 grow [Label/Default Inter 600 14/20] c#111827 «Adresse email»
+          FRAM "Input" 440x50 row gap10 pad0/14/0/14 MIN/CEN stretch bg#FFFFFF bd2#DC2626 r10
+            FRAM "icon/mail" 18x18
+            TEXT "aicha.kone@gmail" 380x24 grow [Body/Default Inter 400 15/24] c#111827 «aicha.kone@gmail»
+          TEXT "Cette adresse email semble incomplète." 230x16 [Caption Inter 500 12/16] c#DC2626 «Cette adresse email semble incomplète.»
+        FRAM "Bouton/Envoyer le lien" 440x50 row gap10 pad15/24/15/24 CEN/CEN stretch bg#635BFF r10
+          TEXT "Envoyer le lien" 98x20 [Label/Default Inter 600 14/20] c#FFFFFF «Envoyer le lien»
+        FRAM "Row" 440x20 row gap6 pad0/0/0/0 CEN/CEN stretch
+          FRAM "icon/chevL" 16x16
+          TEXT "Retour à la connexion" 146x20 [Label/Default Inter 600 14/20] c#635BFF «Retour à la connexion»
+    FRAM "Row" 660x16 row gap0 pad0/0/0/0 CEN/MIN stretch
+      TEXT "Connexion chiffrée · CGU · Confidentiali" 240x16 [Caption Inter 500 12/16] c#9CA3AF «Connexion chiffrée · CGU · Confidentialité»

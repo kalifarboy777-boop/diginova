@@ -1,0 +1,136 @@
+FRAM "33 · Favoris" 1440x946 row gap0 pad0/0/0/0 MIN/MIN bg#F8F9FC
+  FRAM "Sidebar" 264x946 col gap4 pad24/16/24/16 MIN/MIN stretch bg#FFFFFF bd1#E5E7EB
+    FRAM "Row" 163x54 row gap8 pad0/8/20/8 MIN/CEN
+      FRAM "Logo DigiNova" 147x34 row gap10 pad0/0/0/0 MIN/CEN
+    FRAM "Row" 110x30 row gap0 pad8/12/6/12 MIN/MIN
+      TEXT "MON COMPTE" 86x16 [Overline Inter 700 11/16] c#9CA3AF «MON COMPTE»
+    FRAM "Nav/Tableau de bord" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/home" 18x18
+      TEXT "Tableau de bord" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Tableau de bord»
+    FRAM "Nav/Ma bibliothèque" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/book" 18x18
+      TEXT "Ma bibliothèque" 133x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Ma bibliothèque»
+      FRAM "Badge/12" 32x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "12" 14x16 [Label/Small Inter 600 12/16] c#4B5563 «12»
+    FRAM "Nav/Commandes & factures" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/file" 18x18
+      TEXT "Commandes & factures" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Commandes & factures»
+    FRAM "Nav/Favoris" 231x42 row gap12 pad10/12/10/12 MIN/CEN stretch bg#EEEDFF r10
+      FRAM "icon/heart" 18x18
+      TEXT "Favoris" 139x20 grow [Label/Default Inter 600 14/20] c#635BFF «Favoris»
+      FRAM "Badge/6" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#EEEDFF r999
+        TEXT "6" 8x16 [Label/Small Inter 600 12/16] c#635BFF «6»
+    FRAM "Nav/Coupons" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/tag" 18x18
+      TEXT "Coupons" 139x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Coupons»
+      FRAM "Badge/2" 26x22 row gap0 pad3/9/3/9 MIN/CEN bg#F3F4F6 r999
+        TEXT "2" 8x16 [Label/Small Inter 600 12/16] c#4B5563 «2»
+    FRAM "Nav/Profil & sécurité" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/user" 18x18
+      TEXT "Profil & sécurité" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Profil & sécurité»
+    FRAM "Nav/Support" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/msg" 18x18
+      TEXT "Support" 177x24 grow [Body/Medium Inter 500 15/24] c#4B5563 «Support»
+    FRAM "Nav/Boutique" 231x44 row gap12 pad10/12/10/12 MIN/CEN stretch r10
+      FRAM "icon/bag" 18x18
+      TEXT "Retour à la boutique" 144x24 [Body/Medium Inter 500 15/24] c#4B5563 «Retour à la boutique»
+    FRAM "Stack" 100x196 col gap0 pad0/0/0/0 MIN/MIN grow
+    FRAM "Carte aide" 231x166 col gap10 pad16/16/16/16 MIN/MIN stretch bg#1E1B4B r14
+      FRAM "icon/help" 20x20
+      TEXT "Besoin d’aide ?" 101x20 [Label/Default Inter 600 14/20] c#FFFFFF «Besoin d’aide ?»
+      TEXT "Support WhatsApp 7j/7, réponse en moins " 199x32 stretch [Caption Inter 500 12/16] c#C7D2FE «Support WhatsApp 7j/7, réponse en moins de 2 h.»
+      FRAM "Bouton/Contacter" 83x32 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF r10
+        TEXT "Contacter" 59x16 [Label/Small Inter 600 12/16] c#111827 «Contacter»
+    FRAM "Row" 231x54 row gap10 pad16/8/0/8 MIN/CEN stretch
+      FRAM "Avatar" 38x38 row gap0 pad0/0/0/0 CEN/CEN bg#635BFF r999
+        TEXT "AK" 17x16 [Caption Inter 500 12/16] c#FFFFFF «AK»
+      FRAM "Stack" 139x36 col gap0 pad0/0/0/0 MIN/MIN grow
+        TEXT "Aïcha Koné" 77x20 [Label/Default Inter 600 14/20] c#111827 «Aïcha Koné»
+        TEXT "aicha.kone@gmail.com" 133x16 [Caption Inter 500 12/16] c#9CA3AF «aicha.kone@gmail.com»
+      FRAM "icon/logout" 18x18
+  FRAM "Contenu" 1176x946 col gap28 pad28/40/56/40 MIN/MIN grow
+    FRAM "Barre du haut" 1096x68 row gap16 pad0/0/0/0 MIN/CEN stretch
+      FRAM "Stack" 811x68 col gap4 pad0/0/0/0 MIN/MIN grow
+        TEXT "Mes favoris" 173x40 [Heading/H2 Manrope 700 32/40] c#111827 «Mes favoris»
+        TEXT "6 produits sauvegardés · nous vous préve" 461x24 [Body/Default Inter 400 15/24] c#4B5563 «6 produits sauvegardés · nous vous prévenons si leur prix baisse.»
+      FRAM "Bouton/Tout ajouter au panier" 211x42 row gap8 pad11/18/11/18 CEN/CEN bg#635BFF r10
+        FRAM "icon/bag" 18x18
+        TEXT "Tout ajouter au panier" 149x20 [Label/Default Inter 600 14/20] c#FFFFFF «Tout ajouter au panier»
+      FRAM "Notifications" 42x42 row gap0 pad0/0/0/0 CEN/CEN bg#FFFFFF bd1#E5E7EB r10
+        FRAM "icon/bell" 18x18
+        FRAM "Row" 8x8 row gap0 pad0/0/0/0 MIN/MIN bg#DC2626 r999
+    FRAM "Row" 1096x766 row gap24 pad0/0/0/0 MIN/MIN wrap
+      FRAM "Favori/Guide : lancer sa boutique en ligne" 349x371 col gap12 pad14/14/14/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Visuel/book" 321x200 bg#FEF3C7 r12
+        TEXT "E-BOOKS" 57x16 [Overline Inter 700 11/16] c#9CA3AF «E-BOOKS»
+        TEXT "Guide : lancer sa boutique en ligne" 319x20 stretch [Label/Default Inter 600 14/20] c#111827 «Guide : lancer sa boutique en ligne»
+        FRAM "Row" 137x24 row gap8 pad0/0/0/0 MIN/CEN
+          TEXT "4 500 FCFA" 92x24 [Price/Default Inter 700 16/24] c#111827 «4 500 FCFA»
+          TEXT "6 000" 37x20 [Body/Small Inter 400 13/20] c#9CA3AF «6 000»
+        FRAM "Row" 319x33 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Ajouter au panier" 270x32 row gap8 pad8/12/8/12 CEN/CEN grow bg#635BFF r10
+            FRAM "icon/bag" 15x15
+            TEXT "Ajouter au panier" 100x16 [Label/Small Inter 600 12/16] c#FFFFFF «Ajouter au panier»
+          FRAM "Bouton/" 41x33 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/trash" 15x15
+      FRAM "Favori/Modèles de factures OHADA" 349x371 col gap12 pad14/14/14/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Visuel/doc" 321x200 bg#E0E7FF r12
+        TEXT "BUSINESS" 61x16 [Overline Inter 700 11/16] c#9CA3AF «BUSINESS»
+        TEXT "Modèles de factures OHADA" 319x20 stretch [Label/Default Inter 600 14/20] c#111827 «Modèles de factures OHADA»
+        FRAM "Row" 93x24 row gap8 pad0/0/0/0 MIN/CEN
+          TEXT "5 000 FCFA" 93x24 [Price/Default Inter 700 16/24] c#111827 «5 000 FCFA»
+        FRAM "Row" 319x33 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Ajouter au panier" 270x32 row gap8 pad8/12/8/12 CEN/CEN grow bg#635BFF r10
+            FRAM "icon/bag" 15x15
+            TEXT "Ajouter au panier" 100x16 [Label/Small Inter 600 12/16] c#FFFFFF «Ajouter au panier»
+          FRAM "Bouton/" 41x33 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/trash" 15x15
+      FRAM "Favori/Pack logos & charte graphique" 349x371 col gap12 pad14/14/14/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Visuel/brand" 321x200 bg#CCFBF1 r12
+        TEXT "DESIGN" 46x16 [Overline Inter 700 11/16] c#9CA3AF «DESIGN»
+        TEXT "Pack logos & charte graphique" 319x20 stretch [Label/Default Inter 600 14/20] c#111827 «Pack logos & charte graphique»
+        FRAM "Row" 100x24 row gap8 pad0/0/0/0 MIN/CEN
+          TEXT "15 000 FCFA" 100x24 [Price/Default Inter 700 16/24] c#111827 «15 000 FCFA»
+        FRAM "Row" 319x33 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Ajouter au panier" 270x32 row gap8 pad8/12/8/12 CEN/CEN grow bg#635BFF r10
+            FRAM "icon/bag" 15x15
+            TEXT "Ajouter au panier" 100x16 [Label/Small Inter 600 12/16] c#FFFFFF «Ajouter au panier»
+          FRAM "Bouton/" 41x33 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/trash" 15x15
+      FRAM "Favori/Pack 500 prompts IA" 349x371 col gap12 pad14/14/14/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Visuel/chat" 321x200 bg#E0F2FE r12
+        TEXT "IA" 13x16 [Overline Inter 700 11/16] c#9CA3AF «IA»
+        TEXT "Pack 500 prompts IA" 319x20 stretch [Label/Default Inter 600 14/20] c#111827 «Pack 500 prompts IA»
+        FRAM "Row" 91x24 row gap8 pad0/0/0/0 MIN/CEN
+          TEXT "7 500 FCFA" 91x24 [Price/Default Inter 700 16/24] c#111827 «7 500 FCFA»
+        FRAM "Row" 319x33 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Ajouter au panier" 270x32 row gap8 pad8/12/8/12 CEN/CEN grow bg#635BFF r10
+            FRAM "icon/bag" 15x15
+            TEXT "Ajouter au panier" 100x16 [Label/Small Inter 600 12/16] c#FFFFFF «Ajouter au panier»
+          FRAM "Bouton/" 41x33 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/trash" 15x15
+      FRAM "Favori/Planner Notion" 349x371 col gap12 pad14/14/14/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Visuel/notion" 321x200 bg#F3F4F6 r12
+        TEXT "PRODUCTIVITÉ" 93x16 [Overline Inter 700 11/16] c#9CA3AF «PRODUCTIVITÉ»
+        TEXT "Planner Notion" 319x20 stretch [Label/Default Inter 600 14/20] c#111827 «Planner Notion»
+        FRAM "Row" 138x24 row gap8 pad0/0/0/0 MIN/CEN
+          TEXT "6 000 FCFA" 93x24 [Price/Default Inter 700 16/24] c#111827 «6 000 FCFA»
+          TEXT "8 000" 37x20 [Body/Small Inter 400 13/20] c#9CA3AF «8 000»
+        FRAM "Row" 319x33 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Ajouter au panier" 270x32 row gap8 pad8/12/8/12 CEN/CEN grow bg#635BFF r10
+            FRAM "icon/bag" 15x15
+            TEXT "Ajouter au panier" 100x16 [Label/Small Inter 600 12/16] c#FFFFFF «Ajouter au panier»
+          FRAM "Bouton/" 41x33 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/trash" 15x15
+      FRAM "Favori/Calendrier éditorial 2027" 349x371 col gap12 pad14/14/14/14 MIN/MIN bg#FFFFFF bd1#E5E7EB r16
+        FRAM "Visuel/grid" 321x200 bg#FCE7F3 r12
+        TEXT "RÉSEAUX SOCIAUX" 119x16 [Overline Inter 700 11/16] c#9CA3AF «RÉSEAUX SOCIAUX»
+        TEXT "Calendrier éditorial 2027" 319x20 stretch [Label/Default Inter 600 14/20] c#111827 «Calendrier éditorial 2027»
+        FRAM "Row" 93x24 row gap8 pad0/0/0/0 MIN/CEN
+          TEXT "3 000 FCFA" 93x24 [Price/Default Inter 700 16/24] c#111827 «3 000 FCFA»
+        FRAM "Row" 319x33 row gap8 pad0/0/0/0 MIN/MIN stretch
+          FRAM "Bouton/Ajouter au panier" 270x32 row gap8 pad8/12/8/12 CEN/CEN grow bg#635BFF r10
+            FRAM "icon/bag" 15x15
+            TEXT "Ajouter au panier" 100x16 [Label/Small Inter 600 12/16] c#FFFFFF «Ajouter au panier»
+          FRAM "Bouton/" 41x33 row gap8 pad8/12/8/12 CEN/CEN bg#FFFFFF bd1#D1D5DB r10
+            FRAM "icon/trash" 15x15

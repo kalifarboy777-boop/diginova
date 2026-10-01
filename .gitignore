@@ -1,3 +1,4 @@
 .DS_Store
 *.log
 design/figma-cache/*.png.tmp
+design/figma-cache/tiles/
