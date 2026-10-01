@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Middleware\EnsureActive;
+use App\Http\Middleware\EnsureRole;
+use App\Http\Middleware\SecurityHeaders;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -13,7 +16,14 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        //
+        $middleware->statefulApi();
+        $middleware->alias([
+            'role' => EnsureRole::class,
+            'active' => EnsureActive::class,
+        ]);
+        // Le jeton du panier invité est aléatoire (48 caractères) : cookie httpOnly non chiffré, lisible aussi hors session.
+        $middleware->encryptCookies(except: ['dn_cart']);
+        $middleware->append(SecurityHeaders::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         $exceptions->shouldRenderJsonWhen(

@@ -1,0 +1,113 @@
+<?php
+
+// Catalogue de démonstration fidèle aux maquettes Figma.
+// Clés produit : [titre, catégorie, sous-catégorie, prix, prix barré, note, nb avis, couverture, version, ventes, formats, badge]
+
+return [
+    'categories' => [
+        ['Business', 'BUSINESS', 'business', 'Business plans, tableaux de gestion, factures OHADA et outils financiers pour piloter votre entreprise.', 'chart', 'chart',
+            ['Business plans', 'Tableaux Excel', 'Factures & devis', 'Juridique', 'Finance & comptabilité', 'Marketing']],
+        ['Design', 'DESIGN', 'design', 'Logos, chartes graphiques, templates Canva et kits de marque prêts à personnaliser.', 'grid', 'brand',
+            ['Logos & identité', 'Templates Canva', 'Flyers & affiches', 'Présentations', 'Icônes & illustrations']],
+        ['Réseaux sociaux', 'RÉSEAUX SOCIAUX', 'reseaux-sociaux', 'Templates Instagram, Facebook, TikTok et calendriers éditoriaux.', 'msg', 'grid',
+            ['Instagram', 'Facebook', 'TikTok', 'Calendriers éditoriaux']],
+        ['E-books & formations', 'E-BOOKS', 'e-books-formations', 'Guides pratiques et formations pour entreprendre en Afrique francophone.', 'book', 'book',
+            ['Entrepreneuriat', 'Marketing digital', 'Agriculture & élevage', 'Finances personnelles']],
+        ['Productivité', 'PRODUCTIVITÉ', 'productivite', 'Planners, templates Notion et outils d’organisation.', 'check', 'notion',
+            ['Templates Notion', 'Planners', 'Organisation']],
+        ['IA & prompts', 'IA', 'ia-prompts', 'Packs de prompts et guides pour utiliser l’IA dans votre activité.', 'sparkle', 'chat',
+            ['Prompts business', 'Prompts marketing', 'Guides IA']],
+        ['Carrière', 'CARRIÈRE', 'carriere', 'CV, lettres de motivation et préparation aux entretiens.', 'user', 'doc',
+            ['CV', 'Lettres de motivation', 'Entretiens']],
+        ['Web & Tech', 'WEB & TECH', 'web-tech', 'Thèmes, scripts et kits pour sites et applications.', 'grid', 'doc',
+            ['Sites web', 'Code & scripts']],
+        ['Audio', 'AUDIO', 'audio', 'Musiques libres, jingles et effets sonores.', 'msg', 'chat',
+            ['Musiques', 'Jingles']],
+        ['Vidéo', 'VIDÉO', 'video', 'Templates vidéo, transitions et presets.', 'zap', 'brand',
+            ['Templates vidéo', 'Presets']],
+    ],
+
+    // Produits « DigiNova Studio » visibles sur l'accueil, la boutique et la fiche produit.
+    'studio_products' => [
+        'business-plan-pro' => ['Business Plan Pro — modèle complet', 'business', 'Business plans', 12000, 18000, 4.9, 127, 'chart', '2.1', 1240, ['DOCX', 'XLSX', 'PDF', 'PPTX'], 'Best-seller'],
+        'pack-500-prompts-ia' => ['Pack 500 prompts IA pour entrepreneurs', 'ia-prompts', 'Prompts business', 7500, null, 4.9, 212, 'chat', '3.2', 980, ['PDF', 'Notion'], 'Nouveau'],
+        'pack-30-templates-instagram' => ['Pack 30 templates Instagram', 'reseaux-sociaux', 'Instagram', 5000, null, 4.8, 94, 'grid', '2.0', 610, ['Canva', 'PNG'], null],
+        'dashboard-excel-gestion-stock' => ['Dashboard Excel — gestion de stock', 'business', 'Tableaux Excel', 8000, 12000, 4.7, 68, 'sheet', '1.4', 420, ['XLSX'], '-33 %'],
+        'kit-cv-lettre-motivation' => ['Kit CV & lettre de motivation', 'carriere', 'CV', 3500, null, 4.8, 156, 'doc', '1.0', 890, ['DOCX', 'Canva'], null],
+        'planner-notion-entrepreneur' => ['Planner Notion de l’entrepreneur', 'productivite', 'Templates Notion', 6000, 8000, 4.6, 41, 'notion', '1.1', 230, ['Notion'], null],
+        'guide-lancer-boutique-en-ligne' => ['Guide : lancer sa boutique en ligne', 'e-books-formations', 'Entrepreneuriat', 4500, 6000, 4.9, 88, 'book', '1.3', 540, ['PDF'], null],
+        'pack-logos-charte-graphique' => ['Pack logos & charte graphique', 'design', 'Logos & identité', 15000, null, 4.7, 52, 'brand', '1.0', 190, ['AI', 'PNG', 'Canva'], null],
+        'modeles-factures-ohada' => ['Modèles de factures OHADA', 'business', 'Factures & devis', 5000, null, 4.8, 73, 'doc', '1.2', 470, ['XLSX', 'DOCX'], null],
+        'calendrier-editorial-2027' => ['Calendrier éditorial 2027', 'reseaux-sociaux', 'Calendriers éditoriaux', 3000, null, 4.5, 19, 'grid', '1.0', 75, ['XLSX', 'PDF'], 'Nouveau'],
+    ],
+
+    // Studio de Jean Kouassi (écrans 41 à 44) : 14 publiés, 1 en modération, 1 brouillon, 1 refusé.
+    'jean_products' => [
+        'template-cv-moderne' => ['Template CV moderne', 'carriere', 'CV', 5000, null, 4.9, 64, 'doc', 'PUBLISHED'],
+        'pack-canva-restaurant' => ['Pack Canva restaurant', 'design', 'Templates Canva', 6000, null, 4.8, 51, 'grid', 'PUBLISHED'],
+        'excel-business-complet' => ['Excel Business complet', 'business', 'Tableaux Excel', 6000, null, 4.7, 38, 'sheet', 'PUBLISHED'],
+        'e-book-facturer-ses-clients' => ['E-book : facturer ses clients', 'e-books-formations', 'Entrepreneuriat', 3500, null, 4.6, 27, 'book', 'PUBLISHED'],
+        'kit-excel-facturation' => ['Kit Excel facturation PME', 'business', 'Factures & devis', 4500, null, 4.7, 22, 'sheet', 'PUBLISHED'],
+        'planning-hebdo-notion' => ['Planning hebdo Notion', 'productivite', 'Planners', 2500, null, 4.5, 14, 'notion', 'PUBLISHED'],
+        'pack-flyers-evenements' => ['Pack flyers événements', 'design', 'Flyers & affiches', 4000, 5000, 4.8, 19, 'brand', 'PUBLISHED'],
+        'contrat-travail-ci' => ['Modèle de contrat de travail CI', 'business', 'Juridique', 3000, null, 4.6, 17, 'doc', 'PUBLISHED'],
+        'tableau-de-bord-rh' => ['Tableau de bord RH', 'business', 'Tableaux Excel', 7000, null, 4.7, 11, 'chart', 'PUBLISHED'],
+        'pack-canva-coiffure' => ['Pack Canva salon de coiffure', 'design', 'Templates Canva', 5000, null, 4.9, 9, 'grid', 'PUBLISHED'],
+        'e-book-vendre-sur-whatsapp' => ['E-book : vendre sur WhatsApp', 'e-books-formations', 'Marketing digital', 3000, null, 4.8, 33, 'book', 'PUBLISHED'],
+        'presentations-pme' => ['Templates présentations PME', 'design', 'Présentations', 6500, null, 4.6, 8, 'brand', 'PUBLISHED'],
+        'budget-familial-excel' => ['Budget familial Excel', 'business', 'Finance & comptabilité', 2000, null, 4.7, 26, 'sheet', 'PUBLISHED'],
+        'pack-icones-afrique' => ['Pack icônes Afrique', 'design', 'Icônes & illustrations', 3500, null, 4.8, 12, 'grid', 'PUBLISHED'],
+        'pack-notion-etudiant' => ['Pack Notion étudiant — organisation & révisions', 'productivite', 'Templates Notion', 6000, 8000, 0, 0, 'notion', 'PENDING_REVIEW'],
+        'tableau-de-tresorerie' => ['Tableau de trésorerie', 'business', 'Finance & comptabilité', 4000, null, 0, 0, 'chart', 'REJECTED'],
+        'pack-stories-instagram' => ['Pack stories Instagram', 'reseaux-sociaux', 'Instagram', 3000, null, 0, 0, 'grid', 'DRAFT'],
+    ],
+
+    // Autres créateurs (file de modération, boutique).
+    'other_creators' => [
+        ['Ndèye Fall', 'ndeye.fall@exemple.sn', 'Teranga Studio', 'teranga-studio', 'SN', 'Dakar'],
+        ['Kouamé Agro', 'agro.guides@exemple.ci', 'Agro Guides', 'agro-guides', 'TG', 'Lomé'],
+        ['Aya Bamba', 'compta.facile@exemple.ci', 'Compta Facile', 'compta-facile', 'CI', 'Bouaké'],
+        ['Rodrigue Hounsou', 'juris.facile@exemple.ci', 'Juris Facile', 'juris-facile', 'BJ', 'Cotonou'],
+    ],
+    'other_products' => [
+        // [slug, titre, catégorie, sous-cat, prix, prix barré, note, avis, couverture, statut, créateur, soumis il y a (h)]
+        ['pack-50-stories-ramadan', 'Pack 50 stories Ramadan', 'reseaux-sociaux', 'Instagram', 4000, null, 0, 0, 'grid', 'PENDING_REVIEW', 'teranga-studio', 22],
+        ['e-book-elevage-poulets', 'E-book : élevage de poulets', 'e-books-formations', 'Agriculture & élevage', 3500, null, 0, 0, 'book', 'PENDING_REVIEW', 'agro-guides', 9],
+        ['paie-salaires-ci-2026', 'Paie & salaires CI 2026', 'business', 'Finance & comptabilité', 9000, null, 0, 0, 'sheet', 'PENDING_REVIEW', 'compta-facile', 4],
+        ['contrats-prestation-ohada', 'Contrats de prestation OHADA', 'business', 'Juridique', 6000, null, 0, 0, 'doc', 'PENDING_REVIEW', 'juris-facile', 2],
+        ['pack-carrousels-linkedin', 'Pack carrousels LinkedIn', 'reseaux-sociaux', 'Facebook', 3500, null, 0, 0, 'grid', 'PENDING_REVIEW', 'teranga-studio', 1],
+        ['guide-maraichage-bio', 'Guide du maraîchage bio', 'e-books-formations', 'Agriculture & élevage', 4000, null, 0, 0, 'book', 'CHANGES_REQUESTED', 'agro-guides', 60],
+        ['kit-declaration-tva', 'Kit déclaration TVA', 'business', 'Finance & comptabilité', 5500, null, 0, 0, 'sheet', 'CHANGES_REQUESTED', 'compta-facile', 80],
+        ['statuts-sarl-ohada', 'Statuts SARL OHADA', 'business', 'Juridique', 7500, null, 4.8, 21, 'doc', 'PUBLISHED', 'juris-facile', 0],
+        ['pack-tiktok-commerce', 'Pack TikTok e-commerce', 'reseaux-sociaux', 'TikTok', 4500, null, 4.6, 18, 'grid', 'PUBLISHED', 'teranga-studio', 0],
+        ['templates-menus-restaurant', 'Templates menus restaurant', 'design', 'Templates Canva', 3500, 5000, 4.7, 23, 'brand', 'PUBLISHED', 'teranga-studio', 0],
+        ['guide-elevage-tilapia', 'Guide : élevage de tilapia', 'e-books-formations', 'Agriculture & élevage', 5000, null, 4.5, 12, 'book', 'PUBLISHED', 'agro-guides', 0],
+        ['prompts-marketing-afrique', 'Prompts marketing pour l’Afrique', 'ia-prompts', 'Prompts marketing', 4000, null, 4.7, 31, 'chat', 'PUBLISHED', 'teranga-studio', 0],
+        ['guide-chatgpt-pme', 'Guide ChatGPT pour les PME', 'ia-prompts', 'Guides IA', 3000, null, 4.6, 15, 'chat', 'PUBLISHED', 'compta-facile', 0],
+        ['planner-etudiant-2027', 'Planner étudiant 2027', 'productivite', 'Planners', 2500, null, 4.4, 9, 'notion', 'PUBLISHED', 'teranga-studio', 0],
+        ['lettres-motivation-banque', 'Lettres de motivation — banque & finance', 'carriere', 'Lettres de motivation', 2500, null, 4.7, 27, 'doc', 'PUBLISHED', 'compta-facile', 0],
+        ['questions-entretien-embauche', '100 questions d’entretien d’embauche', 'carriere', 'Entretiens', 2000, null, 4.8, 44, 'book', 'PUBLISHED', 'juris-facile', 0],
+        ['theme-site-vitrine-pme', 'Thème site vitrine PME', 'web-tech', 'Sites web', 12000, null, 4.5, 7, 'doc', 'PUBLISHED', 'compta-facile', 0],
+        ['jingles-radio-pack', 'Pack 20 jingles radio', 'audio', 'Jingles', 6000, null, 4.6, 6, 'chat', 'PUBLISHED', 'teranga-studio', 0],
+        ['presets-video-mariage', 'Presets vidéo mariage', 'video', 'Presets', 5000, null, 4.7, 8, 'brand', 'PUBLISHED', 'teranga-studio', 0],
+        ['refused-ebook-1', 'E-book : devenir riche en 7 jours', 'e-books-formations', 'Finances personnelles', 2000, null, 0, 0, 'book', 'REJECTED', 'agro-guides', 120],
+        ['refused-pack-logos', 'Pack logos de marques célèbres', 'design', 'Logos & identité', 3000, null, 0, 0, 'brand', 'REJECTED', 'teranga-studio', 150],
+        ['refused-cours-crypto', 'Cours crypto garanti', 'e-books-formations', 'Finances personnelles', 10000, null, 0, 0, 'book', 'REJECTED', 'compta-facile', 200],
+        ['refused-prompts', 'Prompts copiés d’un autre site', 'ia-prompts', 'Prompts business', 1500, null, 0, 0, 'chat', 'REJECTED', 'juris-facile', 220],
+    ],
+
+    'clients' => [
+        ['Koffi Bamba', 'koffi.bamba@exemple.ci', 'Bouaké'],
+        ['Fatou Diallo', 'fatou.diallo@exemple.sn', 'Dakar'],
+        ['Serge Tano', 'serge.t@exemple.ci', 'Abidjan'],
+        ['Awa Sangaré', 'awa.s@exemple.ci', 'Abidjan'],
+        ['Yao Kouamé', 'yao.kouame@exemple.ci', 'Yamoussoukro'],
+        ['Mariam Sylla', 'mariam.sylla@exemple.sn', 'Dakar'],
+        ['Ibrahim Koné', 'ibrahim.kone@exemple.tg', 'Lomé'],
+        ['Aminata Kaboré', 'aminata.k@exemple.ci', 'Abidjan'],
+        ['Christelle Nguessan', 'christelle.n@exemple.ci', 'Abidjan'],
+        ['Moussa Traoré', 'moussa.traore@exemple.ml', 'Bamako'],
+        ['Adjoa Mensah', 'adjoa.mensah@exemple.tg', 'Lomé'],
+        ['Brice Ahouansou', 'brice.a@exemple.bj', 'Cotonou'],
+    ],
+];
