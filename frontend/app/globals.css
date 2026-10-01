@@ -1,0 +1,249 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tokens DigiNova — source : Figma, nœud Design System 20:2 */
+:root {
+  --brand-primary: #635bff;
+  --brand-primary-hover: #4f46e5;
+  --brand-subtle: #eeedff;
+  --brand-deep: #1e1b4b;
+  --brand-deep-muted: #c7d2fe;
+
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-tertiary: #9ca3af;
+  --text-on-brand: #ffffff;
+
+  --bg-page: #f8f9fc;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f3f4f6;
+  --bg-inverse: #0b0f1a;
+
+  --border-default: #e5e7eb;
+  --border-strong: #d1d5db;
+
+  --success: #16a34a;
+  --success-subtle: #dcfce7;
+  --warning: #d97706;
+  --warning-subtle: #fef3c7;
+  --danger: #dc2626;
+  --danger-subtle: #fee2e2;
+  --accent-amber: #f59e0b;
+
+  --pay-orange: #ff7900;
+  --pay-mtn: #ffcc00;
+  --pay-wave: #1dc8f2;
+  --pay-moov: #0066b3;
+
+  --cover-shadow: rgba(18, 23, 51, 0.14);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --brand-primary: #7c75ff;
+    --brand-primary-hover: #635bff;
+    --brand-subtle: #1e1b4b;
+    --brand-deep: #0b0f1a;
+    --text-primary: #f9fafb;
+    --text-secondary: #9ca3af;
+    --text-tertiary: #6b7280;
+    --bg-page: #0b0f1a;
+    --bg-surface: #111827;
+    --bg-subtle: #1f2937;
+    --bg-inverse: #000000;
+    --border-default: #1f2937;
+    --border-strong: #374151;
+    --success: #22c55e;
+    --success-subtle: #052e16;
+    --warning: #f59e0b;
+    --warning-subtle: #451a03;
+    --danger: #ef4444;
+    --danger-subtle: #450a0a;
+    --accent-amber: #fbbf24;
+    color-scheme: dark;
+  }
+}
+
+.dark {
+  --brand-primary: #7c75ff;
+  --brand-primary-hover: #635bff;
+  --brand-subtle: #1e1b4b;
+  --brand-deep: #0b0f1a;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --text-tertiary: #6b7280;
+  --bg-page: #0b0f1a;
+  --bg-surface: #111827;
+  --bg-subtle: #1f2937;
+  --bg-inverse: #000000;
+  --border-default: #1f2937;
+  --border-strong: #374151;
+  --success: #22c55e;
+  --success-subtle: #052e16;
+  --warning: #f59e0b;
+  --warning-subtle: #451a03;
+  --danger: #ef4444;
+  --danger-subtle: #450a0a;
+  --accent-amber: #fbbf24;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-primary-hover: var(--brand-primary-hover);
+  --color-brand-subtle: var(--brand-subtle);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-deep-muted: var(--brand-deep-muted);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-on-brand: var(--text-on-brand);
+  --color-bg-page: var(--bg-page);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-subtle: var(--bg-subtle);
+  --color-bg-inverse: var(--bg-inverse);
+  --color-border-default: var(--border-default);
+  --color-border-strong: var(--border-strong);
+  --color-success: var(--success);
+  --color-success-subtle: var(--success-subtle);
+  --color-warning: var(--warning);
+  --color-warning-subtle: var(--warning-subtle);
+  --color-danger: var(--danger);
+  --color-danger-subtle: var(--danger-subtle);
+  --color-accent-amber: var(--accent-amber);
+  --color-pay-orange: var(--pay-orange);
+  --color-pay-mtn: var(--pay-mtn);
+  --color-pay-wave: var(--pay-wave);
+  --color-pay-moov: var(--pay-moov);
+
+  --radius-sm: 8px;
+  --radius-btn: 10px;
+  --radius-md: 12px;
+  --radius-cover: 14px;
+  --radius-lg: 16px;
+  --radius-card: 20px;
+  --radius-xl: 24px;
+
+  --shadow-soft: 0 4px 16px -4px rgb(17 24 39 / 0.06);
+  --shadow-float: 0 16px 40px -4px rgb(17 24 39 / 0.14);
+
+  --container-site: 1280px;
+}
+
+/* Styles de texte du Figma */
+@utility text-display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+}
+@utility text-h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.015em;
+}
+@utility text-h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+}
+@utility text-h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+}
+@utility text-h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+@utility text-body-lg {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+@utility text-body {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+@utility text-body-medium {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+}
+@utility text-body-sm {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+@utility text-label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+@utility text-label-sm {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+@utility text-caption {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+@utility text-overline {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+@utility text-price-lg {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+}
+@utility text-price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-variant-numeric: tabular-nums;
+}
+
+@utility container-site {
+  width: 100%;
+  max-width: calc(var(--container-site) + 160px);
+  margin-inline: auto;
+  padding-inline: 20px;
+  @media (width >= 768px) {
+    padding-inline: 80px;
+  }
+}
+
+@layer base {
+  body {
+    background: var(--bg-page);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--brand-primary);
+    outline-offset: 2px;
+  }
+}
