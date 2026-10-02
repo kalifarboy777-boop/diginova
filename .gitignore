@@ -2,3 +2,7 @@
 *.log
 design/figma-cache/*.png.tmp
 design/figma-cache/tiles/
+
+# Playwright
+frontend/test-results/
+frontend/playwright-report/

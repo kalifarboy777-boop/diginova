@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "@/components/ui/logo";
 import { PaymentChips } from "@/components/ui/payment";
+import { ThemeToggle } from "./theme-toggle";
 
 const COLUMNS = [
   { title: "Explorer", links: [["Boutique", "/boutique"], ["Nouveautés", "/nouveautes"], ["Meilleures ventes", "/meilleures-ventes"], ["Packs", "/packs"], ["Produits gratuits", "/boutique?max=0"]] },
@@ -18,6 +19,7 @@ export function Footer() {
           <div className="flex max-w-[300px] flex-col gap-4">
             <Logo inverse />
             <p className="text-body-sm text-[#9CA3AF]">Le meilleur du digital, à portée de clic. Des ressources professionnelles payables en Mobile Money et livrées instantanément.</p>
+            <ThemeToggle dark className="self-start" />
           </div>
           {COLUMNS.map((c) => (
             <div key={c.title} className="flex flex-col gap-3">

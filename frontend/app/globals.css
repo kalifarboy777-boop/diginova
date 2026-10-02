@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
+/* Sombre : classe .dark (choix explicite) ou préférence système, sauf si .light est forcé. */
+@custom-variant dark {
+  &:where(.dark, .dark *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:where(:root:not(.light) *) {
+      @slot;
+    }
+  }
+}
 
 /* Tokens DigiNova — source : Figma, nœud Design System 20:2 */
 :root {

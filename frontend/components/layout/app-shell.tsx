@@ -40,6 +40,7 @@ import { cn } from "@/lib/cn";
 import { ago } from "@/lib/format";
 import { useMe, useRefreshSession } from "@/lib/session";
 import { MobileTabBar } from "./mobile-tab-bar";
+import { ThemeToggle } from "./theme-toggle";
 
 type Variant = "client" | "studio" | "admin";
 type NavItem = { href: string; label: string; icon: typeof Home; count?: number | null; exact?: boolean; danger?: boolean; adminOnly?: boolean };
@@ -218,6 +219,7 @@ function Sidebar({ variant, onNavigate }: { variant: Variant; onNavigate?: () =>
           <Store className="size-4" /> Voir ma boutique publique
         </Link>
       )}
+      <ThemeToggle dark={dark} className="mt-4 self-start" />
       {user && (
         <div className={cn("mt-4 flex items-center gap-2.5 px-2 pt-4", dark ? "border-t border-white/10" : "border-t border-border-default")}>
           <Avatar initials={user.initials} src={user.avatar_url} size={38} color={dark ? "#635BFF" : undefined} />
