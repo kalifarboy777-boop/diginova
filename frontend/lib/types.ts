@@ -103,6 +103,7 @@ export interface CartLine {
   license: License;
   price: number;
   compare_at_price: number | null;
+  group: string | null;
   product: (ProductCard & { commercial_price: number; seller: { name: string; slug: string } }) | null;
   bundle: Bundle | null;
 }

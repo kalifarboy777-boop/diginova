@@ -30,12 +30,12 @@ export function Stepper({ steps, current, className }: { steps: string[]; curren
         const active = i === current;
         return (
           <li key={s} className="flex items-center gap-3" aria-current={active ? "step" : undefined}>
-            {i > 0 && <span className={cn("h-px w-8 sm:w-12", done || active ? "bg-brand-primary" : "bg-border-strong")} aria-hidden />}
+            {i > 0 && <span className={cn("h-0.5 w-8 rounded-full sm:w-12", done || active ? "bg-success" : "bg-border-default")} aria-hidden />}
             <span className="flex items-center gap-2">
               <span
                 className={cn(
                   "flex size-6 items-center justify-center rounded-full text-label-sm",
-                  done ? "bg-brand-primary text-white" : active ? "bg-brand-primary text-white" : "border border-border-strong text-text-tertiary",
+                  done ? "bg-success text-white" : active ? "bg-brand-primary text-white" : "bg-bg-subtle text-text-tertiary",
                 )}
               >
                 {done ? <Check className="size-3.5" strokeWidth={3} /> : i + 1}

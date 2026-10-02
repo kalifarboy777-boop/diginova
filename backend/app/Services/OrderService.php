@@ -34,7 +34,7 @@ final class OrderService
             throw ValidationException::withMessages(['code' => $summary['coupon_error']]);
         }
 
-        return DB::transaction(function () use ($summary, $email, $phone, $method, $user) {
+        return DB::transaction(function () use ($cart, $summary, $email, $phone, $method, $user) {
             $created = false;
             if (! $user) {
                 $user = User::where('email', mb_strtolower($email))->first();
@@ -58,6 +58,7 @@ final class OrderService
                 'total' => $summary['total'],
                 'status' => OrderStatus::PENDING,
                 'coupon_id' => $summary['discount'] > 0 ? $summary['coupon']?->id : null,
+                'cart_id' => $cart->id,
                 'payment_method' => $method,
                 'payment_phone' => $phone,
                 'access_token' => Str::random(48),

@@ -61,6 +61,16 @@ final class FulfillmentService
             }
 
             Invoice::firstOrCreate(['order_id' => $locked->id], ['number' => Numbers::invoice($locked)]);
+
+            // Vide du panier les articles achetés (le panier reste intact si le paiement échoue).
+            if ($locked->cart_id) {
+                $items = $locked->items()->get(['product_id', 'bundle_id']);
+                \App\Models\CartItem::where('cart_id', $locked->cart_id)
+                    ->where(fn ($q) => $q->whereIn('product_id', $items->whereNull('bundle_id')->pluck('product_id'))
+                        ->orWhereIn('bundle_id', $items->pluck('bundle_id')->filter()))
+                    ->delete();
+                \App\Models\Cart::whereKey($locked->cart_id)->where('coupon_id', $locked->coupon_id)->update(['coupon_id' => null]);
+            }
             $locked->logEvent('paid', 'Commande payée', 'Fichiers livrés dans la bibliothèque', 'success');
 
             return true;

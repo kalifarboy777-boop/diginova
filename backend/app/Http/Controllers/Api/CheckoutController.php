@@ -47,8 +47,6 @@ class CheckoutController extends Controller
             $cart, $data['email'], $phone, PaymentMethod::from($data['method']), $request->user(),
         );
         $payment = $this->payments->initiate($order, PaymentMethod::from($data['method']), preg_replace('/\s+/', '', $data['payment_phone'] ?? $phone));
-        $cart->items()->delete();
-        $cart->update(['coupon_id' => null]);
 
         return response()->json([
             'order_id' => $order->id,
@@ -115,6 +113,7 @@ class CheckoutController extends Controller
                 : [],
             'account' => [
                 'email' => $order->email,
+                'first_name' => $order->user?->firstName(),
                 'needs_password' => $order->user && $order->user->password === null,
                 'logged_in' => $request->user()?->id === $order->user_id,
             ],

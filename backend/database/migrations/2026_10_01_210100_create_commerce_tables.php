@@ -67,6 +67,8 @@ return new class extends Migration
             $table->string('currency', 3)->default('XOF');
             $table->string('status', 30)->default('PENDING')->index();
             $table->foreignId('coupon_id')->nullable()->constrained()->nullOnDelete();
+            // Panier d'origine : vidé seulement après paiement confirmé (le panier est conservé en cas d'échec).
+            $table->foreignId('cart_id')->nullable()->constrained()->nullOnDelete();
             $table->string('payment_method', 20)->nullable();
             $table->string('payment_phone', 20)->nullable();
             $table->string('access_token', 64)->unique();
