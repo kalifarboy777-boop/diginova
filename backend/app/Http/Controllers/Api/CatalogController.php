@@ -65,9 +65,9 @@ class CatalogController extends Controller
     public function categories(): JsonResponse
     {
         return response()->json(Category::whereNull('parent_id')->with('children')->orderBy('position')->get()->map(fn ($c) => [
-            'name' => $c->name, 'label' => $c->label, 'slug' => $c->slug, 'icon' => $c->icon, 'cover_type' => $c->cover_type, 'description' => $c->description,
+            'id' => $c->id, 'name' => $c->name, 'label' => $c->label, 'slug' => $c->slug, 'icon' => $c->icon, 'cover_type' => $c->cover_type, 'description' => $c->description,
             'count' => Product::published()->where('category_id', $c->id)->count(),
-            'children' => $c->children->map(fn ($s) => ['name' => $s->name, 'slug' => $s->slug]),
+            'children' => $c->children->map(fn ($s) => ['id' => $s->id, 'name' => $s->name, 'slug' => $s->slug]),
         ]));
     }
 

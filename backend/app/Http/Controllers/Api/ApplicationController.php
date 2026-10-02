@@ -30,11 +30,12 @@ class ApplicationController extends Controller
         $u = $request->user();
         abort_if($u->isCreator(), 409, 'Votre studio est déjà actif.');
         $step = (int) $request->validate(['step' => 'required|integer|between:1,4'])['step'];
+        $existing = $u->creatorApplication;
         $rules = match ($step) {
             1 => ['studio_name' => 'required|string|min:2|max:60', 'country' => 'required|string|size:2', 'city' => 'required|string|max:80', 'phone' => ['required', 'regex:/^\+?[0-9 ]{8,20}$/']],
             2 => ['studio_name' => 'required|string|min:2|max:60', 'bio' => 'required|string|min:30|max:300', 'categories' => 'required|array|min:1|max:5',
                 'categories.*' => 'string|max:40', 'portfolio_url' => 'nullable|string|max:190'],
-            3 => ['payout_method' => 'required|in:WAVE,ORANGE_MONEY,MTN_MOMO,MOOV_MONEY,BANK', 'payout_account' => 'required|string|min:6|max:60'],
+            3 => ['payout_method' => 'required|in:WAVE,ORANGE_MONEY,MTN_MOMO,MOOV_MONEY,BANK', 'payout_account' => [$existing?->payout_account ? 'nullable' : 'required', 'string', 'min:6', 'max:60']],
             4 => [],
         };
         $data = $request->validate($rules, ['bio.min' => 'Présentez-vous en au moins 30 caractères.']);
@@ -42,6 +43,9 @@ class ApplicationController extends Controller
         abort_if($app && in_array($app->status, [ApplicationStatus::APPROVED], true), 409);
         if (! $app || $app->status === ApplicationStatus::REJECTED) {
             $app = $u->creatorApplication()->create(['status' => ApplicationStatus::SUBMITTED, 'step' => 1, 'country' => $u->country]);
+        }
+        if (array_key_exists('payout_account', $data) && empty($data['payout_account'])) {
+            unset($data['payout_account']);
         }
         $app->fill($data);
         $app->step = max($app->step, min(4, $step + 1));

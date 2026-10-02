@@ -451,13 +451,20 @@ class DatabaseSeeder extends Seeder
                 $this->now->subMinutes(mt_rand(60, 60 * 24 * 29)));
         }
         // Historique 2026 (janvier → septembre), croissance progressive.
-        $cutoff = $this->now->subDays(31);
-        for ($m = 1; $m <= 9; $m++) {
+        // Période précédente (J-60 → J-31) : 72 ventes, pour une progression de +12 ventes (écran 41).
+        for ($i = 0; $i < 72; $i++) {
+            $slug = mt_rand(0, 3) ? Arr::random(array_keys($jeanTop)) : Arr::random($jeanOther);
+            $this->order($buyers->random(), [[$this->products[$slug]]], Arr::random($methods), OrderStatus::PAID,
+                $this->now->subMinutes(mt_rand(60 * 24 * 31, 60 * 24 * 59)));
+        }
+        // Historique 2026 antérieur (janvier → juillet), croissance progressive.
+        $before = $this->now->subDays(61);
+        for ($m = 1; $m <= 7; $m++) {
             $volume = 8 + $m * 6;
             for ($i = 0; $i < $volume; $i++) {
                 $slug = mt_rand(0, 2) ? Arr::random(array_keys($jeanTop)) : Arr::random($jeanOther);
                 $this->order($buyers->random(), [[$this->products[$slug]]], Arr::random($methods), OrderStatus::PAID,
-                    CarbonImmutable::create(2026, $m, mt_rand(1, 28), mt_rand(7, 22), mt_rand(0, 59))->min($cutoff->subHours(mt_rand(1, 300))));
+                    CarbonImmutable::create(2026, $m, mt_rand(1, 28), mt_rand(7, 22), mt_rand(0, 59))->min($before));
             }
         }
         // Ventes DigiNova Studio + autres créateurs (tableau de bord admin, 30 jours).
