@@ -24,6 +24,7 @@ use App\Models\CreatorApplication;
 use App\Models\Order;
 use App\Models\Payout;
 use App\Models\Product;
+use App\Models\ProductFile;
 use App\Models\RefundRequest;
 use App\Models\Report;
 use App\Models\Review;
@@ -187,7 +188,7 @@ class AdminController extends Controller
     }
 
     /** Téléchargement d'un fichier soumis, pour l'examen du modérateur (URL signée 15 min, journalisé). */
-    public function moderationFile(Product $product, \App\Models\ProductFile $file): JsonResponse
+    public function moderationFile(Product $product, ProductFile $file): JsonResponse
     {
         abort_unless($file->product_id === $product->id, 404);
         abort_if($file->scan_status->value === 'INFECTED', 423, 'Fichier bloqué par l’antivirus.');

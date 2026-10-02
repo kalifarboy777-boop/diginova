@@ -15,6 +15,7 @@ use App\Http\Controllers\Api\ProfileController;
 use App\Http\Controllers\Api\StudioController;
 use App\Http\Controllers\Api\TicketController;
 use App\Http\Controllers\Api\WebhookController;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -82,6 +83,11 @@ Route::post('webhooks/{provider}', WebhookController::class)->middleware('thrott
 // ── Paiement simulé (développement uniquement)
 Route::get('dev/mock-payments/{ref}', [MockPaymentController::class, 'show']);
 Route::post('dev/mock-payments/{ref}', [MockPaymentController::class, 'act']);
+Route::get('dev/sms/{phone}', function (string $phone) {
+    abort_if(app()->isProduction(), 404);
+
+    return response()->json(['message' => Cache::get('dev-sms:'.preg_replace('/\D/', '', $phone))]);
+});
 
 Route::middleware(['auth:sanctum', 'active', 'throttle:api'])->group(function () {
     // ── Espace client (écrans 30 à 35)

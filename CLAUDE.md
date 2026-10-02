@@ -174,3 +174,5 @@ Outils installés hors sudo : PHP/Composer dans `~/.local/bin`, Node via nvm (`.
 - Backend : `cd backend && php artisan serve` (port 8000) · `php artisan migrate:fresh --seed` · `composer test` · `vendor/bin/pint`
 - Frontend : `cd frontend && pnpm dev` (port 3000) · `pnpm build` · `pnpm lint` · `pnpm typecheck` · `pnpm test` · `pnpm test:e2e`
 - Services : `docker compose up -d` (quand Docker est installé)
+- Captures Figma : `design/screens/*.png` (2x), fiches `design/figma-cache/*.spec.txt`, géométrie des visuels `covers.spec.txt`. Le siège Figma est « View » (6 appels MCP/mois) : préférer l'API REST groupée (jeton dans `~/.figma-token`).
+- Développement : paiement simulé `/dev/mock-payment/{ref}`, dernier SMS `GET /api/dev/sms/{téléphone}`, comptes de démo dans le README (mot de passe `password`).

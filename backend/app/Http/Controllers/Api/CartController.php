@@ -45,7 +45,7 @@ class CartController extends Controller
             $this->carts->addBundle($cart, Bundle::where('active', true)->findOrFail($data['bundle_id']));
         } else {
             $ids = array_unique(array_merge([$data['product_id']], $data['product_ids'] ?? []));
-            $group = count($ids) >= 3 ? \Illuminate\Support\Str::uuid()->toString() : null;
+            $group = count($ids) >= 3 ? Str::uuid()->toString() : null;
             foreach (Product::published()->whereIn('id', $ids)->get() as $product) {
                 $this->carts->addProduct($cart, $product, License::from($product->id === (int) $data['product_id'] ? ($data['license'] ?? 'PERSONAL') : 'PERSONAL'), $group, $group ? count($ids) : null);
             }

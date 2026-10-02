@@ -9,6 +9,7 @@ use App\Models\Cart;
 use App\Models\CartItem;
 use App\Models\Coupon;
 use App\Models\Product;
+use App\Models\Setting;
 use App\Models\User;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
@@ -84,7 +85,7 @@ final class CartService
     {
         $cart->loadMissing(['items.product.category', 'items.product.seller', 'items.bundle.products']);
         $groups = $cart->items->whereNotNull('group_key')->countBy('group_key');
-        $groupDiscount = (int) \App\Models\Setting::get('bundle_discount_percent');
+        $groupDiscount = (int) Setting::get('bundle_discount_percent');
         $complete = fn (CartItem $i) => $i->group_key && $i->license === License::PERSONAL && ($groups[$i->group_key] ?? 0) >= max(2, (int) $i->group_size);
 
         return $cart->items->map(fn (CartItem $item) => $item->bundle

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Enums\OrderStatus;
 use App\Http\Controllers\Controller;
+use App\Http\Resources\ProductResource;
 use App\Http\Resources\ReviewResource;
 use App\Models\BlogPost;
 use App\Models\ContactMessage;
@@ -94,7 +95,7 @@ class ContentController extends Controller
             $review = Review::create(['user_id' => $user->id, 'product_id' => $product->id, 'order_item_id' => $item->id] + $data);
             $count = $product->rating_count + 1;
             // Répartition stockée en liste [5★, 4★, 3★, 2★, 1★] (pourcentages), recalculée de façon incrémentale.
-            $abs = collect(\App\Http\Resources\ProductResource::distribution($product->rating_distribution))
+            $abs = collect(ProductResource::distribution($product->rating_distribution))
                 ->map(fn ($p) => $p * $product->rating_count / 100)->all();
             $abs[5 - $data['rating']] += 1;
             $product->update([

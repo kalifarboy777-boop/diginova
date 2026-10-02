@@ -6,6 +6,8 @@ use App\Enums\LedgerType;
 use App\Enums\OrderStatus;
 use App\Enums\RefundStatus;
 use App\Mail\OrderConfirmation;
+use App\Models\Cart;
+use App\Models\CartItem;
 use App\Models\Invoice;
 use App\Models\LibraryItem;
 use App\Models\Order;
@@ -65,11 +67,11 @@ final class FulfillmentService
             // Vide du panier les articles achetés (le panier reste intact si le paiement échoue).
             if ($locked->cart_id) {
                 $items = $locked->items()->get(['product_id', 'bundle_id']);
-                \App\Models\CartItem::where('cart_id', $locked->cart_id)
+                CartItem::where('cart_id', $locked->cart_id)
                     ->where(fn ($q) => $q->whereIn('product_id', $items->whereNull('bundle_id')->pluck('product_id'))
                         ->orWhereIn('bundle_id', $items->pluck('bundle_id')->filter()))
                     ->delete();
-                \App\Models\Cart::whereKey($locked->cart_id)->where('coupon_id', $locked->coupon_id)->update(['coupon_id' => null]);
+                Cart::whereKey($locked->cart_id)->where('coupon_id', $locked->coupon_id)->update(['coupon_id' => null]);
             }
             $locked->logEvent('paid', 'Commande payée', 'Fichiers livrés dans la bibliothèque', 'success');
 
