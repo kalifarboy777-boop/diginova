@@ -15,7 +15,10 @@ export function middleware(req: NextRequest) {
     url.search = `?suite=${encodeURIComponent(req.nextUrl.pathname + req.nextUrl.search)}`;
     return NextResponse.redirect(url);
   }
-  return NextResponse.next();
+  // Transmet le chemin demandé aux layouts serveur (redirection « suite » après connexion).
+  const h = new Headers(req.headers);
+  h.set("x-pathname", req.nextUrl.pathname + req.nextUrl.search);
+  return NextResponse.next({ request: { headers: h } });
 }
 
 export const config = { matcher: ["/compte/:path*", "/studio/:path*", "/admin/:path*"] };

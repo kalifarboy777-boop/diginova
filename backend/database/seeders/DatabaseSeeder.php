@@ -498,6 +498,22 @@ class DatabaseSeeder extends Seeder
         $a->libraryItems()->where('product_id', $p['business-plan-pro']->id)->update(['download_count' => 3]);
         $a->libraryItems()->where('product_id', $p['pack-30-templates-instagram']->id)->update(['seen_version' => '1.0']);
         $a->libraryItems()->inRandomOrder()->limit(6)->get()->each(fn ($li) => $li->download_count ?: $li->update(['download_count' => mt_rand(1, 4)]));
+        // Journal cohérent avec les compteurs (28 téléchargements dont 3 cette semaine, écran 30).
+        $a->libraryItems()->with('product.files')->get()->each(function ($li) {
+            for ($i = 0; $i < $li->download_count; $i++) {
+                $li->downloads()->create(['product_file_id' => $li->product->files->first()?->id, 'ip' => '102.67.'.mt_rand(1, 250).'.'.mt_rand(1, 250),
+                    'user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X)', 'created_at' => $li->granted_at->copy()->addDays(mt_rand(0, 20))->min($this->now->subDays(8))]);
+            }
+        });
+        $recent = $a->libraryItems()->latest('granted_at')->first();
+        foreach (range(1, 3) as $i) {
+            $recent->downloads()->create(['ip' => '102.67.12.4', 'user_agent' => 'Mozilla/5.0 (Windows NT 10.0) Chrome/128', 'created_at' => $this->now->subDays($i)]);
+        }
+        $extra = 28 - $a->libraryItems()->withCount('downloads')->get()->sum('downloads_count');
+        for ($i = 0; $i < $extra; $i++) {
+            $li = $a->libraryItems()->inRandomOrder()->first();
+            $li->downloads()->create(['ip' => '102.67.12.4', 'user_agent' => 'Mozilla/5.0', 'created_at' => $this->now->subDays(mt_rand(9, 90))]);
+        }
 
         // Coupons attribués + favoris avec baisse de prix (écrans 30 et 33).
         $a->coupons()->attach(Coupon::whereIn('code', ['LANCEMENT', 'PACK5000'])->pluck('id'));
