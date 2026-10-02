@@ -83,7 +83,6 @@ class AdminController extends Controller
             ->selectRaw('AVG(('.(DB::getDriverName() === 'sqlite' ? "strftime('%s', payments.verified_at) - strftime('%s', payments.created_at)" : 'EXTRACT(EPOCH FROM payments.verified_at - payments.created_at)').')) as s')->value('s') ?? 0);
         $newClients = User::where('role', Role::CLIENT)->whereBetween('created_at', [$from, $now])->count();
         $prevClients = User::where('role', Role::CLIENT)->whereBetween('created_at', [$prevFrom, $from])->count();
-        $views = max(1, (int) Product::sum('views_count'));
 
         $studioId = SellerProfile::where('slug', 'diginova-studio')->value('id');
         $items = DB::table('order_items')->join('orders', 'orders.id', '=', 'order_items.order_id')->where('orders.status', 'PAID')
@@ -113,7 +112,8 @@ class AdminController extends Controller
                 'success_rate' => $rate($from, $now), 'success_rate_change' => round($rate($from, $now) - $rate($prevFrom, $from), 1),
                 'delivery_seconds' => $speed($from, $now), 'delivery_change' => $speed($from, $now) - $speed($prevFrom, $from),
                 'new_clients' => $newClients, 'new_clients_change' => $pct($newClients, $prevClients),
-                'conversion' => round(Order::where('status', 'PAID')->count() / $views * 100, 1), 'conversion_change' => 0.3,
+                'refund_rate' => $rr = (($n = $paid($from, $now)->count() + Order::where('status', OrderStatus::REFUNDED)->whereBetween('paid_at', [$from, $now])->count()) ? round(Order::where('status', OrderStatus::REFUNDED)->whereBetween('paid_at', [$from, $now])->count() / $n * 100, 1) : 0),
+                'refund_rate_change' => round($rr - (($m = $paid($prevFrom, $from)->count() + Order::where('status', OrderStatus::REFUNDED)->whereBetween('paid_at', [$prevFrom, $from])->count()) ? Order::where('status', OrderStatus::REFUNDED)->whereBetween('paid_at', [$prevFrom, $from])->count() / $m * 100 : 0), 1),
             ],
             'chart' => $chart,
             'latest' => Order::with('user', 'latestPayment')->latest()->limit(5)->get()->map(fn ($o) => $this->orderRow($o)),
@@ -179,11 +179,21 @@ class AdminController extends Controller
             'price' => $product->price, 'compare_at_price' => $product->compare_at_price, 'commercial' => $product->commercial_price !== null,
             'rights' => (bool) ($product->draft_data['rights_confirmed'] ?? true), 'rejection_reason' => $product->rejection_reason,
             'images' => $product->images->map(fn ($i) => \Storage::disk('public')->url($i->key)),
-            'files' => $product->files->map(fn ($f) => ['name' => $f->file_name, 'size' => $f->size, 'scan_status' => $f->scan_status->value]),
+            'files' => $product->files->map(fn ($f) => ['id' => $f->id, 'name' => $f->file_name, 'size' => $f->size, 'scan_status' => $f->scan_status->value]),
             'total_size' => $product->files->sum('size'),
             'seller' => ['name' => $s->display_name, 'initials' => collect(explode(' ', $s->display_name))->take(2)->map(fn ($w) => mb_substr($w, 0, 1))->implode(''),
                 'verified' => $s->verified, 'products' => $s->products()->count(), 'rating' => round((float) $s->products()->where('rating_count', '>', 0)->avg('rating_avg'), 1)],
         ]);
+    }
+
+    /** Téléchargement d'un fichier soumis, pour l'examen du modérateur (URL signée 15 min, journalisé). */
+    public function moderationFile(Product $product, \App\Models\ProductFile $file): JsonResponse
+    {
+        abort_unless($file->product_id === $product->id, 404);
+        abort_if($file->scan_status->value === 'INFECTED', 423, 'Fichier bloqué par l’antivirus.');
+        Audit::log('product.file_download', $product, ['file' => $file->file_name]);
+
+        return response()->json(['url' => \Storage::disk('products')->temporaryUrl($file->storage_key, now()->addMinutes(15)), 'file_name' => $file->file_name]);
     }
 
     public function moderationDecide(Request $request, Product $product): JsonResponse

@@ -58,7 +58,6 @@ export function CheckoutForm() {
     if (cart?.count) track("begin_checkout", { value: cart.total, items: cart.count });
   }, [cart?.count, cart?.total]);
 
-  const phoneOk = phone.replace(/\D/g, "").length >= 11;
   const emailOk = EMAIL_RE.test(email);
   const m = PAYMENT_METHODS.find((x) => x.value === method)!;
   const mobile = method !== "CARD";

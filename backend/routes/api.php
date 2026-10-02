@@ -162,6 +162,7 @@ Route::middleware(['auth:sanctum', 'active', 'throttle:api'])->group(function ()
         Route::get('moderation', [AdminController::class, 'moderation']);
         Route::get('moderation/{product}', [AdminController::class, 'moderationShow']);
         Route::post('moderation/{product}/decision', [AdminController::class, 'moderationDecide']);
+        Route::get('moderation/{product}/files/{file}', [AdminController::class, 'moderationFile']);
         Route::get('products', [AdminController::class, 'products']);
         Route::post('products/{product}/unpublish', [AdminController::class, 'unpublish']);
         Route::get('categories', [AdminController::class, 'categories']);

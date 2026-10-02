@@ -185,7 +185,7 @@ function Sidebar({ variant, onNavigate }: { variant: Variant; onNavigate?: () =>
                     )}
                   >
                     <Icon className="size-[18px] shrink-0" />
-                    <span className="flex-1">{it.label}</span>
+                    <span className="flex-1 truncate whitespace-nowrap">{it.label}</span>
                     {!!it.count && (
                       <span
                         className={cn(
